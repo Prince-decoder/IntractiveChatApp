@@ -23,6 +23,7 @@ import kotlinx.coroutines.flow.stateIn
 import kotlinx.coroutines.flow.update
 import kotlinx.coroutines.isActive
 import kotlinx.coroutines.launch
+import kotlinx.coroutines.withTimeout
 import java.text.SimpleDateFormat
 import java.util.Date
 import java.util.Locale
@@ -31,6 +32,15 @@ import kotlin.math.sqrt
 
 enum class AuraState {
     IDLE, LISTENING
+}
+//pipeline for the messages
+sealed class MessagePipeline {
+    object Idle : MessagePipeline()
+    object Typing : MessagePipeline()
+    object Validating : MessagePipeline()
+    object Processing : MessagePipeline()
+    object Responding : MessagePipeline()
+    data class Error(val reason: String, val lastMessage: String) : MessagePipeline()
 }
 
 data class HomeUIState(
@@ -58,9 +68,13 @@ class HomeViewModel(application: Application) : AndroidViewModel(application) {
 
     private val _uiState = MutableStateFlow(HomeUIState())
     val uiState = _uiState.asStateFlow()
+    //pipeline for the messages
+    private val _messagePipeline = MutableStateFlow<MessagePipeline>(MessagePipeline.Idle)
+    val messagePipeline = _messagePipeline.asStateFlow()
 
     private var audioRecord: AudioRecord? = null
     private var recordingJob: Job? = null
+    private var messageJob: Job? = null      //pipeline
 
     init {
         viewModelScope.launch {
@@ -115,6 +129,13 @@ class HomeViewModel(application: Application) : AndroidViewModel(application) {
 
     fun updateInputText(text: String) {
         _uiState.update { it.copy(inputText = text) }
+        //pipeline for the messages
+        val currentState = _messagePipeline.value
+        if (text.isNotBlank() && currentState is MessagePipeline.Idle) {
+            _messagePipeline.value = MessagePipeline.Typing
+        } else if (text.isBlank() && currentState is MessagePipeline.Typing) {
+            _messagePipeline.value = MessagePipeline.Idle
+        }
     }
 
     fun retryMessage(text: String) {
@@ -122,32 +143,56 @@ class HomeViewModel(application: Application) : AndroidViewModel(application) {
         sendMessage()
     }
 
+    // Visible for testing
+    var processingDelayMs: Long = 2000L
+
     fun sendMessage() {
         val text = _uiState.value.inputText
         if (text.isBlank()) return
 
         val phoneId = userProfile.value.phone.toLongOrNull() ?: return
 
-        viewModelScope.launch(Dispatchers.IO) {
-            val editingMsg = _uiState.value.editingMessage
-            if (editingMsg != null) {
-                val newTime = if (editingMsg.time.endsWith(" (edited)")) editingMsg.time else "${editingMsg.time} (edited)"
-                val updatedMessage = editingMsg.copy(text = text, time = newTime)
-                userRepo.editMessage(phoneId, editingMsg, updatedMessage)
-            } else {
-                val sdf = SimpleDateFormat("hh:mm a", Locale.getDefault())
-                val time = sdf.format(Date())
-                val newMessage = ChatMessage(text = text, time = time, issentByme = true)
+        //pipeline for the messages
 
-                // Add message to Room
-                val dataset = Graph.userdatabase.userDao().getUserByIdSync(phoneId)
-                if (dataset != null) {
-                    Graph.userdatabase.userDao().addMessageToUser(phoneId, newMessage)
+        messageJob?.cancel() // Cancel mid-flow if sending another message
+        messageJob = viewModelScope.launch {
+            try {
+                _messagePipeline.value = MessagePipeline.Validating
+                delay(500) // Simulating validation
+
+                _messagePipeline.value = MessagePipeline.Processing
+                withTimeout(8000) {
+                    delay(processingDelayMs) // Simulating network/processing
                 }
-            }
 
-            // Clear input and editing state after sending
-            _uiState.update { it.copy(inputText = "", editingMessage = null) }
+                _messagePipeline.value = MessagePipeline.Responding
+                delay(500) // Simulating receiving response
+
+                val editingMsg = _uiState.value.editingMessage
+                if (editingMsg != null) {
+                    val newTime = if (editingMsg.time.endsWith(" (edited)")) editingMsg.time else "${editingMsg.time} (edited)"
+                    val updatedMessage = editingMsg.copy(text = text, time = newTime)
+                    userRepo.editMessage(phoneId, editingMsg, updatedMessage)
+                } else {
+                    val sdf = SimpleDateFormat("hh:mm a", Locale.getDefault())
+                    val time = sdf.format(Date())
+                    val newMessage = ChatMessage(text = text, time = time, issentByme = true)
+
+                    // Add message to Room
+                    val dataset = Graph.userdatabase.userDao().getUserByIdSync(phoneId)
+                    if (dataset != null) {
+                        Graph.userdatabase.userDao().addMessageToUser(phoneId, newMessage)
+                    }
+                }
+
+                //pipeline for the messages
+                _uiState.update { it.copy(inputText = "", editingMessage = null) }
+                _messagePipeline.value = MessagePipeline.Idle
+            } catch (e: kotlinx.coroutines.TimeoutCancellationException) {
+                _messagePipeline.value = MessagePipeline.Error("Processing timeout exceeded", text)
+            } catch (e: kotlinx.coroutines.CancellationException) {
+                throw e
+            }
         }
     }
 

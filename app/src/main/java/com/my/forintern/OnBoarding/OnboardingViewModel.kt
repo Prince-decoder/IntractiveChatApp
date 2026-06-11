@@ -57,7 +57,7 @@ class OnboardingViewModel(application: Application) : AndroidViewModel(applicati
                 profile.age.isNotBlank() &&
                 profile.phone.length == 10 &&
                 profile.phone.all { it.isDigit() } &&
-                otp.isNotBlank()
+                otp.equals("1234",true)
     }
 
     fun isStep3Valid(profile: UserProfile): Boolean {

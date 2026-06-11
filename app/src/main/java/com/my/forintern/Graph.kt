@@ -14,6 +14,6 @@ object Graph {
     fun provide(context: Context)
     {
         userdatabase = Room.databaseBuilder(context = context,
-            klass = UserDataBase::class.java, name = "userdatabase").build()
+            UserDataBase::class.java,"userdatabase.db").build()
     }
 }

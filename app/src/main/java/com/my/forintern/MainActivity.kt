@@ -14,11 +14,15 @@ import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.lifecycle.viewmodel.compose.viewModel
 import androidx.navigation.NavHostController
+import androidx.navigation.NavType
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
+import androidx.navigation.navArgument
+import com.my.forintern.HomeScreen.HomeScreen
 import com.my.forintern.OnBoarding.OnboardingScreen
 import com.my.forintern.OnBoarding.OnboardingViewModel
+import com.my.forintern.UserRoomDataBase.UserViewModel
 import com.my.forintern.ui.theme.ForInternTheme
 
 class MainActivity : ComponentActivity() {
@@ -45,6 +49,7 @@ class MainActivity : ComponentActivity() {
 fun navigationControl(navhost: NavHostController,modifier: Modifier,onboardingViewModel: OnboardingViewModel)
 {
     val context = LocalContext.current
+    val userViewModel: UserViewModel = viewModel()
     val startdestination = Screens.OnboardingScreen.route
 
     NavHost(navController = navhost, startDestination = startdestination, modifier = modifier)
@@ -57,11 +62,15 @@ fun navigationControl(navhost: NavHostController,modifier: Modifier,onboardingVi
                         popUpTo(Screens.OnboardingScreen.route) { inclusive = true }
                     }
                 },
-                navhost = navhost,viewModel = onboardingViewModel
+                navhost = navhost,viewModel = onboardingViewModel, userViewModel = userViewModel
             )
         }
-        composable(Screens.HomeScreen.route) {
-            // HomeScreen(navhost)
+        composable(
+            route = Screens.HomeScreen.route,
+            arguments = listOf(navArgument("username") { type = NavType.StringType })
+        ) { backStackEntry ->
+            val username = backStackEntry.arguments?.getString("username") ?: ""
+            HomeScreen(username = username)
         }
     }
 }

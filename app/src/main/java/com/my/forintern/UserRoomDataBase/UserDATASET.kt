@@ -7,6 +7,7 @@ import com.my.forintern.Message.ChatMessage
 
 @Entity(tableName = "UserDataSet")
 data class UserDATASET(
+
     @PrimaryKey
     var idphone: Long=0L,
     @ColumnInfo

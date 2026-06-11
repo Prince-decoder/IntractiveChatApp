@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "962740075324",
+    "project_id": "itractiveapp",
+    "storage_bucket": "itractiveapp.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:962740075324:android:7d8fe0df6270c28ee83c39",
+        "android_client_info": {
+          "package_name": "com.my.forintern"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDfUmyo-mo84pgV-a1QvnVJ9KI_ScYLDFo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

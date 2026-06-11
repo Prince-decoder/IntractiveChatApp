@@ -4,6 +4,7 @@ import com.my.forintern.Message.ChatMessage
 import kotlinx.coroutines.flow.Flow
 
 class UserRepository(private val userDao: UserDao) {
+
     suspend fun adduser(user: UserDATASET)
     {
         userDao.addUser(user)
@@ -29,4 +30,5 @@ class UserRepository(private val userDao: UserDao) {
     suspend fun addOrUpdateUserKeepHistory(user: UserDATASET) {
         userDao.addOrUpdateUserKeepHistory(user)
     }
+
 }

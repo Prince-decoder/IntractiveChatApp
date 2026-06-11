@@ -81,7 +81,6 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.core.content.ContextCompat
 import androidx.lifecycle.viewmodel.compose.viewModel
-import androidx.wear.compose.materialcore.screenHeightPx
 import com.my.forintern.Message.ChatMessage
 import kotlinx.coroutines.launch
 import java.nio.file.Files.size
@@ -99,6 +98,9 @@ fun HomeScreen(
 ) {
     val uiState by viewModel.uiState.collectAsState()
     val userProfile by viewModel.userProfile.collectAsState()
+    //pipeline for the messages
+    val pipelineState by viewModel.messagePipeline.collectAsState()
+
 
     val context = LocalContext.current
     val scope = rememberCoroutineScope()
@@ -122,6 +124,7 @@ fun HomeScreen(
     // Parallax & Swipe logic
     val configuration = LocalConfiguration.current
     val screenHeightPx = with(LocalDensity.current) { configuration.screenHeightDp.dp.toPx() }
+
 
     val dragOffset = remember { Animatable(0f) }
 
@@ -309,6 +312,7 @@ fun HomeScreen(
                     .padding(16.dp)
                     .navigationBarsPadding() // Keep above bottom nav
             ) {
+                //pipeline UI
                 Column {
                     if (uiState.editingMessage != null) {
                         Row(
@@ -322,6 +326,36 @@ fun HomeScreen(
                                 modifier = Modifier.size(24.dp)
                             ) {
                                 Text("✕", color = Color.Gray, fontSize = 16.sp)
+                            }
+                        }
+                    }
+
+                    if (pipelineState !is MessagePipeline.Idle && pipelineState !is MessagePipeline.Typing) {
+                        val statusText = when (pipelineState) {
+                            is MessagePipeline.Validating -> "Validating message..."
+                            is MessagePipeline.Processing -> "Processing..."
+                            is MessagePipeline.Responding -> "Responding..."
+                            is MessagePipeline.Error -> "Error: ${(pipelineState as MessagePipeline.Error).reason}"
+                            else -> ""
+                        }
+                        val statusColor = if (pipelineState is MessagePipeline.Error) Color.Red else Color.LightGray
+
+                        Row(
+                            modifier = Modifier.fillMaxWidth().padding(bottom = 8.dp, start = 8.dp, end = 8.dp),
+                            verticalAlignment = Alignment.CenterVertically,
+                            horizontalArrangement = Arrangement.SpaceBetween
+                        ) {
+                            Text(text = statusText, color = statusColor, fontSize = 14.sp)
+                            if (pipelineState is MessagePipeline.Error) {
+                                Text(
+                                    text = "Retry",
+                                    color = Color(0xFF7C4DFF),
+                                    fontSize = 14.sp,
+                                    fontWeight = FontWeight.Bold,
+                                    modifier = Modifier.clickable {
+                                        viewModel.retryMessage((pipelineState as MessagePipeline.Error).lastMessage)
+                                    }
+                                )
                             }
                         }
                     }
