@@ -1,0 +1,892 @@
+--------- beginning of main
+06-12 01:37:46.683   362   362 D Zygote  : Forked child process 5116
+06-12 01:37:46.696   579   702 I InputReader: Reconfiguring input devices, changes=KEYBOARD_LAYOUTS
+06-12 01:37:46.707  5114  5114 I android.vending: Using CollectorTypeCC GC.
+--------- beginning of system
+06-12 01:37:46.707   579   579 I Telecom : CarModeTracker: Package com.my.forintern is not tracked.: SSH.oR@AG8
+06-12 01:37:46.709   579   579 I Telecom : InCallController: updateCarModeForConnections: car mode apps: : SSH.oR@AG8
+06-12 01:37:46.709  5114  5114 W android.vending: Unexpected CPU variant for x86: x86_64.
+06-12 01:37:46.709  5114  5114 W android.vending: Known variants: atom, sandybridge, silvermont, goldmont, goldmont-plus, tremont, kabylake, default
+06-12 01:37:46.711   579   579 I Telecom : InCallController: update carmode current:UserHandle{0} parent:null: SSH.oR@AG8
+06-12 01:37:46.711  5116  5116 I ndroid.keychain: Using CollectorTypeCC GC.
+06-12 01:37:46.714   579   702 I InputReader: Reconfiguring input devices, changes=KEYBOARD_LAYOUTS
+06-12 01:37:46.715  5116  5116 W ndroid.keychain: Unexpected CPU variant for x86: x86_64.
+06-12 01:37:46.715  5116  5116 W ndroid.keychain: Known variants: atom, sandybridge, silvermont, goldmont, goldmont-plus, tremont, kabylake, default
+06-12 01:37:46.734   579  1596 D CompatibilityChangeReporter: Compat change id reported: 161252188; UID 10195; state: DISABLED
+06-12 01:37:46.737   579   579 V BackupManagerConstants: getFullBackupIntervalMilliseconds(...) returns 86400000
+06-12 01:37:46.737   579   579 V BackupManagerConstants: getFullBackupRequiredNetworkType(...) returns 2
+06-12 01:37:46.737   579   579 V BackupManagerConstants: getFullBackupRequireCharging(...) returns true
+06-12 01:37:46.737  1343  5110 I PermissionControllerServiceImpl: Updating user sensitive for uid 10195
+06-12 01:37:46.737   579  1596 W ActivityTaskManager: callingPackage for (uid=2000, pid=5121) has no WPC
+06-12 01:37:46.738   579   579 D CompatibilityChangeReporter: Compat change id reported: 271850009; UID 1000; state: ENABLED
+06-12 01:37:46.738   579   579 D CompatibilityChangeReporter: Compat change id reported: 253665015; UID 1000; state: ENABLED
+06-12 01:37:46.738   579   579 D CompatibilityChangeReporter: Compat change id reported: 194532703; UID 1000; state: ENABLED
+06-12 01:37:46.742   579  1596 D CompatibilityChangeReporter: Compat change id reported: 265464455; UID 10195; state: DISABLED
+06-12 01:37:46.742   579  1596 D CompatibilityChangeReporter: Compat change id reported: 265452344; UID 10195; state: DISABLED
+06-12 01:37:46.742   579  1596 D CompatibilityChangeReporter: Compat change id reported: 266124927; UID 10195; state: DISABLED
+06-12 01:37:46.742   579  1596 D CompatibilityChangeReporter: Compat change id reported: 265451093; UID 10195; state: DISABLED
+06-12 01:37:46.742   579  1596 D CompatibilityChangeReporter: Compat change id reported: 265456536; UID 10195; state: DISABLED
+06-12 01:37:46.742   579  1596 D CompatibilityChangeReporter: Compat change id reported: 255940284; UID 10195; state: DISABLED
+06-12 01:37:46.742   579  1596 D CompatibilityChangeReporter: Compat change id reported: 236283604; UID 10195; state: DISABLED
+06-12 01:37:46.742   579  1596 D CompatibilityChangeReporter: Compat change id reported: 263959004; UID 10195; state: DISABLED
+06-12 01:37:46.742   579  1596 D CompatibilityChangeReporter: Compat change id reported: 264304459; UID 10195; state: DISABLED
+06-12 01:37:46.742   579  1596 D CompatibilityChangeReporter: Compat change id reported: 264301586; UID 10195; state: DISABLED
+06-12 01:37:46.742   579  1596 D CompatibilityChangeReporter: Compat change id reported: 254631730; UID 10195; state: DISABLED
+06-12 01:37:46.742   579  1596 D CompatibilityChangeReporter: Compat change id reported: 273509367; UID 10195; state: DISABLED
+06-12 01:37:46.742   579  1596 D CompatibilityChangeReporter: Compat change id reported: 263259275; UID 10195; state: DISABLED
+06-12 01:37:46.742   579  1596 D CompatibilityChangeReporter: Compat change id reported: 174042980; UID 10195; state: DISABLED
+06-12 01:37:46.742   579  1596 D CompatibilityChangeReporter: Compat change id reported: 174042936; UID 10195; state: DISABLED
+06-12 01:37:46.742   579  1596 D CompatibilityChangeReporter: Compat change id reported: 181136395; UID 10195; state: DISABLED
+06-12 01:37:46.745   579  1596 D CompatibilityChangeReporter: Compat change id reported: 194480991; UID 10195; state: ENABLED
+06-12 01:37:46.745   579   579 D CompatibilityChangeReporter: Compat change id reported: 171306433; UID 10195; state: ENABLED
+06-12 01:37:46.746   579   579 W AlarmManager: Package com.my.forintern, uid 10195 lost permission to set exact alarms!
+06-12 01:37:46.755  5114  5114 E android.vending: Not starting debugger since process cannot load the jdwp agent.
+06-12 01:37:46.755  1491  1491 I PkDeviceHelper: PkDeviceHelper.refreshDevices():87 refreshing devices
+06-12 01:37:46.755  5116  5116 E ndroid.keychain: Not starting debugger since process cannot load the jdwp agent.
+06-12 01:37:46.756  1491  1491 I PkDeviceHelper: PkDeviceHelper.addDevice():125 device qwerty2 added
+06-12 01:37:46.757  1491  1491 I PkDeviceHelper: PkDeviceHelper.addDevice():125 device AT Translated Set 2 keyboard added
+06-12 01:37:46.757  1491  1491 I PkDeviceHelper: PkDeviceHelper.refreshDevices():87 refreshing devices
+06-12 01:37:46.757  1491  1491 I PkDeviceHelper: PkDeviceHelper.addDevice():125 device qwerty2 added
+06-12 01:37:46.757  1491  1491 I PkDeviceHelper: PkDeviceHelper.addDevice():125 device AT Translated Set 2 keyboard added
+06-12 01:37:46.757  1491  1491 I PkDeviceHelper: PkDeviceHelper.refreshDevices():87 refreshing devices
+06-12 01:37:46.757  1491  1491 I PkDeviceHelper: PkDeviceHelper.addDevice():125 device qwerty2 added
+06-12 01:37:46.757  1491  1491 I PkDeviceHelper: PkDeviceHelper.addDevice():125 device AT Translated Set 2 keyboard added
+06-12 01:37:46.757  1491  1491 I PkDeviceHelper: PkDeviceHelper.refreshDevices():87 refreshing devices
+06-12 01:37:46.757  1491  1491 I PkDeviceHelper: PkDeviceHelper.addDevice():125 device qwerty2 added
+06-12 01:37:46.757  1491  1491 I PkDeviceHelper: PkDeviceHelper.addDevice():125 device AT Translated Set 2 keyboard added
+06-12 01:37:46.757  1491  1491 I PkDeviceHelper: PkDeviceHelper.refreshDevices():87 refreshing devices
+06-12 01:37:46.757  1491  1491 I PkDeviceHelper: PkDeviceHelper.addDevice():125 device qwerty2 added
+06-12 01:37:46.757  1491  1491 I PkDeviceHelper: PkDeviceHelper.addDevice():125 device AT Translated Set 2 keyboard added
+06-12 01:37:46.757  1491  1491 I PkDeviceHelper: PkDeviceHelper.refreshDevices():87 refreshing devices
+06-12 01:37:46.757  1491  1491 I PkDeviceHelper: PkDeviceHelper.addDevice():125 device qwerty2 added
+06-12 01:37:46.757  1491  1491 I PkDeviceHelper: PkDeviceHelper.addDevice():125 device AT Translated Set 2 keyboard added
+06-12 01:37:46.757  1491  1491 I PkDeviceHelper: PkDeviceHelper.refreshDevices():87 refreshing devices
+06-12 01:37:46.757  1491  1491 I PkDeviceHelper: PkDeviceHelper.addDevice():125 device qwerty2 added
+06-12 01:37:46.757  1491  1491 I PkDeviceHelper: PkDeviceHelper.addDevice():125 device AT Translated Set 2 keyboard added
+06-12 01:37:46.757  1491  1491 I PkDeviceHelper: PkDeviceHelper.refreshDevices():87 refreshing devices
+06-12 01:37:46.757  1491  1491 I PkDeviceHelper: PkDeviceHelper.addDevice():125 device qwerty2 added
+06-12 01:37:46.757  1491  1491 I PkDeviceHelper: PkDeviceHelper.addDevice():125 device AT Translated Set 2 keyboard added
+06-12 01:37:46.757  1491  1491 I PkDeviceHelper: PkDeviceHelper.refreshDevices():87 refreshing devices
+06-12 01:37:46.757  1491  1491 I PkDeviceHelper: PkDeviceHelper.addDevice():125 device qwerty2 added
+06-12 01:37:46.757  1491  1491 I PkDeviceHelper: PkDeviceHelper.addDevice():125 device AT Translated Set 2 keyboard added
+06-12 01:37:46.757  1491  1491 I PkDeviceHelper: PkDeviceHelper.refreshDevices():87 refreshing devices
+06-12 01:37:46.757  1491  1491 I PkDeviceHelper: PkDeviceHelper.addDevice():125 device qwerty2 added
+06-12 01:37:46.757  1491  1491 I PkDeviceHelper: PkDeviceHelper.addDevice():125 device AT Translated Set 2 keyboard added
+06-12 01:37:46.757  1491  1491 I PkDeviceHelper: PkDeviceHelper.refreshDevices():87 refreshing devices
+06-12 01:37:46.757  1491  1491 I PkDeviceHelper: PkDeviceHelper.addDevice():125 device qwerty2 added
+06-12 01:37:46.757  1491  1491 I PkDeviceHelper: PkDeviceHelper.addDevice():125 device AT Translated Set 2 keyboard added
+06-12 01:37:46.757  1491  1491 I PkDeviceHelper: PkDeviceHelper.refreshDevices():87 refreshing devices
+06-12 01:37:46.757  1491  1491 I PkDeviceHelper: PkDeviceHelper.addDevice():125 device qwerty2 added
+06-12 01:37:46.757  1491  1491 I PkDeviceHelper: PkDeviceHelper.addDevice():125 device AT Translated Set 2 keyboard added
+06-12 01:37:46.757  1491  1491 I PkDeviceHelper: PkDeviceHelper.refreshDevices():87 refreshing devices
+06-12 01:37:46.757  1491  1491 I PkDeviceHelper: PkDeviceHelper.addDevice():125 device qwerty2 added
+06-12 01:37:46.757  1491  1491 I PkDeviceHelper: PkDeviceHelper.addDevice():125 device AT Translated Set 2 keyboard added
+06-12 01:37:46.757  1491  1491 I PkDeviceHelper: PkDeviceHelper.refreshDevices():87 refreshing devices
+06-12 01:37:46.757  1491  1491 I PkDeviceHelper: PkDeviceHelper.addDevice():125 device qwerty2 added
+06-12 01:37:46.757  1491  1491 I PkDeviceHelper: PkDeviceHelper.addDevice():125 device AT Translated Set 2 keyboard added
+06-12 01:37:46.757  1491  1491 I PkDeviceHelper: PkDeviceHelper.refreshDevices():87 refreshing devices
+06-12 01:37:46.757  1491  1491 I PkDeviceHelper: PkDeviceHelper.addDevice():125 device qwerty2 added
+06-12 01:37:46.757  1491  1491 I PkDeviceHelper: PkDeviceHelper.addDevice():125 device AT Translated Set 2 keyboard added
+06-12 01:37:46.766   579  1596 D CompatibilityChangeReporter: Compat change id reported: 184838306; UID 10195; state: DISABLED
+06-12 01:37:46.766   579  1596 D CompatibilityChangeReporter: Compat change id reported: 185004937; UID 10195; state: DISABLED
+06-12 01:37:46.768   579  1596 D CompatibilityChangeReporter: Compat change id reported: 197654537; UID 10195; state: ENABLED
+06-12 01:37:46.769   579  1596 D CompatibilityChangeReporter: Compat change id reported: 205907456; UID 10195; state: ENABLED
+06-12 01:37:46.774   821   850 V WindowManagerShell: Transition requested: android.os.BinderProxy@baf1951 TransitionRequestInfo { type = OPEN, triggerTask = TaskInfo{userId=0 taskId=80 displayId=0 isRunning=true baseIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.my.forintern/.MainActivity } baseActivity=ComponentInfo{com.my.forintern/com.my.forintern.MainActivity} topActivity=ComponentInfo{com.my.forintern/com.my.forintern.MainActivity} origActivity=null realActivity=ComponentInfo{com.my.forintern/com.my.forintern.MainActivity} numActivities=1 lastActiveTime=630769 supportsMultiWindow=true resizeMode=1 isResizeable=true minWidth=-1 minHeight=-1 defaultMinSize=220 token=WCT{android.window.IWindowContainerToken$Stub$Proxy@8eaa5b6} topActivityType=1 pictureInPictureParams=null shouldDockBigOverlays=false launchIntoPipHostTaskId=-1 lastParentTaskIdBeforePip=-1 displayCutoutSafeInsets=Rect(0, 136 - 0, 0) topActivityInfo=ActivityInfo{b2a32b7 com.my.forintern.MainActivity} launchCookies=[] positionInParent=Point(0, 0) parentTaskId=-1 isFocused=false isVisible=false isVisibleRequested=false isSleeping=false topActivityInSizeCompat=false topActivityEligibleForLetterboxEducation= false topActivityLetterboxed= false isFromDoubleTap= false topActivityLetterboxVerticalPosition= -1 topActivityLetterboxHorizontalPosition= -1 topActivityLetterboxWidth=-1 topActivityLetterboxHeight=-1 locusId=null displayAreaFeatureId=1 cameraCompatControlState=hidden}, remoteTransition = null, displayChange = null }
+06-12 01:37:46.795   579  1596 D CompatibilityChangeReporter: Compat change id reported: 194833441; UID 10195; state: ENABLED
+06-12 01:37:46.795   579  1596 I ActivityTaskManager: START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.my.forintern/.MainActivity} with LAUNCH_MULTIPLE from uid 2000 (BAL_ALLOW_PERMISSION) result code=0
+06-12 01:37:46.796   579   606 W WindowMagnificationMgr: requestConnection duplicated request: connect=false, mConnectionState=DISCONNECTED
+06-12 01:37:46.801   579  1727 D CompatibilityChangeReporter: Compat change id reported: 168419799; UID 10130; state: DISABLED
+06-12 01:37:46.801   579  1727 D CompatibilityChangeReporter: Compat change id reported: 273564678; UID 10130; state: DISABLED
+06-12 01:37:46.802   579   588 I system_server: Background concurrent copying GC freed 516054(26MB) AllocSpace objects, 32(624KB) LOS objects, 40% free, 35MB/59MB, paused 4.502ms,128us total 172.681ms
+06-12 01:37:46.804   408   408 I BpBinder: onLastStrongRef automatically unlinking death recipients: 
+06-12 01:37:46.810   579   606 W WindowMagnificationMgr: requestConnection duplicated request: connect=false, mConnectionState=DISCONNECTED
+06-12 01:37:46.810   579   661 D CompatibilityChangeReporter: Compat change id reported: 265195908; UID 10130; state: ENABLED
+06-12 01:37:46.812   579  1904 D CompatibilityChangeReporter: Compat change id reported: 168419799; UID 1000; state: DISABLED
+06-12 01:37:46.812   579  1904 D CompatibilityChangeReporter: Compat change id reported: 273564678; UID 1000; state: DISABLED
+06-12 01:37:46.812  5114  5114 D CompatibilityChangeReporter: Compat change id reported: 171979766; UID 10130; state: ENABLED
+06-12 01:37:46.812  5114  5114 D CompatibilityChangeReporter: Compat change id reported: 242716250; UID 10130; state: ENABLED
+06-12 01:37:46.814   579   598 D CompatibilityChangeReporter: Compat change id reported: 135634846; UID 10195; state: DISABLED
+06-12 01:37:46.814   579   590 W System  : A resource failed to call close. 
+06-12 01:37:46.814   579   608 D CompatibilityChangeReporter: Compat change id reported: 143937733; UID 10195; state: ENABLED
+06-12 01:37:46.819  5116  5116 D CompatibilityChangeReporter: Compat change id reported: 171979766; UID 1000; state: ENABLED
+06-12 01:37:46.819  5116  5116 D CompatibilityChangeReporter: Compat change id reported: 242716250; UID 1000; state: ENABLED
+06-12 01:37:46.820   362   362 D Zygote  : Forked child process 5154
+06-12 01:37:46.820   579   608 I ActivityManager: Start proc 5154:com.my.forintern/u0a195 for next-top-activity {com.my.forintern/com.my.forintern.MainActivity}
+06-12 01:37:46.824   579  1727 D CoreBackPreview: Window{d973327 u0 Splash Screen com.my.forintern}: Setting back callback OnBackInvokedCallbackInfo{mCallback=android.window.IOnBackInvokedCallback$Stub$Proxy@116864d, mPriority=0, mIsAnimationCallback=false}
+06-12 01:37:46.837   579  1596 D CompatibilityChangeReporter: Compat change id reported: 170503758; UID 10130; state: ENABLED
+06-12 01:37:46.857  5154  5154 I om.my.forintern: Late-enabling -Xcheck:jni
+06-12 01:37:46.870  4702  4702 W ziparchive: Unable to open '/data/user_de/0/com.google.android.gms/app_chimera/m/00000004/DynamiteModulesC.dm': No such file or directory
+06-12 01:37:46.870  4702  4702 W ziparchive: Unable to open '/data/user_de/0/com.google.android.gms/app_chimera/m/00000004/DynamiteModulesC.dm': No such file or directory
+06-12 01:37:46.870  4702  4702 W ziparchive: Unable to open '/data/user_de/0/com.google.android.gms/app_chimera/m/00000001/CronetDynamite.dm': No such file or directory
+06-12 01:37:46.870  4702  4702 W ziparchive: Unable to open '/data/user_de/0/com.google.android.gms/app_chimera/m/00000001/CronetDynamite.dm': No such file or directory
+06-12 01:37:46.873  4702  4702 W artd    : Could not get dex checksums for location /data/app/~~KIUoAaJJCtY9rg2lVZzF2Q==/com.google.android.gms-VPiMwAT_j1HSNisG_xv71Q==/base.apk, fd=-1
+06-12 01:37:46.874  4702  4702 W artd    : Could not get dex checksums for location /data/app/~~KIUoAaJJCtY9rg2lVZzF2Q==/com.google.android.gms-VPiMwAT_j1HSNisG_xv71Q==/base.apk, fd=-1
+06-12 01:37:46.876  4702  4702 W ziparchive: Unable to open '/data/user/0/com.google.android.gms/app_dg_cache/3C458487C11623D174A33292B914D98AB3A4651D/the.dm': No such file or directory
+06-12 01:37:46.876  4702  4702 W ziparchive: Unable to open '/data/user/0/com.google.android.gms/app_dg_cache/3C458487C11623D174A33292B914D98AB3A4651D/the.dm': No such file or directory
+06-12 01:37:46.876  4702  4702 W ziparchive: Unable to open '/data/user_de/0/com.google.android.gms/app_chimera/m/00000002/DynamiteLoader.dm': No such file or directory
+06-12 01:37:46.876  4702  4702 W ziparchive: Unable to open '/data/user_de/0/com.google.android.gms/app_chimera/m/00000002/DynamiteLoader.dm': No such file or directory
+06-12 01:37:46.876  4702  4702 W ziparchive: Unable to open '/data/user_de/0/com.google.android.gms/app_chimera/m/00000005/GoogleCertificates.dm': No such file or directory
+06-12 01:37:46.876  4702  4702 W ziparchive: Unable to open '/data/user_de/0/com.google.android.gms/app_chimera/m/00000005/GoogleCertificates.dm': No such file or directory
+06-12 01:37:46.877  5154  5154 I om.my.forintern: Using CollectorTypeCC GC.
+06-12 01:37:46.877  4702  4702 W ziparchive: Unable to open '/data/user_de/0/com.google.android.gms/app_chimera/m/0000000d/dl-VisionOcrDynamite.integ_231602402100000.dm': No such file or directory
+06-12 01:37:46.877  4702  4702 W ziparchive: Unable to open '/data/user_de/0/com.google.android.gms/app_chimera/m/0000000d/dl-VisionOcrDynamite.integ_231602402100000.dm': No such file or directory
+06-12 01:37:46.878  5154  5154 W om.my.forintern: Unexpected CPU variant for x86: x86_64.
+06-12 01:37:46.878  5154  5154 W om.my.forintern: Known variants: atom, sandybridge, silvermont, goldmont, goldmont-plus, tremont, kabylake, default
+06-12 01:37:46.878  4702  4702 W artd    : Could not get dex checksums for location /data/app/~~KIUoAaJJCtY9rg2lVZzF2Q==/com.google.android.gms-VPiMwAT_j1HSNisG_xv71Q==/base.apk, fd=-1
+06-12 01:37:46.880  4702  4702 W ziparchive: Unable to open '/data/user_de/0/com.google.android.gms/app_chimera/m/00000028/dl-PlayCloudSearch.optional_261833100000.dm': No such file or directory
+06-12 01:37:46.880  4702  4702 W ziparchive: Unable to open '/data/user_de/0/com.google.android.gms/app_chimera/m/00000028/dl-PlayCloudSearch.optional_261833100000.dm': No such file or directory
+06-12 01:37:46.893  5114  5114 D nativeloader: Configuring clns-6 for other apk /system/framework/org.apache.http.legacy.jar. target_sdk_version=37, uses_libraries=ALL, library_path=/data/app/~~ZaU70f4fZ2fbl9J5hohPTg==/com.android.vending-BEOfE0raLAyL8snwtynyww==/lib/x86_64:/data/app/~~ZaU70f4fZ2fbl9J5hohPTg==/com.android.vending-BEOfE0raLAyL8snwtynyww==/base.apk!/lib/x86_64:/data/app/~~ZaU70f4fZ2fbl9J5hohPTg==/com.android.vending-BEOfE0raLAyL8snwtynyww==/split_config.en.apk!/lib/x86_64:/data/app/~~ZaU70f4fZ2fbl9J5hohPTg==/com.android.vending-BEOfE0raLAyL8snwtynyww==/split_config.x86_64.apk!/lib/x86_64:/data/app/~~ZaU70f4fZ2fbl9J5hohPTg==/com.android.vending-BEOfE0raLAyL8snwtynyww==/split_phonesky_data_loader.apk!/lib/x86_64:/data/app/~~ZaU70f4fZ2fbl9J5hohPTg==/com.android.vending-BEOfE0raLAyL8snwtynyww==/split_phonesky_data_loader.config.x86_64.apk!/lib/x86_64:/data/app/~~ZaU70f4fZ2fbl9J5hohPTg==/com.android.vending-BEOfE0raLAyL8snwtynyww==/split_phonesky_webrtc_native_lib.apk!/lib/x86_64:/data/app/~~ZaU70f4fZ2fbl9J5hohPTg==/com.android.vending-BEOfE0ra
+06-12 01:37:46.895  5114  5114 D ApplicationLoaders: Returning zygote-cached class loader: /system_ext/framework/androidx.window.extensions.jar
+06-12 01:37:46.895  5114  5114 D ApplicationLoaders: Returning zygote-cached class loader: /system_ext/framework/androidx.window.sidecar.jar
+06-12 01:37:46.897  4702  4702 W ziparchive: Unable to open '/data/user_de/0/com.google.android.gms/app_chimera/m/00000000/AdsDynamite.dm': No such file or directory
+06-12 01:37:46.897  4702  4702 W ziparchive: Unable to open '/data/user_de/0/com.google.android.gms/app_chimera/m/00000000/AdsDynamite.dm': No such file or directory
+06-12 01:37:46.898  4702  4702 W ziparchive: Unable to open '/data/user_de/0/com.google.android.gms/app_chimera/m/00000029/dl-VisionOcr.optional_261833100000.dm': No such file or directory
+06-12 01:37:46.898  4702  4702 W ziparchive: Unable to open '/data/user_de/0/com.google.android.gms/app_chimera/m/00000029/dl-VisionOcr.optional_261833100000.dm': No such file or directory
+06-12 01:37:46.899  4702  4702 W artd    : Could not get dex checksums for location /data/app/~~KIUoAaJJCtY9rg2lVZzF2Q==/com.google.android.gms-VPiMwAT_j1HSNisG_xv71Q==/base.apk, fd=-1
+06-12 01:37:46.901  4702  4702 W ziparchive: Unable to open '/data/user_de/0/com.google.android.gms/app_chimera/m/0000002b/dl-Appsearch.optional_261833100800.dm': No such file or directory
+06-12 01:37:46.902  4702  4702 W ziparchive: Unable to open '/data/user_de/0/com.google.android.gms/app_chimera/m/0000002b/dl-Appsearch.optional_261833100800.dm': No such file or directory
+06-12 01:37:46.903  2099  2099 I bynm    : onPause
+06-12 01:37:46.903  4702  4702 W ziparchive: Unable to open '/data/user_de/0/com.google.android.gms/app_chimera/m/00000008/dl-MlkitBarcodeUi.optional_231818100000.dm': No such file or directory
+06-12 01:37:46.903  4702  4702 W ziparchive: Unable to open '/data/user_de/0/com.google.android.gms/app_chimera/m/00000008/dl-MlkitBarcodeUi.optional_231818100000.dm': No such file or directory
+06-12 01:37:46.904  4702  4702 W artd    : Could not get dex checksums for location /data/app/~~KIUoAaJJCtY9rg2lVZzF2Q==/com.google.android.gms-VPiMwAT_j1HSNisG_xv71Q==/base.apk, fd=-1
+06-12 01:37:46.905  4702  4702 W artd    : Could not get dex checksums for location /data/app/~~KIUoAaJJCtY9rg2lVZzF2Q==/com.google.android.gms-VPiMwAT_j1HSNisG_xv71Q==/base.apk, fd=-1
+06-12 01:37:46.907  4702  4702 W ziparchive: Unable to open '/data/user_de/0/com.google.android.gms/app_chimera/m/0000002f/dl-MlkitOcrCommon.optional_261833100800.dm': No such file or directory
+06-12 01:37:46.907  4702  4702 W ziparchive: Unable to open '/data/user_de/0/com.google.android.gms/app_chimera/m/0000002f/dl-MlkitOcrCommon.optional_261833100800.dm': No such file or directory
+06-12 01:37:46.909  4702  4702 W ziparchive: Unable to open '/data/user_de/0/com.google.android.gms/app_chimera/m/00000025/dl-TfliteDynamiteDynamite.integ_260580502100800.dm': No such file or directory
+06-12 01:37:46.910  4702  4702 W ziparchive: Unable to open '/data/user_de/0/com.google.android.gms/app_chimera/m/00000025/dl-TfliteDynamiteDynamite.integ_260580502100800.dm': No such file or directory
+06-12 01:37:46.917  1099  1798 D EGL_emulation: app_time_stats: avg=74182.29ms min=15.63ms max=592452.56ms count=8
+06-12 01:37:46.917  4702  4702 W artd    : Could not get dex checksums for location /data/app/~~KIUoAaJJCtY9rg2lVZzF2Q==/com.google.android.gms-VPiMwAT_j1HSNisG_xv71Q==/base.apk, fd=-1
+06-12 01:37:46.920  4702  4702 W artd    : Could not get dex checksums for location /data/app/~~KIUoAaJJCtY9rg2lVZzF2Q==/com.google.android.gms-VPiMwAT_j1HSNisG_xv71Q==/base.apk, fd=-1
+06-12 01:37:46.920  4702  4702 W artd    : Could not get dex checksums for location /data/app/~~KIUoAaJJCtY9rg2lVZzF2Q==/com.google.android.gms-VPiMwAT_j1HSNisG_xv71Q==/base.apk, fd=-1
+06-12 01:37:46.921   821   850 V WindowManagerShell: onTransitionReady android.os.BinderProxy@baf1951: {id=8 t=OPEN f=0x0 trk=0 r=[0@Point(0, 0)] c=[{WCT{android.window.IWindowContainerToken$Stub$Proxy@1d97e44} m=OPEN f=NONE leash=Surface(name=Task=80)/@0xbfea223 sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) d=0},{WCT{android.window.IWindowContainerToken$Stub$Proxy@aabab2d} m=TO_BACK f=SHOW_WALLPAPER leash=Surface(name=Task=1)/@0xae3e320 sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) d=0}]}
+06-12 01:37:46.922   821   850 V WindowManagerShell: Playing animation for (#8)android.os.BinderProxy@baf1951@0
+06-12 01:37:46.922   821   850 V WindowManagerShell:  try handler com.android.wm.shell.transition.DefaultMixedHandler@2ce7243
+06-12 01:37:46.922   821   850 V WindowManagerShell:  try handler com.android.wm.shell.keyguard.KeyguardTransitionHandler@b8940c0
+06-12 01:37:46.922   821   850 V WindowManagerShell:  try handler com.android.wm.shell.activityembedding.ActivityEmbeddingController@fab41f9
+06-12 01:37:46.923   821   850 V WindowManagerShell:  try handler com.android.wm.shell.recents.RecentsTransitionHandler@d8cb9e4
+06-12 01:37:46.923   821   850 V ShellRecents: RecentsTransitionHandler.startAnimation: no controller found
+06-12 01:37:46.923   821   850 V WindowManagerShell:  try handler com.android.wm.shell.pip.PipTransition@fe6ce4d
+06-12 01:37:46.923   821   850 V WindowManagerShell:  try handler com.android.wm.shell.splitscreen.StageCoordinator@4af7d02
+06-12 01:37:46.923   821   850 V WindowManagerShell:  try handler com.android.wm.shell.transition.RemoteTransitionHandler@85b0613
+06-12 01:37:46.923   821   850 V WindowManagerShell: Transition doesn't have explicit remote, search filters for match for {id=8 t=OPEN f=0x0 trk=0 r=[0@Point(0, 0)] c=[{WCT{android.window.IWindowContainerToken$Stub$Proxy@1d97e44} m=OPEN f=NONE leash=Surface(name=Task=80)/@0xbfea223 sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) d=0},{WCT{android.window.IWindowContainerToken$Stub$Proxy@aabab2d} m=TO_BACK f=SHOW_WALLPAPER leash=Surface(name=Task=1)/@0xae3e320 sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) d=0}]}
+06-12 01:37:46.923   821   850 V WindowManagerShell:  Checking filter Pair{{types=[] flags=0x0] notFlags=0x0 checks=[{atype=dream independent=true modes=[OPEN,TO_FRONT] flags=NONE mustBeTask=false order=ANY topActivity=null},{atype=home independent=true modes=[CLOSE,TO_BACK] flags=NONE mustBeTask=false order=ANY topActivity=null}]} RemoteTransition { remoteTransition = android.window.IRemoteTransition$Stub$Proxy@7ddf067, appThread = android.app.IApplicationThread$Stub$Proxy@f68ee14, debugName = LauncherToDream }}
+06-12 01:37:46.926  4702  4702 W ziparchive: Unable to open '/data/user_de/0/com.google.android.gms/app_chimera/m/0000002e/dl-MlkitBarcodeUi.optional_261833100800.dm': No such file or directory
+06-12 01:37:46.926  4702  4702 W ziparchive: Unable to open '/data/user_de/0/com.google.android.gms/app_chimera/m/0000002e/dl-MlkitBarcodeUi.optional_261833100800.dm': No such file or directory
+06-12 01:37:46.927  4702  4702 W artd    : Could not get dex checksums for location /data/app/~~KIUoAaJJCtY9rg2lVZzF2Q==/com.google.android.gms-VPiMwAT_j1HSNisG_xv71Q==/base.apk, fd=-1
+06-12 01:37:46.931  4702  4702 W ziparchive: Unable to open '/data/user_de/0/com.google.android.gms/app_chimera/m/0000002a/dl-IdentityCredentialsPlatform.optional_261833100800.dm': No such file or directory
+06-12 01:37:46.931  4702  4702 W ziparchive: Unable to open '/data/user_de/0/com.google.android.gms/app_chimera/m/0000002a/dl-IdentityCredentialsPlatform.optional_261833100800.dm': No such file or directory
+06-12 01:37:46.932  4702  4702 W artd    : Could not get dex checksums for location /data/app/~~KIUoAaJJCtY9rg2lVZzF2Q==/com.google.android.gms-VPiMwAT_j1HSNisG_xv71Q==/base.apk, fd=-1
+06-12 01:37:46.932  4702  4702 W artd    : Could not get dex checksums for location /data/app/~~KIUoAaJJCtY9rg2lVZzF2Q==/com.google.android.gms-VPiMwAT_j1HSNisG_xv71Q==/base.apk, fd=-1
+06-12 01:37:46.933  4702  4702 W artd    : Could not get dex checksums for location /data/app/~~w49fjt-wQnwEYiP5oY2Uvw==/com.android.vending-UpECxTE6ZuOa8RfJfDG6ZQ==/base.apk, fd=-1
+06-12 01:37:46.934  4702  4702 W ziparchive: Unable to open '/data/user_de/0/com.google.android.gms/app_chimera/m/0000000b/dl-MlkitOcrCommon.optional_231818100800.dm': No such file or directory
+06-12 01:37:46.934  4702  4702 W ziparchive: Unable to open '/data/user_de/0/com.google.android.gms/app_chimera/m/0000000b/dl-MlkitOcrCommon.optional_231818100800.dm': No such file or directory
+06-12 01:37:46.955   438   453 I adbd    : jdwp connection from 5154
+06-12 01:37:46.967  5116  5116 D nativeloader: Configuring clns-shared-6 for other apk /system/app/KeyChain/KeyChain.apk. target_sdk_version=34, uses_libraries=, library_path=/system/app/KeyChain/lib/x86_64:/system/app/KeyChain/KeyChain.apk!/lib/x86_64:/system/lib64:/system_ext/lib64, permitted_path=/data:/mnt/expand:/data/user/0/com.android.keychain:/system/app/KeyChain:/system/lib64:/system_ext/lib64
+06-12 01:37:46.969   579   595 V WindowManager: Sent Transition #8 createdAt=06-12 01:37:46.746 via request=TransitionRequestInfo { type = OPEN, triggerTask = TaskInfo{userId=0 taskId=80 displayId=0 isRunning=true baseIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.my.forintern/.MainActivity } baseActivity=ComponentInfo{com.my.forintern/com.my.forintern.MainActivity} topActivity=ComponentInfo{com.my.forintern/com.my.forintern.MainActivity} origActivity=null realActivity=ComponentInfo{com.my.forintern/com.my.forintern.MainActivity} numActivities=1 lastActiveTime=630769 supportsMultiWindow=true resizeMode=1 isResizeable=true minWidth=-1 minHeight=-1 defaultMinSize=220 token=WCT{RemoteToken{43bea26 Task{910cd2f #80 type=standard A=10195:com.my.forintern}}} topActivityType=1 pictureInPictureParams=null shouldDockBigOverlays=false launchIntoPipHostTaskId=-1 lastParentTaskIdBeforePip=-1 displayCutoutSafeInsets=Rect(0, 136 - 0, 0) topActivityInfo=ActivityInfo{e3e7667 com.my.forintern.MainActivity} launchCookies=[] positionInParent=Point(0, 0) parentTaskId=-1 isFocused=false isVisible=false isVisibleRequested=false isSleeping=false topActivityInSizeCompat=false topActivityEligibleForLetterboxEducation= false topActivityLetterboxed= false isFromDoubleTap= false topActivityLetterboxVerticalPosition= -1 topActivityLetterboxHorizontalPosition= -1 topActivityLetterboxWidth=-1 topActivityLetterboxHeight=-1 locusId=null displayAreaFeatureId=1 cameraCompatControlState=hidden}, remoteTransition = null, displayChange = null }
+06-12 01:37:46.969   579   595 V WindowManager:     startWCT=WindowContainerTransaction { changes = {} hops = [] errorCallbackToken=null taskFragmentOrganizer=null }
+06-12 01:37:46.969   579   595 V WindowManager:     info={id=8 t=OPEN f=0x0 trk=0 r=[0@Point(0, 0)] c=[{WCT{RemoteToken{43bea26 Task{910cd2f #80 type=standard A=10195:com.my.forintern}}} m=OPEN f=NONE leash=Surface(name=Task=80)/@0x1523a49 sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) d=0},{WCT{RemoteToken{99504e4 Task{37224df #1 type=home}}} m=TO_BACK f=SHOW_WALLPAPER leash=Surface(name=Task=1)/@0x12bb21e sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) d=0}]}
+06-12 01:37:46.975   821   850 V WindowManagerShell:  Checking filter Pair{{types=[] flags=0x0] notFlags=0x100 checks=[{atype=home independent=true modes=[OPEN,TO_FRONT] flags=NONE mustBeTask=false order=TOP topActivity=ComponentInfo{com.google.android.apps.nexuslauncher/com.google.android.apps.nexuslauncher.NexusLauncherActivity}},{atype=standard independent=true modes=[CLOSE,TO_BACK] flags=NONE mustBeTask=false order=ANY topActivity=null}]} RemoteTransition { remoteTransition = android.window.IRemoteTransition$Stub$Proxy@fafa6bd, appThread = android.app.IApplicationThread$Stub$Proxy@5c5c4b2, debugName = QuickstepLaunchHome }}
+06-12 01:37:46.975   821   850 V WindowManagerShell:  Delegate animation for #8 to null
+06-12 01:37:46.975   821   850 V WindowManagerShell:  try handler com.android.wm.shell.transition.DefaultTransitionHandler@803617c
+06-12 01:37:46.975   821   850 V WindowManagerShell: start default transition animation, info = {id=8 t=OPEN f=0x0 trk=0 r=[0@Point(0, 0)] c=[{WCT{android.window.IWindowContainerToken$Stub$Proxy@1d97e44} m=OPEN f=NONE leash=Surface(name=Task=80)/@0xbfea223 sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) d=0},{WCT{android.window.IWindowContainerToken$Stub$Proxy@aabab2d} m=TO_BACK f=SHOW_WALLPAPER leash=Surface(name=Task=1)/@0xae3e320 sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) d=0}]}
+06-12 01:37:46.975  2099  2099 W dolk    : measuring already stopped.
+06-12 01:37:46.999   821   907 D EGL_emulation: app_time_stats: avg=22025.10ms min=22025.10ms max=22025.10ms count=1
+06-12 01:37:47.001   821   850 V WindowManagerShell: loadAnimation: anim=android.view.animation.AnimationSet@93195a7 animAttr=0x13 type=OPEN isEntrance=false
+06-12 01:37:47.003   821   850 V WindowManagerShell: loadAnimation: anim=android.view.animation.AnimationSet@fd7e543 animAttr=0x12 type=OPEN isEntrance=true
+06-12 01:37:47.005   821   850 V WindowManagerShell:  animated by com.android.wm.shell.transition.DefaultTransitionHandler@803617c
+06-12 01:37:47.039   579  1727 W ActivityTaskManager: takeTaskSnapshot: taskId=51 not found or not visible
+06-12 01:37:47.040  5114  5114 W ziparchive: Unable to open '/data/app/~~ZaU70f4fZ2fbl9J5hohPTg==/com.android.vending-BEOfE0raLAyL8snwtynyww==/split_config.en.dm': No such file or directory
+06-12 01:37:47.040  5114  5114 W ziparchive: Unable to open '/data/app/~~ZaU70f4fZ2fbl9J5hohPTg==/com.android.vending-BEOfE0raLAyL8snwtynyww==/split_config.en.dm': No such file or directory
+06-12 01:37:47.048  5114  5114 W android.vending: Entry not found
+06-12 01:37:47.048  5114  5114 W ziparchive: Unable to open '/data/app/~~ZaU70f4fZ2fbl9J5hohPTg==/com.android.vending-BEOfE0raLAyL8snwtynyww==/split_config.x86_64.dm': No such file or directory
+06-12 01:37:47.048  5114  5114 W ziparchive: Unable to open '/data/app/~~ZaU70f4fZ2fbl9J5hohPTg==/com.android.vending-BEOfE0raLAyL8snwtynyww==/split_config.x86_64.dm': No such file or directory
+06-12 01:37:47.049  5114  5114 W android.vending: Entry not found
+06-12 01:37:47.049  5114  5114 W ziparchive: Unable to open '/data/app/~~ZaU70f4fZ2fbl9J5hohPTg==/com.android.vending-BEOfE0raLAyL8snwtynyww==/split_phonesky_data_loader.dm': No such file or directory
+06-12 01:37:47.049  5114  5114 W ziparchive: Unable to open '/data/app/~~ZaU70f4fZ2fbl9J5hohPTg==/com.android.vending-BEOfE0raLAyL8snwtynyww==/split_phonesky_data_loader.dm': No such file or directory
+06-12 01:37:47.050  5114  5114 W android.vending: Entry not found
+06-12 01:37:47.050  5114  5114 W ziparchive: Unable to open '/data/app/~~ZaU70f4fZ2fbl9J5hohPTg==/com.android.vending-BEOfE0raLAyL8snwtynyww==/split_phonesky_data_loader.config.x86_64.dm': No such file or directory
+06-12 01:37:47.050  5114  5114 W ziparchive: Unable to open '/data/app/~~ZaU70f4fZ2fbl9J5hohPTg==/com.android.vending-BEOfE0raLAyL8snwtynyww==/split_phonesky_data_loader.config.x86_64.dm': No such file or directory
+06-12 01:37:47.051  5114  5114 W android.vending: Entry not found
+06-12 01:37:47.051   579  1727 D OpenGLRenderer: --- Failed to create image decoder with message 'unimplemented'
+06-12 01:37:47.051   579  1727 W WindowManager: Failed to load bitmap: /data/system_ce/0/snapshots/72_reduced.jpg
+06-12 01:37:47.051   579  1727 W ActivityTaskManager: takeTaskSnapshot: taskId=72 not found or not visible
+06-12 01:37:47.051  5114  5114 W ziparchive: Unable to open '/data/app/~~ZaU70f4fZ2fbl9J5hohPTg==/com.android.vending-BEOfE0raLAyL8snwtynyww==/split_phonesky_webrtc_native_lib.dm': No such file or directory
+06-12 01:37:47.051  5114  5114 W ziparchive: Unable to open '/data/app/~~ZaU70f4fZ2fbl9J5hohPTg==/com.android.vending-BEOfE0raLAyL8snwtynyww==/split_phonesky_webrtc_native_lib.dm': No such file or directory
+06-12 01:37:47.052  5114  5114 W android.vending: Entry not found
+06-12 01:37:47.052  5114  5114 W ziparchive: Unable to open '/data/app/~~ZaU70f4fZ2fbl9J5hohPTg==/com.android.vending-BEOfE0raLAyL8snwtynyww==/split_phonesky_webrtc_native_lib.config.x86_64.dm': No such file or directory
+06-12 01:37:47.052  5114  5114 W ziparchive: Unable to open '/data/app/~~ZaU70f4fZ2fbl9J5hohPTg==/com.android.vending-BEOfE0raLAyL8snwtynyww==/split_phonesky_webrtc_native_lib.config.x86_64.dm': No such file or directory
+06-12 01:37:47.057  5114  5114 W android.vending: Entry not found
+06-12 01:37:47.058  5114  5114 D nativeloader: Configuring clns-7 for other apk /data/app/~~ZaU70f4fZ2fbl9J5hohPTg==/com.android.vending-BEOfE0raLAyL8snwtynyww==/base.apk:/data/app/~~ZaU70f4fZ2fbl9J5hohPTg==/com.android.vending-BEOfE0raLAyL8snwtynyww==/split_config.en.apk:/data/app/~~ZaU70f4fZ2fbl9J5hohPTg==/com.android.vending-BEOfE0raLAyL8snwtynyww==/split_config.x86_64.apk:/data/app/~~ZaU70f4fZ2fbl9J5hohPTg==/com.android.vending-BEOfE0raLAyL8snwtynyww==/split_phonesky_data_loader.apk:/data/app/~~ZaU70f4fZ2fbl9J5hohPTg==/com.android.vending-BEOfE0raLAyL8snwtynyww==/split_phonesky_data_loader.config.x86_64.apk:/data/app/~~ZaU70f4fZ2fbl9J5hohPTg==/com.android.vending-BEOfE0raLAyL8snwtynyww==/split_phonesky_webrtc_native_lib.apk:/data/app/~~ZaU70f4fZ2fbl9J5hohPTg==/com.android.vending-BEOfE0raLAyL8snwtynyww==/split_phonesky_webrtc_native_lib.config.x86_64.apk. target_sdk_version=37, uses_libraries=, library_path=/data/app/~~ZaU70f4fZ2fbl9J5hohPTg==/com.android.vending-BEOfE0raLAyL8snwtynyww==/lib/x86_64:/data/app/~~ZaU70f4fZ2fbl9J5hohPTg==/com.android.ven
+06-12 01:37:47.117  5114  5114 V GraphicsEnvironment: Currently set values for:
+06-12 01:37:47.117  5114  5114 V GraphicsEnvironment:   angle_gl_driver_selection_pkgs=[]
+06-12 01:37:47.117  5114  5114 V GraphicsEnvironment:   angle_gl_driver_selection_values=[]
+06-12 01:37:47.117  5116  5116 V GraphicsEnvironment: Currently set values for:
+06-12 01:37:47.117  5116  5116 V GraphicsEnvironment:   angle_gl_driver_selection_pkgs=[]
+06-12 01:37:47.117  5116  5116 V GraphicsEnvironment:   angle_gl_driver_selection_values=[]
+06-12 01:37:47.117  5114  5114 V GraphicsEnvironment: ANGLE GameManagerService for com.android.vending: false
+06-12 01:37:47.118  5114  5114 V GraphicsEnvironment: com.android.vending is not listed in per-application setting
+06-12 01:37:47.118  5116  5116 V GraphicsEnvironment: ANGLE GameManagerService for com.android.keychain: false
+06-12 01:37:47.118  5114  5114 V GraphicsEnvironment: Neither updatable production driver nor prerelease driver is supported.
+06-12 01:37:47.118  5116  5116 V GraphicsEnvironment: com.android.keychain is not listed in per-application setting
+06-12 01:37:47.118  5116  5116 V GraphicsEnvironment: Neither updatable production driver nor prerelease driver is supported.
+06-12 01:37:47.119   579  1008 W ActivityManager: Slow operation: 57ms so far, now at attachApplicationLocked: immediately before bindApplication
+06-12 01:37:47.120   579  1008 W ActivityManager: Slow operation: 58ms so far, now at attachApplicationLocked: immediately after bindApplication
+06-12 01:37:47.121   579  1008 W ActivityManager: Slow operation: 59ms so far, now at attachApplicationLocked: after updateLruProcessLocked
+06-12 01:37:47.137  3769  3769 I Finsky:background: [2] akaw - Received: android.intent.action.PACKAGE_REMOVED, [sMwjbEokT6cpRWl0CA3gIcGHSX6sHZy79ngggle_3Xo]
+06-12 01:37:47.138  1547  1547 W MediaProvider: WorkProfileOwnerApps cache is empty
+06-12 01:37:47.140   579  1008 D CompatibilityChangeReporter: Compat change id reported: 135634846; UID 10121; state: DISABLED
+06-12 01:37:47.141   579   608 D CompatibilityChangeReporter: Compat change id reported: 143937733; UID 10121; state: ENABLED
+06-12 01:37:47.148   362   362 D Zygote  : Forked child process 5178
+06-12 01:37:47.149   579   608 I ActivityManager: Start proc 5178:com.google.android.apps.wellbeing/u0a121 for content provider {com.google.android.apps.wellbeing/com.google.android.apps.wellbeing.api.impl.WellbeingSettingsProvider}
+06-12 01:37:47.162  5114  5114 I Finsky  : [2] Process created at version: 51.7.21-31 [0] [PR] 923613381
+06-12 01:37:47.173   821   821 D ControlsListingControllerImpl: ServiceConfig reloaded, count: 0
+06-12 01:37:47.174   821   821 D ControlsListingControllerImpl: ServiceConfig reloaded, count: 0
+06-12 01:37:47.175   821   821 D ControlsListingControllerImpl: ServiceConfig reloaded, count: 0
+06-12 01:37:47.178  5154  5154 D CompatibilityChangeReporter: Compat change id reported: 171979766; UID 10195; state: ENABLED
+06-12 01:37:47.179  5154  5154 D CompatibilityChangeReporter: Compat change id reported: 242716250; UID 10195; state: ENABLED
+06-12 01:37:47.180  3769  5177 I Finsky:background: [97] Wrote row to frosting DB: 840
+06-12 01:37:47.184  3769  3769 I Finsky:background: [2] akaw - Received: android.intent.action.PACKAGE_ADDED, [sMwjbEokT6cpRWl0CA3gIcGHSX6sHZy79ngggle_3Xo]
+06-12 01:37:47.186  3769  5177 I Finsky:background: [97] Wrote row to frosting DB: 841
+06-12 01:37:47.189  3769  5177 I Finsky:background: [97] Wrote row to frosting DB: 842
+06-12 01:37:47.194  5178  5178 I .apps.wellbeing: Using CollectorTypeCC GC.
+06-12 01:37:47.195  5178  5178 W .apps.wellbeing: Unexpected CPU variant for x86: x86_64.
+06-12 01:37:47.195  5178  5178 W .apps.wellbeing: Known variants: atom, sandybridge, silvermont, goldmont, goldmont-plus, tremont, kabylake, default
+06-12 01:37:47.203  5178  5178 E .apps.wellbeing: Not starting debugger since process cannot load the jdwp agent.
+06-12 01:37:47.221   579  1727 D CompatibilityChangeReporter: Compat change id reported: 170503758; UID 10195; state: ENABLED
+06-12 01:37:47.225   579  1921 I ActivityManager: Flag disabled. Ignoring finishAttachApplication from uid: 1000. pid: 5116
+06-12 01:37:47.226  3769  3938 I Finsky:background: [51] IQ:PSL: skipping onPackageRemoved(replacing=true) for untracked package=com.my.forintern
+06-12 01:37:47.239  5154  5154 D ApplicationLoaders: Returning zygote-cached class loader: /system_ext/framework/androidx.window.extensions.jar
+06-12 01:37:47.239  5154  5154 D ApplicationLoaders: Returning zygote-cached class loader: /system_ext/framework/androidx.window.sidecar.jar
+06-12 01:37:47.241  5114  5198 W Finsky  : [46] Failed to get the task info for cold start.
+06-12 01:37:47.241  5114  5198 I Finsky  : [46] Process started for unknown session.
+06-12 01:37:47.242  5154  5154 W ziparchive: Unable to open '/data/app/~~ccFqzwYxj5W3xcURRO8l4A==/com.my.forintern-6MEHospkHl8rOi3dFtH1yA==/base.dm': No such file or directory
+06-12 01:37:47.242  5154  5154 W ziparchive: Unable to open '/data/app/~~ccFqzwYxj5W3xcURRO8l4A==/com.my.forintern-6MEHospkHl8rOi3dFtH1yA==/base.dm': No such file or directory
+06-12 01:37:47.246  5114  5198 I Finsky  : [46] Finished reading experiment flags from file [0tGUNCGIkbk4o6-fQ335kUYSKwVj4lusnHT-A5Dsy08] numFlags=2380.
+06-12 01:37:47.253  5114  5198 I Finsky  : [46] Finished reading experiment flags from file [Se-xCc4LzNyh3UrKMIU2sUf-PUKz4oQEbpKZDMuaFno] numFlags=2028.
+06-12 01:37:47.255   579  1596 D CompatibilityChangeReporter: Compat change id reported: 168419799; UID 10121; state: DISABLED
+06-12 01:37:47.255   579  1596 D CompatibilityChangeReporter: Compat change id reported: 273564678; UID 10121; state: DISABLED
+06-12 01:37:47.258  3769  5177 I Finsky:background: [97] Wrote row to frosting DB: 843
+06-12 01:37:47.263   579   661 D CompatibilityChangeReporter: Compat change id reported: 265195908; UID 10121; state: ENABLED
+06-12 01:37:47.278  3769  3769 I Finsky:background: [2] akaw - Received: android.intent.action.PACKAGE_ADDED, [sMwjbEokT6cpRWl0CA3gIcGHSX6sHZy79ngggle_3Xo]
+06-12 01:37:47.280   579  1902 D CompatibilityChangeReporter: Compat change id reported: 161145287; UID 10130; state: ENABLED
+06-12 01:37:47.284  5178  5178 D CompatibilityChangeReporter: Compat change id reported: 171979766; UID 10121; state: ENABLED
+06-12 01:37:47.284  5178  5178 D CompatibilityChangeReporter: Compat change id reported: 242716250; UID 10121; state: ENABLED
+06-12 01:37:47.287  3769  5177 I Finsky:background: [97] Wrote row to frosting DB: 844
+06-12 01:37:47.312  3769  3769 I Finsky:background: [2] akaw - Deduping intent android.intent.action.PACKAGE_ADDED
+06-12 01:37:47.313  3769  3769 I Finsky:background: [2] akaw - Received: android.intent.action.PACKAGE_ADDED, [sMwjbEokT6cpRWl0CA3gIcGHSX6sHZy79ngggle_3Xo]
+06-12 01:37:47.320   579  1902 D CompatibilityChangeReporter: Compat change id reported: 170503758; UID 10121; state: ENABLED
+06-12 01:37:47.327   821   850 V WindowManagerShell: Transition animation finished (aborted=false), notifying core (#8)android.os.BinderProxy@baf1951@0
+06-12 01:37:47.333   821   850 V WindowManagerShell: Track 0 became idle
+06-12 01:37:47.333   821   850 V WindowManagerShell: All active transition animations finished
+06-12 01:37:47.342  5178  5178 D ApplicationLoaders: Returning zygote-cached class loader: /system_ext/framework/androidx.window.extensions.jar
+06-12 01:37:47.342  5178  5178 D ApplicationLoaders: Returning zygote-cached class loader: /system_ext/framework/androidx.window.sidecar.jar
+06-12 01:37:47.364  1775  5220 I AppBackupStateCleanupIO: Backup state cleanup on uninstall is disabled. [CONTEXT service_id=229 ]
+06-12 01:37:47.375  5114  5114 I Finsky  : [2] Profiling: Starting up (5)
+06-12 01:37:47.376  1775  5191 I FraudProtectUtils: (REDACTED) Latest bank app list size: %d, %s isBankApp: %b
+06-12 01:37:47.376  1775  5191 I PackageInstalledIntentO: (REDACTED) Package %s is not a bank app. Skipping updates.
+06-12 01:37:47.379   579   595 V WindowManager: Finish Transition #8: created at 06-12 01:37:46.746 collect-started=0.053ms request-sent=26.107ms started=52.624ms ready=165.2ms sent=173.272ms finished=581.119ms
+06-12 01:37:47.381   821   837 W System  : A resource failed to call release. 
+06-12 01:37:47.381   821   837 W System  : A resource failed to call release. 
+06-12 01:37:47.382  3769  3769 I Finsky:background: [2] akaw - Deduping intent android.intent.action.PACKAGE_ADDED
+06-12 01:37:47.383  3769  3957 I Finsky:background: [60] RECEIVER_PACKAGE_MONITOR_BACKGROUND#logWorkEndAndFinishGoAsync: SUCCESS
+06-12 01:37:47.386  5114  5200 I Finsky  : [48] akbg - Registering in memory receiver for android.intent.action.PACKAGE_ADDED and android.intent.action.PACKAGE_REMOVED
+06-12 01:37:47.388  3769  5177 I Finsky:background: [97] Wrote row to frosting DB: 845
+06-12 01:37:47.389  1328  5084 I ProximityAuth: [RecentAppsMediator] Package added: (user=UserHandle{0}) com.my.forintern
+06-12 01:37:47.398   579  1904 I ActivityManager: Flag disabled. Ignoring finishAttachApplication from uid: 10130. pid: 5114
+06-12 01:37:47.399  5178  5178 W ziparchive: Unable to open '/data/app/~~nKB1fn7QQBR9iKSjAP6D-g==/com.google.android.apps.wellbeing-bfl1n3bef_Tn9OnNI1fxRQ==/split_config.xxhdpi.dm': No such file or directory
+06-12 01:37:47.399  5178  5178 W ziparchive: Unable to open '/data/app/~~nKB1fn7QQBR9iKSjAP6D-g==/com.google.android.apps.wellbeing-bfl1n3bef_Tn9OnNI1fxRQ==/split_config.xxhdpi.dm': No such file or directory
+06-12 01:37:47.400  5178  5178 W .apps.wellbeing: Entry not found
+06-12 01:37:47.401  5114  5114 I Finsky  : [2] This process start was not selected for Play memory metrics collection.
+06-12 01:37:47.403  5178  5178 D nativeloader: Configuring clns-6 for other apk /data/app/~~nKB1fn7QQBR9iKSjAP6D-g==/com.google.android.apps.wellbeing-bfl1n3bef_Tn9OnNI1fxRQ==/base.apk:/data/app/~~nKB1fn7QQBR9iKSjAP6D-g==/com.google.android.apps.wellbeing-bfl1n3bef_Tn9OnNI1fxRQ==/split_config.xxhdpi.apk. target_sdk_version=36, uses_libraries=, library_path=/data/app/~~nKB1fn7QQBR9iKSjAP6D-g==/com.google.android.apps.wellbeing-bfl1n3bef_Tn9OnNI1fxRQ==/lib/x86_64:/data/app/~~nKB1fn7QQBR9iKSjAP6D-g==/com.google.android.apps.wellbeing-bfl1n3bef_Tn9OnNI1fxRQ==/base.apk!/lib/x86_64:/data/app/~~nKB1fn7QQBR9iKSjAP6D-g==/com.google.android.apps.wellbeing-bfl1n3bef_Tn9OnNI1fxRQ==/split_config.xxhdpi.apk!/lib/x86_64, permitted_path=/data:/mnt/expand:/data/user/0/com.google.android.apps.wellbeing
+06-12 01:37:47.409  5114  5198 D CompatibilityChangeReporter: Compat change id reported: 183155436; UID 10130; state: ENABLED
+06-12 01:37:47.410  5114  5114 I Finsky  : [2] akbg - Received: android.intent.action.PACKAGE_ADDED, [sMwjbEokT6cpRWl0CA3gIcGHSX6sHZy79ngggle_3Xo]
+06-12 01:37:47.415  1328  5084 I Fitness : (REDACTED) FitCleanupIntentOperation received Intent %s
+06-12 01:37:47.425   821   907 D EGL_emulation: app_time_stats: avg=34863.19ms min=1.02ms max=592233.75ms count=17
+06-12 01:37:47.446  5114  5114 I Finsky  : [2] VerifyApps: Setup app restrictions monitor
+06-12 01:37:47.448  5178  5178 V GraphicsEnvironment: Currently set values for:
+06-12 01:37:47.448  5114  5114 I Finsky  : [2] VerifyApps: Device wide unknown source restriction updated
+06-12 01:37:47.451  5114  5114 I Finsky  : [2] VerifyApps: Updating ADI Warn Mode activity enabled state
+06-12 01:37:47.452  5178  5178 V GraphicsEnvironment:   angle_gl_driver_selection_pkgs=[]
+06-12 01:37:47.452  5178  5178 V GraphicsEnvironment:   angle_gl_driver_selection_values=[]
+06-12 01:37:47.452  5114  5229 I Finsky  : [61] VerifyApps: Resolving target for ADI Warn Mode activity
+06-12 01:37:47.452  5178  5178 V GraphicsEnvironment: ANGLE GameManagerService for com.google.android.apps.wellbeing: false
+06-12 01:37:47.452  5178  5178 V GraphicsEnvironment: com.google.android.apps.wellbeing is not listed in per-application setting
+06-12 01:37:47.452  5178  5178 V GraphicsEnvironment: Neither updatable production driver nor prerelease driver is supported.
+06-12 01:37:47.452  5114  5229 I Finsky  : [61] VerifyApps: Feature flag disabled, ADI Warn Mode activity target not resolved
+06-12 01:37:47.453   579  2731 D CompatibilityChangeReporter: Compat change id reported: 261072174; UID 10130; state: ENABLED
+06-12 01:37:47.460  5178  5214 W PrimesLoggerHolder: Primes not initialized, returning default (no-op) Primes instance which will ignore all calls. Please call Primes.initialize(...) before using any Primes API.
+06-12 01:37:47.461  5114  5114 W Settings: Setting download_manager_max_bytes_over_mobile has moved from android.provider.Settings.Secure to android.provider.Settings.Global.
+06-12 01:37:47.461  5114  5229 I Finsky  : [61] VerifyApps: Successfully updated the ADI Warn Mode activity to disabled
+06-12 01:37:47.467  5114  5114 I Finsky  : [2] SettingNotFoundException, fall through to G.downloadBytesOverMobileMaximum
+06-12 01:37:47.468  5178  5214 D CompatibilityChangeReporter: Compat change id reported: 183155436; UID 10121; state: ENABLED
+06-12 01:37:47.470  5114  5114 W Settings: Setting download_manager_recommended_max_bytes_over_mobile has moved from android.provider.Settings.Secure to android.provider.Settings.Global.
+06-12 01:37:47.474  5114  5114 I Finsky  : [2] SettingNotFoundException, fall through to G.downloadBytesOverMobileRecommended
+06-12 01:37:47.482   579  2731 D CompatibilityChangeReporter: Compat change id reported: 161145287; UID 10121; state: ENABLED
+06-12 01:37:47.489  1775  5221 I Auth    : (REDACTED) [SupervisedAccountIntentOperation] onHandleIntent: %s
+06-12 01:37:47.493  1775  5217 W AppInstallOperation: FDL Migration::InstallIntentOperation by FDL Module [CONTEXT service_id=77 ]
+06-12 01:37:47.494  1775  5219 I FraudProtectUtils: (REDACTED) Latest bank app list size: %d, %s isBankApp: %b
+06-12 01:37:47.495  5178  5178 I lwk     : SslGuard completed installation.
+06-12 01:37:47.496  1775  5219 I PackageInstalledIntentO: (REDACTED) Package %s is not a bank app. Skipping updates.
+06-12 01:37:47.500  1775  1775 D BoundBrokerSvc: onBind: Intent { act=com.google.android.gms.common.BIND_SHARED_PREFS pkg=com.google.android.gms }
+06-12 01:37:47.500  1775  1775 D BoundBrokerSvc: Loading bound service for intent: Intent { act=com.google.android.gms.common.BIND_SHARED_PREFS pkg=com.google.android.gms }
+06-12 01:37:47.501   579  1904 I ActivityManager: Flag disabled. Ignoring finishAttachApplication from uid: 10121. pid: 5178
+06-12 01:37:47.504  5114  5114 I Finsky  : [2] Resetting scheduler db
+06-12 01:37:47.509  5114  5201 I Finsky  : [49] Enqueuing libraries load for 0
+06-12 01:37:47.523  5114  5229 I Finsky  : [61] Starting libraries load for 0
+06-12 01:37:47.523  1775  5217 I NearbyDiscovery: (REDACTED) processGrantSlicePermission: %s
+06-12 01:37:47.524   579  1920 D CompatibilityChangeReporter: Compat change id reported: 161252188; UID 10195; state: DISABLED
+06-12 01:37:47.552  5114  5229 I Finsky  : [61] Finished loading 0 libraries.
+06-12 01:37:47.578  1775  5221 W SQLiteLog: (28) double-quoted string literal: "com.my.forintern"
+06-12 01:37:47.585  5114  5114 I Finsky  : [2] DTU: Received onPackageAdded, replacing: true
+06-12 01:37:47.590  5114  5222 I Finsky  : [58] SCH: Scheduling phonesky job Id: 1-1337, CT: 1781187356978, Constraints: [{ L: 42209048, D: 85409048, C: CHARGING_NONE, I: IDLE_NONE, N: NET_ANY, B: BATTERY_ANY }]
+06-12 01:37:47.590  5114  5222 I Finsky  : [58] SCH: Scheduling phonesky job Id: 10-79, CT: 1781187355924, Constraints: [{ L: 0, D: 86400000, C: CHARGING_NONE, I: IDLE_REQUIRED, N: NET_ANY, B: BATTERY_ANY }]
+06-12 01:37:47.590  5114  5222 I Finsky  : [58] SCH: Scheduling phonesky job Id: 10-168, CT: 1781187355924, Constraints: [{ L: 0, D: 86400000, C: CHARGING_NONE, I: IDLE_REQUIRED, N: NET_ANY, B: BATTERY_ANY }]
+06-12 01:37:47.590  5114  5222 I Finsky  : [58] SCH: Scheduling phonesky job Id: 24-77777777, CT: 1781159475443, Constraints: [{ L: 1, D: 82800000, C: CHARGING_NONE, I: IDLE_REQUIRED, N: NET_NONE, B: BATTERY_ANY }]
+06-12 01:37:47.590  5114  5222 I Finsky  : [58] SCH: Scheduling phonesky job Id: 26-1414141414, CT: 1781204192787, Constraints: [{ L: 43199996, D: 44099996, C: CHARGING_NONE, I: IDLE_NONE, N: NET_NONE, B: BATTERY_ANY }]
+06-12 01:37:47.590  5114  5222 I Finsky  : [58] SCH: Scheduling phonesky job Id: 44-1027, CT: 1781159475386, Constraints: [{ L: 0, D: 86400000, C: CHARGING_NONE, I: IDLE_REQUIRED, N: NET_NONE, B: BATTERY_NOT_LOW }]
+06-12 01:37:47.597  5114  5200 I Finsky  : [48] RECEIVER_PACKAGE_MONITOR#logWorkEndAndFinishGoAsync: SUCCESS
+06-12 01:37:47.615  5114  5199 I Finsky  : [47] Device is eligible for platform Cronet and will attempt to use it.
+06-12 01:37:47.621  5114  5200 I Finsky  : [48] Subscription detail: DataSubscriptionInfo{groupIdLevel1=null, serviceProviderName=[Zr1R7g28S8p7iucp_gnNJJtsRl-pgO3Y6eIkCh24Iy0], simCarrierId=1}
+06-12 01:37:47.622  5114  5114 I Finsky  : [2] onSubscriptionsChanged
+06-12 01:37:47.634   579  1920 D ActivityManager: sync unfroze 1924 com.google.process.gapps for 7
+06-12 01:37:47.636   579  1904 D CompatibilityChangeReporter: Compat change id reported: 261072174; UID 10121; state: ENABLED
+06-12 01:37:47.653  5114  5198 I Finsky  : [46] RECEIVER_SINGLE_USER_SETTINGS#logWorkEndAndFinishGoAsync: SUCCESS
+06-12 01:37:47.654  5114  5201 I Finsky  : [49] ApplicationRestrictions: {}
+06-12 01:37:47.663   579   998 D ConnectivityService: requestNetwork for uid/pid:10130/5114 activeRequest: null callbackRequest: 169 [NetworkRequest [ REQUEST id=170, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10130 RequestorUid: 10130 RequestorPkg: com.android.vending UnderlyingNetworks: Null] ]] callback flags: 0 order: 2147483647
+06-12 01:37:47.664   579   741 D ConnectivityService: NetReassign [170 : null → 101] [c 0] [a 1] [i 0]
+06-12 01:37:47.664   579   734 D WifiNetworkFactory: got request NetworkRequest [ REQUEST id=170, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10130 RequestorUid: 10130 RequestorPkg: com.android.vending UnderlyingNetworks: Null] ]
+06-12 01:37:47.665   579   734 D UntrustedWifiNetworkFactory: got request NetworkRequest [ REQUEST id=170, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10130 RequestorUid: 10130 RequestorPkg: com.android.vending UnderlyingNetworks: Null] ]
+06-12 01:37:47.665   579   734 D OemPaidWifiNetworkFactory: got request NetworkRequest [ REQUEST id=170, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10130 RequestorUid: 10130 RequestorPkg: com.android.vending UnderlyingNetworks: Null] ]
+06-12 01:37:47.665   579   734 D MultiInternetWifiNetworkFactory: got request NetworkRequest [ REQUEST id=170, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10130 RequestorUid: 10130 RequestorPkg: com.android.vending UnderlyingNetworks: Null] ]
+06-12 01:37:47.667   579   741 D ConnectivityService: NetReassign [no changes] [c 0] [a 0] [i 1]
+06-12 01:37:47.672  5114  5199 I cr_CronetLibraryLoader: Cronet version: 114.0.5735.84, arch: x86_64
+06-12 01:37:47.676  5178  5214 W DynamiteModule: Local module descriptor class for com.google.android.gms.googlecertificates not found.
+06-12 01:37:47.681  5114  5222 I Finsky  : [58] SCH: Scheduling 0 system job(s)
+06-12 01:37:47.683  5154  5154 D nativeloader: Configuring clns-6 for other apk /data/app/~~ccFqzwYxj5W3xcURRO8l4A==/com.my.forintern-6MEHospkHl8rOi3dFtH1yA==/base.apk. target_sdk_version=37, uses_libraries=, library_path=/data/app/~~ccFqzwYxj5W3xcURRO8l4A==/com.my.forintern-6MEHospkHl8rOi3dFtH1yA==/lib/x86_64:/data/app/~~ccFqzwYxj5W3xcURRO8l4A==/com.my.forintern-6MEHospkHl8rOi3dFtH1yA==/base.apk!/lib/x86_64, permitted_path=/data:/mnt/expand:/data/user/0/com.my.forintern
+06-12 01:37:47.687  5114  5229 I Finsky  : [61] CronetEngine is present. Using Cronet for the networking stack.
+06-12 01:37:47.689  5114  5225 I Finsky  : [59] CronetEngine is present. Using Cronet for the networking stack.
+06-12 01:37:47.698  5114  5260 I Finsky  : [70] SCH: Received scheduling request: Id: 12-1, Constraints: [{ L: 15000, D: 86400000, C: CHARGING_NONE, I: IDLE_NONE, N: NET_ANY, B: BATTERY_ANY }]
+06-12 01:37:47.702  1775  5006 I Icing   : IndexChimeraService.getServiceInterface callingPackage=com.google.android.gms componentName=AppsCorpus serviceId=36
+06-12 01:37:47.710  5178  5214 W .apps.wellbeing: ClassLoaderContext classpath size mismatch. expected=17, found=0 (DLC[];PCL[base.apk*1335322299:base.apk!classes2.dex*2354330015:base.apk!classes3.dex*3401914794:base.apk!classes4.dex*1458704107:base.apk!classes5.dex*4267721593:base.apk!classes6.dex*1376702623:base.apk!classes7.dex*568149621:base.apk!classes8.dex*1875226709:base.apk!classes9.dex*1823086273:base.apk!classes10.dex*2796360206:base.apk!classes11.dex*3326575449:base.apk!classes12.dex*104581171:base.apk!classes13.dex*1414277586:base.apk!classes14.dex*3982165844:base.apk!classes15.dex*3953227987:base.apk!classes16.dex*4268550189:base.apk!classes17.dex*2900616498]{PCL[/system/framework/org.apache.http.legacy.jar*365604908]#PCL[/system/framework/com.android.location.provider.jar*3994156536]#PCL[/system/framework/com.android.media.remotedisplay.jar*2114713713]#PCL[/system_ext/framework/androidx.window.extensions.jar*3801209684]#PCL[/system_ext/framework/androidx.window.sidecar.jar*2709203797]} | DLC[];PCL[])
+06-12 01:37:47.715  5114  5291 I Finsky  : [81] Initializing pausers from value store.
+06-12 01:37:47.716  5178  5214 I DynamiteModule: Considering local module com.google.android.gms.googlecertificates:0 and remote module com.google.android.gms.googlecertificates:7
+06-12 01:37:47.716  5178  5214 I DynamiteModule: Selected remote version of com.google.android.gms.googlecertificates, version >= 7
+06-12 01:37:47.716  5154  5154 V GraphicsEnvironment: Currently set values for:
+06-12 01:37:47.717  5154  5154 V GraphicsEnvironment:   angle_gl_driver_selection_pkgs=[]
+06-12 01:37:47.717  5154  5154 V GraphicsEnvironment:   angle_gl_driver_selection_values=[]
+06-12 01:37:47.717  5154  5154 V GraphicsEnvironment: ANGLE GameManagerService for com.my.forintern: false
+06-12 01:37:47.717  5154  5154 V GraphicsEnvironment: com.my.forintern is not listed in per-application setting
+06-12 01:37:47.717  5154  5154 V GraphicsEnvironment: Neither updatable production driver nor prerelease driver is supported.
+06-12 01:37:47.720  5114  5201 D TrafficStats: tagSocket(109) with statsTag=0xffffffff, statsUid=-1
+06-12 01:37:47.720  5178  5214 W System  : ClassLoader referenced unknown path: 
+06-12 01:37:47.730  5114  5291 I Finsky  : [81] IQ::HLD: Callers (Pausers) in PauseUpdatesCallersValueStore: []
+06-12 01:37:47.735  5178  5214 D nativeloader: Configuring clns-7 for other apk . target_sdk_version=37, uses_libraries=, library_path=/data/app/~~RRr6Wm1tWhr5-uhD2yCF8w==/com.google.android.gms-rI5xARQx0HcCtAL_L30bew==/lib/x86_64:/data/app/~~RRr6Wm1tWhr5-uhD2yCF8w==/com.google.android.gms-rI5xARQx0HcCtAL_L30bew==/base.apk!/lib/x86_64, permitted_path=/data:/mnt/expand:/data/user/0/com.google.android.gms
+06-12 01:37:47.742  5178  5214 W .apps.wellbeing: ClassLoaderContext classpath size mismatch. expected=17, found=3 (DLC[];PCL[base.apk*1335322299:base.apk!classes2.dex*2354330015:base.apk!classes3.dex*3401914794:base.apk!classes4.dex*1458704107:base.apk!classes5.dex*4267721593:base.apk!classes6.dex*1376702623:base.apk!classes7.dex*568149621:base.apk!classes8.dex*1875226709:base.apk!classes9.dex*1823086273:base.apk!classes10.dex*2796360206:base.apk!classes11.dex*3326575449:base.apk!classes12.dex*104581171:base.apk!classes13.dex*1414277586:base.apk!classes14.dex*3982165844:base.apk!classes15.dex*3953227987:base.apk!classes16.dex*4268550189:base.apk!classes17.dex*2900616498]{PCL[/system/framework/org.apache.http.legacy.jar*365604908]#PCL[/system/framework/com.android.location.provider.jar*3994156536]#PCL[/system/framework/com.android.media.remotedisplay.jar*2114713713]#PCL[/system_ext/framework/androidx.window.extensions.jar*3801209684]#PCL[/system_ext/framework/androidx.window.sidecar.jar*2709203797]} | DLC[];PCL[/data/app/~~nKB1fn7QQBR9iKSjAP6D-g==/com.google.android.apps.wellbeing-bfl1n3bef_Tn9OnNI1fxRQ==/base.apk*3141020758:/data/app/~~nKB1fn7QQBR9iKSjAP6D-g==/com.google.android.apps.wellbeing-bfl1n3bef_Tn9OnNI1fxRQ==/base.apk!classes2.dex*1340874234:/data/app/~~nKB1fn7QQBR9iKSjAP6D-g==/com.google.android.apps.wellbeing-bfl1n3bef_Tn9OnNI1fxRQ==/base.apk!classes3.dex*2493488809]{PCL[/system_ext/framework/androidx.window.extensions.jar*3801209684]#PCL[/system_ext/framework/androidx.window.sidecar.jar*2709203797]})
+06-12 01:37:47.743  5154  5154 D CompatibilityChangeReporter: Compat change id reported: 183155436; UID 10195; state: ENABLED
+06-12 01:37:47.758  5154  5154 D FirebaseSessions: Dependency to CRASHLYTICS added.
+06-12 01:37:47.761  3769  3769 I Endpoint: Created gRPC endpoint for service class com.google.frameworks.client.data.android.server.play.BackgroundProcessEndpointService
+06-12 01:37:47.763  1328  1328 D BoundBrokerSvc: onUnbind: Intent { act=com.google.android.gms.common.telemetry.service.START dat=chimera-action:/... cmp=com.google.android.gms/.chimera.PersistentApiService }
+06-12 01:37:47.769  5154  5154 I FirebaseApp: Device unlocked: initializing all Firebase APIs for app [DEFAULT]
+06-12 01:37:47.779  5154  5154 D CompatibilityChangeReporter: Compat change id reported: 3400644; UID 10195; state: ENABLED
+06-12 01:37:47.780  5154  5154 I FirebaseCrashlytics: Initializing Firebase Crashlytics 20.0.6 for com.my.forintern
+06-12 01:37:47.799  5114  5200 D CompatibilityChangeReporter: Compat change id reported: 160794467; UID 10130; state: ENABLED
+06-12 01:37:47.803  1542  1542 I AiAiEcho: AppFetcherImpl onPackageChanged com.my.forintern.
+06-12 01:37:47.804  5114  5198 I Finsky  : [46] SysUA: Disable SystemUpdateActivity, because no login account
+06-12 01:37:47.807  5114  5222 I Finsky  : [58] SysCUA: Set {com.android.vending/com.google.android.finsky.systemcomponentupdateui.common.SystemComponentUpdateActivity} enabled state to 0
+06-12 01:37:47.807  5114  5225 I Finsky  : [59] Set UnhibernateActivity enabled state to 1
+06-12 01:37:47.808  5114  5222 I Finsky  : [58] SysUA: Set SystemUpdateActivity enabled state to 2
+06-12 01:37:47.813   579  1596 D SafetySourceDataValidator: Package com.android.vending has expected signature
+06-12 01:37:47.813   579  1596 D SafetySourceDataValidator: Package com.android.vending has expected signature
+06-12 01:37:47.815  1328  1328 D BoundBrokerSvc: onUnbind: Intent { act=com.google.android.gms.scheduler.ACTION_PROXY_SCHEDULE dat=chimera-action:/... cmp=com.google.android.gms/.chimera.PersistentDirectBootAwareApiService }
+06-12 01:37:47.816  1775  1775 D BoundBrokerSvc: onUnbind: Intent { act=com.google.android.gms.checkin.START pkg=com.google.android.gms }
+06-12 01:37:47.818  5114  5319 I Finsky  : [99] SM: There are no stale sessions to be pruned
+06-12 01:37:47.819  5114  5114 D CompatibilityChangeReporter: Compat change id reported: 263076149; UID 10130; state: ENABLED
+06-12 01:37:47.820  5114  5114 I Finsky  : [2] Connecting InstallListener to SplitInstallService broadcaster...
+06-12 01:37:47.825  1542  5317 I AiAiEcho: AppIndexer Package:[com.my.forintern] UserProfile:[0] Enabled:[true].
+06-12 01:37:47.825  1542  5317 I AiAiEcho: AppFetcherImplV2 updateApps package:[com.my.forintern], userId:[0], reason:[package is updated.].
+06-12 01:37:47.826  1775  2351 I Icing   : IndexChimeraService.getServiceInterface callingPackage=com.google.android.gms componentName=null serviceId=30
+06-12 01:37:47.836  1775  1775 D BoundBrokerSvc: onUnbind: Intent { act=com.google.android.gms.safetynet.service.START dat=chimera-action:/... cmp=com.google.android.gms/.chimera.GmsBoundBrokerService }
+06-12 01:37:47.848  1775  2217 I Icing   : Usage reports ok 1, Failed Usage reports 0, indexed 0, rejected 0
+06-12 01:37:47.853  5154  5154 D FirebaseSessions: Subscriber CRASHLYTICS registered.
+06-12 01:37:47.884  1775  2217 I Icing   : Usage reports ok 0, Failed Usage reports 0, indexed 0, rejected 0
+06-12 01:37:47.897  1775  2217 I Icing   : Indexing com.google.android.gms-apps from com.google.android.gms
+06-12 01:37:47.900   579  1904 W PackageManager: Cannot suspend package "com.android.vending": required for package verification
+06-12 01:37:47.900   579  1904 W PackageManager: Cannot suspend the platform package: android
+06-12 01:37:47.900   579  1904 W PackageManager: Cannot suspend package "com.google.android.permissioncontroller": required for permissions management
+06-12 01:37:47.901   579  1904 W PackageManager: Cannot suspend package "com.google.android.devicelockcontroller": protected package
+06-12 01:37:47.901   579  1904 W PackageManager: Cannot suspend package "com.google.android.dialer": is the default dialer
+06-12 01:37:47.901   579  1904 W PackageManager: Cannot suspend package "com.google.android.packageinstaller": required for package installation
+06-12 01:37:47.901   579  1904 W PackageManager: Cannot suspend package "com.google.android.apps.nexuslauncher": contains the active launcher
+06-12 01:37:47.912  5154  5325 W om.my.forintern: ClassLoaderContext classpath size mismatch. expected=17, found=0 (DLC[];PCL[base.apk*1335322299:base.apk!classes2.dex*2354330015:base.apk!classes3.dex*3401914794:base.apk!classes4.dex*1458704107:base.apk!classes5.dex*4267721593:base.apk!classes6.dex*1376702623:base.apk!classes7.dex*568149621:base.apk!classes8.dex*1875226709:base.apk!classes9.dex*1823086273:base.apk!classes10.dex*2796360206:base.apk!classes11.dex*3326575449:base.apk!classes12.dex*104581171:base.apk!classes13.dex*1414277586:base.apk!classes14.dex*3982165844:base.apk!classes15.dex*3953227987:base.apk!classes16.dex*4268550189:base.apk!classes17.dex*2900616498]{PCL[/system/framework/org.apache.http.legacy.jar*365604908]#PCL[/system/framework/com.android.location.provider.jar*3994156536]#PCL[/system/framework/com.android.media.remotedisplay.jar*2114713713]#PCL[/system_ext/framework/androidx.window.extensions.jar*3801209684]#PCL[/system_ext/framework/androidx.window.sidecar.jar*2709203797]} | DLC[];PCL[])
+06-12 01:37:47.913   579  1904 I AppsFilter: interaction: PackageSetting{60a45ac com.my.forintern/10195} -> PackageSetting{23e0073 com.android.cts.priv.ctsshim/10169} BLOCKED
+06-12 01:37:47.913   579  1904 I AppsFilter: interaction: PackageSetting{60a45ac com.my.forintern/10195} -> PackageSetting{47b6b30 com.google.android.youtube/10139} BLOCKED
+06-12 01:37:47.913   579  1904 I AppsFilter: interaction: PackageSetting{60a45ac com.my.forintern/10195} -> PackageSetting{a5573a9 com.android.internal.display.cutout.emulation.corner/10049} BLOCKED
+06-12 01:37:47.913   579  1904 I AppsFilter: interaction: PackageSetting{60a45ac com.my.forintern/10195} -> PackageSetting{d55ed2e com.android.internal.display.cutout.emulation.double/10059} BLOCKED
+06-12 01:37:47.913   579  1904 I AppsFilter: interaction: PackageSetting{60a45ac com.my.forintern/10195} -> PackageSetting{b6e30cf com.google.android.googlequicksearchbox/10132} BLOCKED
+06-12 01:37:47.913   579  1904 I AppsFilter: interaction: PackageSetting{60a45ac com.my.forintern/10195} -> PackageSetting{fe40a5c com.google.android.onetimeinitializer/10118} BLOCKED
+06-12 01:37:47.913   579  1904 I AppsFilter: interaction: PackageSetting{60a45ac com.my.forintern/10195} -> PackageSetting{e68a165 com.google.android.ext.shared/10108} BLOCKED
+06-12 01:37:47.913   579  1904 I AppsFilter: interaction: PackageSetting{60a45ac com.my.forintern/10195} -> PackageSetting{cd7ae3a com.android.internal.systemui.navbar.gestural_wide_back/10040} BLOCKED
+06-12 01:37:47.913   579  1904 I AppsFilter: interaction: PackageSetting{60a45ac com.my.forintern/10195} -> PackageSetting{9c70aeb com.android.virtualmachine.res/10171} BLOCKED
+06-12 01:37:47.913   579  1904 I AppsFilter: interaction: PackageSetting{60a45ac com.my.forintern/10195} -> PackageSetting{bd57048 com.google.android.federatedcompute/10176} BLOCKED
+06-12 01:37:47.913   579  1904 I AppsFilter: interaction: PackageSetting{60a45ac com.my.forintern/10195} -> PackageSetting{1c6eee1 com.android.managedprovisioning.auto_generated_rro_product__/10033} BLOCKED
+06-12 01:37:47.913   579  1904 I AppsFilter: interaction: PackageSetting{60a45ac com.my.forintern/10195} -> PackageSetting{1827406 com.android.carrierconfig.auto_generated_rro_vendor__/10076} BLOCKED
+06-12 01:37:47.913   579  1904 I AppsFilter: interaction: PackageSetting{60a45ac com.my.forintern/10195} -> PackageSetting{6896ac7 com.android.systemui.emulation.pixel_3_xl/10066} BLOCKED
+06-12 01:37:47.913   579  1904 I AppsFilter: interaction: PackageSetting{60a45ac com.my.forintern/10195} -> PackageSetting{3f548f4 com.android.systemui.emulation.pixel_4_xl/10072} BLOCKED
+06-12 01:37:47.913   579  1904 I AppsFilter: interaction: PackageSetting{60a45ac com.my.forintern/10195} -> PackageSetting{c62981d com.android.systemui.emulation.pixel_fold/10010} BLOCKED
+06-12 01:37:47.913   579  1904 I AppsFilter: interaction: PackageSetting{60a45ac com.my.forintern/10195} -> PackageSetting{3c1ca92 com.android.simappdialog.auto_generated_rro_product__/10014} BLOCKED
+06-12 01:37:47.913   579  1904 I AppsFilter: interaction: PackageSetting{60a45ac com.my.forintern/10195} -> PackageSetting{427ec63 com.android.htmlviewer/10111} BLOCKED
+06-12 01:37:47.913   579  1904 I AppsFilter: interaction: PackageSetting{60a45ac com.my.forintern/10195} -> PackageSetting{6980060 com.google.android.health.connect.backuprestore/10186} BLOCKED
+06-12 01:37:47.913   579  1904 I AppsFilter: interaction: PackageSetting{60a45ac com.my.forintern/10195} -> PackageSetting{9159919 com.android.systemui.auto_generated_rro_product__/10063} BLOCKED
+06-12 01:37:47.913   579  1904 I AppsFilter: interaction: PackageSetting{60a45ac com.my.forintern/10195} -> PackageSetting{52dfdde com.google.android.apps.messaging/10131} BLOCKED
+06-12 01:37:47.913   579  1904 I AppsFilter: interaction: PackageSetting{60a45ac com.my.forintern/10195} -> PackageSetting{fa2ebbf com.google.android.soundpicker/10147} BLOCKED
+06-12 01:37:47.913   579  1904 I AppsFilter: interaction: PackageSetting{60a45ac com.my.forintern/10195} -> PackageSetting{767590 com.Example.dobcalculation/10191} BLOCKED
+06-12 01:37:47.913   579  1904 I AppsFilter: interaction: PackageSetting{60a45ac com.my.forintern/10195} -> PackageSetting{ecc28c com.google.android.configupdater/10129} BLOCKED
+06-12 01:37:47.913   579  1904 I AppsFilter: interaction: PackageSetting{60a45ac com.my.forintern/10195} -> PackageSetting{c5dadd5 com.android.internal.emulation.pixel_3a_xl/10021} BLOCKED
+06-12 01:37:47.913   579  1904 I AppsFilter: interaction: PackageSetting{60a45ac com.my.forintern/10195} -> PackageSetting{69819ea com.android.internal.emulation.pixel_6_pro/10060} BLOCKED
+06-12 01:37:47.913   579  1904 I AppsFilter: interaction: PackageSetting{60a45ac com.my.forintern/10195} -> PackageSetting{ba484db com.android.internal.emulation.pixel_7_pro/10002} BLOCKED
+06-12 01:37:47.913   579  1904 I AppsFilter: interaction: PackageSetting{60a45ac com.my.forintern/10195} -> PackageSetting{1e97b78 com.android.internal.emulation.pixel_8_pro/10048} BLOCKED
+06-12 01:37:47.913   579  1904 I AppsFilter: interaction: PackageSetting{60a45ac com.my.forintern/10195} -> PackageSetting{ad85251 com.android.internal.emulation.pixel_3a/10036} BLOCKED
+06-12 01:37:47.913   579  1904 I AppsFilter: interaction: PackageSetting{60a45ac com.my.forintern/10195} -> PackageSetting{2d5eab6 com.android.internal.emulation.pixel_4a/10029} BLOCKED
+06-12 01:37:47.913   579  1904 I AppsFilter: interaction: PackageSetting{60a45ac com.my.forintern/10195} -> PackageSetting{15c93b7 com.android.internal.emulation.pixel_6a/10043} BLOCKED
+06-12 01:37:47.913   579  1904 I AppsFilter: interaction: PackageSetting{60a45ac com.my.forintern/10195} -> PackageSetting{ff6d724 com.android.internal.emulation.pixel_7a/10073} BLOCKED
+06-12 01:37:47.913   579  1904 I AppsFilter: interaction: PackageSetting{60a45ac com.my.forintern/10195} -> PackageSetting{b7ec28d com.google.android.overlay.googlewebview/10027} BLOCKED
+06-12 01:37:47.913   579  1904 I AppsFilter: interaction: PackageSetting{60a45ac com.my.forintern/10195} -> PackageSetting{a4dfc42 com.google.android.hotspot2.osulogin/10181} BLOCKED
+06-12 01:37:47.913   579  1904 I AppsFilter: interaction: PackageSetting{60a45ac com.my.forintern/10195} -> PackageSetting{31cb453 com.android.simappdialog/10112} BLOCKED
+06-12 01:37:47.913   579  1904 I AppsFilter: interaction: PackageSetting{60a45ac com.my.forintern/10195} -> PackageSetting{d5c4190 com.android.internal.display.cutout.emulation.hole/10011} BLOCKED
+06-12 01:37:47.913   579  1904 I AppsFilter: interaction: PackageSetting{60a45ac com.my.forintern/10195} -> PackageSetting{1a1fa89 com.android.internal.display.cutout.emulation.tall/10034} BLOCKED
+06-12 01:37:47.913   579  1904 I AppsFilter: interaction: PackageSetting{60a45ac com.my.forintern/10195} -> PackageSetting{b439a8e com.android.internal.systemui.navbar.threebutton/10031} BLOCKED
+06-12 01:37:47.913   579  1904 I AppsFilter: interaction: PackageSetting{60a45ac com.my.forintern/10195} -> PackageSetting{cb442af com.android.camera2/10151} BLOCKED
+06-12 01:37:47.913   579  1904 I AppsFilter: interaction: PackageSetting{60a45ac com.my.forintern/10195} -> PackageSetting{76be6bc com.android.systemui.auto_generated_rro_vendor__/10079} BLOCKED
+06-12 01:37:47.913   579  1904 I AppsFilter: interaction: PackageSetting{60a45ac com.my.forintern/10195} -> PackageSetting{aa6b645 com.google.android.deskclock/10141} BLOCKED
+06-12 01:37:47.913   579  1904 I AppsFilter: interaction: PackageSetting{60a45ac com.my.forintern/10195} -> PackageSetting{2e2d19a com.android.internal.systemui.navbar.twobutton/10007} BLOCKED
+06-12 01:37:47.913   579  1904 I AppsFilter: interaction: PackageSetting{60a45ac com.my.forintern/10195} -> PackageSetting{e2f3853 com.example.first/10190} BLOCKED
+06-12 01:37:47.913   579  1904 I AppsFilter: interaction: PackageSetting{60a45ac com.my.forintern/10195} -> PackageSetting{d8c5acb com.google.android.as/10125} BLOCKED
+06-12 01:37:47.913   579  1904 I AppsFilter: interaction: PackageSetting{60a45ac com.my.forintern/10195} -> PackageSetting{c6eb2a8 com.google.android.gm/10142} BLOCKED
+06-12 01:37:47.913   579  1904 I AppsFilter: interaction: PackageSetting{60a45ac com.my.forintern/10195} -> PackageSetting{bc81042 com.bank.shopinglistapp/10193} BLOCKED
+06-12 01:37:47.913   579  1904 I AppsFilter: interaction: PackageSetting{60a45ac com.my.forintern/10195} -> PackageSetting{b8171c1 com.android.internal.systemui.navbar.gestural_extra_wide_back/10008} BLOCKED
+06-12 01:37:47.913   579  1904 I AppsFilter: interaction: PackageSetting{60a45ac com.my.forintern/10195} -> PackageSetting{30c6d66 com.android.systemui.emulation.pixel_3/10001} BLOCKED
+06-12 01:37:47.913   579  1904 I AppsFilter: interaction: PackageSetting{60a45ac com.my.forintern/10195} -> PackageSetting{883d8a7 com.android.systemui.emulation.pixel_4/10019} BLOCKED
+06-12 01:37:47.913   579  1904 I AppsFilter: interaction: PackageSetting{60a45ac com.my.forintern/10195} -> PackageSetting{4505154 com.android.systemui.emulation.pixel_5/10017} BLOCKED
+06-12 01:37:47.913   579  1904 I AppsFilter: interaction: PackageSetting{60a45ac com.my.forintern/10195} -> PackageSetting{9f268fd com.android.systemui.emulation.pixel_6/10050} BLOCKED
+06-12 01:37:47.913   579  1904 I AppsFilter: interaction: PackageSetting{60a45ac com.my.forintern/10195} -> PackageSetting{8e1f9f2 com.android.systemui.emulation.pixel_7/10061} BLOCKED
+06-12 01:37:47.913   579  1904 I AppsFilter: interaction: PackageSetting{60a45ac com.my.forintern/10195} -> PackageSetting{58b5843 com.android.systemui.emulation.pixel_8/10020} BLOCKED
+06-12 01:37:47.913   579  1904 I AppsFilter: interaction: PackageSetting{60a45ac com.my.forintern/10195} -> PackageSetting{80b2ec0 com.android.nfc.auto_generated_rro_product__/10068} BLOCKED
+06-12 01:37:47.913   579  1904 I AppsFilter: interaction: PackageSetting{60a45ac com.my.forintern/10195} -> PackageSetting{d8197f9 com.android.printspooler/10101} BLOCKED
+06-12 01:37:47.913   579  1904 I AppsFilter: interaction: PackageSetting{60a45ac com.my.forintern/10195} -> PackageSetting{11c33e com.android.emergency.auto_generated_rro_product__/10015} BLOCKED
+06-12 01:37:47.913   579  1904 I AppsFilter: interaction: PackageSetting{60a45ac com.my.forintern/10195} -> PackageSetting{101359f com.google.android.connectivity.resources.goldfish.overlay/10078} BLOCKED
+06-12 01:37:47.913   579  1904 I AppsFilter: interaction: PackageSetting{60a45ac com.my.forintern/10195} -> PackageSetting{3d476ec com.android.dreams.basic/10107} BLOCKED
+06-12 01:37:47.913   579  1904 I AppsFilter: interaction: PackageSetting{60a45ac com.my.forintern/10195} -> PackageSetting{43abab5 com.google.android.networkstack.tethering.emulator/10056} BLOCKED
+06-12 01:37:47.913   579  1904 I AppsFilter: interaction: PackageSetting{60a45ac com.my.forintern/10195} -> PackageSetting{ee2d54a com.android.providers.settings.auto_generated_rro_product__/10051} BLOCKED
+06-12 01:37:47.913   579  1904 I AppsFilter: interaction: PackageSetting{60a45ac com.my.forintern/10195} -> PackageSetting{4cd8cbb com.google.android.as.oss/10116} BLOCKED
+06-12 01:37:47.913   579  1904 I AppsFilter: interaction: PackageSetting{60a45ac com.my.forintern/10195} -> PackageSetting{815d8 com.android.traceur.auto_generated_rro_product__/10065} BLOCKED
+06-12 01:37:47.913   579  1904 I AppsFilter: interaction: PackageSetting{60a45ac com.my.forintern/10195} -> PackageSetting{7294d31 com.google.android.devicelockcontroller/10172} BLOCKED
+06-12 01:37:47.913   579  1904 I AppsFilter: interaction: PackageSetting{60a45ac com.my.forintern/10195} -> PackageSetting{700fc16 com.google.android.dialer/10127} BLOCKED
+06-12 01:37:47.913   579  1904 I AppsFilter: interaction: PackageSetting{60a45ac com.my.forintern/10195} -> PackageSetting{73e3997 com.android.internal.emulation.pixel_3/10038} BLOCKED
+06-12 01:37:47.913   579  1904 I AppsFilter: interaction: PackageSetting{60a45ac com.my.forintern/10195} -> PackageSetting{cd4b784 com.android.internal.emulation.pixel_4/10041} BLOCKED
+06-12 01:37:47.913   579  1904 I AppsFilter: interaction: PackageSetting{60a45ac com.my.forintern/10195} -> PackageSetting{a948b6d com.android.internal.emulation.pixel_5/10012} BLOCKED
+06-12 01:37:47.913   579  1904 I AppsFilter: interaction: PackageSetting{60a45ac com.my.forintern/10195} -> PackageSetting{708c3a2 com.android.internal.emulation.pixel_6/10055} BLOCKED
+06-12 01:37:47.913   579  1904 I AppsFilter: interaction: PackageSetting{60a45ac com.my.forintern/10195} -> PackageSetting{ba2d833 com.android.internal.emulation.pixel_7/10018} BLOCKED
+06-12 01:37:47.913   579  1904 I AppsFilter: interaction: PackageSetting{60a45ac com.my.forintern/10195} -> PackageSetting{ca7c7f0 com.android.internal.emulation.pixel_8/10054} BLOCKED
+06-12 01:37:47.914   579  1904 I AppsFilter: interaction: PackageSetting{60a45ac com.my.forintern/10195} -> PackageSetting{5fb7169 com.google.android.captiveportallogin/10113} BLOCKED
+06-12 01:37:47.914   579  1904 I AppsFilter: interaction: PackageSetting{60a45ac com.my.forintern/10195} -> PackageSetting{8d377ee com.android.musicfx/10087} BLOCKED
+06-12 01:37:47.914   579  1904 I AppsFilter: interaction: PackageSetting{60a45ac com.my.forintern/10195} -> PackageSetting{a8c48f com.google.android.apps.docs/10152} BLOCKED
+06-12 01:37:47.914   579  1904 I AppsFilter: interaction: PackageSetting{60a45ac com.my.forintern/10195} -> PackageSetting{76436b0 com.google.android.apps.maps/10144} BLOCKED
+06-12 01:37:47.914   579  1904 I AppsFilter: interaction: PackageSetting{60a45ac com.my.forintern/10195} -> PackageSetting{959731c com.google.android.modulemetadata/10149} BLOCKED
+06-12 01:37:47.914   579  1904 I AppsFilter: interaction: PackageSetting{60a45ac com.my.forintern/10195} -> PackageSetting{fd0bb25 com.google.android.markup/10138} BLOCKED
+06-12 01:37:47.914   579  1904 I AppsFilter: interaction: PackageSetting{60a45ac com.my.forintern/10195} -> PackageSetting{88324fa com.android.providers.settings.auto_generated_rro_vendor__/10080} BLOCKED
+06-12 01:37:47.914   579  1904 I AppsFilter: interaction: PackageSetting{60a45ac com.my.forintern/10195} -> PackageSetting{8771aab com.google.android.webview/10133} BLOCKED
+06-12 01:37:47.914   579  1904 I AppsFilter: interaction: PackageSetting{60a45ac com.my.forintern/10195} -> PackageSetting{18a508 com.google.android.rkpdapp/10178} BLOCKED
+06-12 01:37:47.914   579  1904 I AppsFilter: interaction: PackageSetting{60a45ac com.my.forintern/10195} -> PackageSetting{8f6e4a1 com.google.android.contacts/10137} BLOCKED
+06-12 01:37:47.914   579  1904 I AppsFilter: interaction: PackageSetting{60a45ac com.my.forintern/10195} -> PackageSetting{4e96c6 com.android.server.telecom.auto_generated_rro_product__/10032} BLOCKED
+06-12 01:37:47.914   579  1904 I AppsFilter: interaction: PackageSetting{60a45ac com.my.forintern/10195} -> PackageSetting{68ab687 com.google.android.overlay.googleconfig/10004} BLOCKED
+06-12 01:37:47.914   579  1904 I AppsFilter: interaction: PackageSetting{60a45ac com.my.forintern/10195} -> PackageSetting{1709b4 com.android.chrome/10143} BLOCKED
+06-12 01:37:47.914   579  1904 I AppsFilter: interaction: PackageSetting{60a45ac com.my.forintern/10195} -> PackageSetting{3fc29dd com.android.bips.auto_generated_rro_product__/10013} BLOCKED
+06-12 01:37:47.914   579  1904 I AppsFilter: interaction: PackageSetting{60a45ac com.my.forintern/10195} -> PackageSetting{50d5952 com.google.android.apps.customization.pixel/10150} BLOCKED
+06-12 01:37:47.914   579  1904 I AppsFilter: interaction: PackageSetting{60a45ac com.my.forintern/10195} -> PackageSetting{f523423 com.google.android.tag/10086} BLOCKED
+06-12 01:37:47.914   579  1904 I AppsFilter: interaction: PackageSetting{60a45ac com.my.forintern/10195} -> PackageSetting{7f50d20 com.google.android.overlay.permissioncontroller/10064} BLOCKED
+06-12 01:37:47.914   579  1904 I AppsFilter: interaction: PackageSetting{60a45ac com.my.forintern/10195} -> PackageSetting{41686d9 com.google.android.partnersetup/10128} BLOCKED
+06-12 01:37:47.914   579  1904 I AppsFilter: interaction: PackageSetting{60a45ac com.my.forintern/10195} -> PackageSetting{f83b89e com.google.android.apps.wallpaper.nexus/10135} BLOCKED
+06-12 01:37:47.914   579  1904 I AppsFilter: interaction: PackageSetting{60a45ac com.my.forintern/10195} -> PackageSetting{589ef7f com.google.android.apps.nexuslauncher/10160} BLOCKED
+06-12 01:37:47.914   579  1904 I AppsFilter: interaction: PackageSetting{60a45ac com.my.forintern/10195} -> PackageSetting{deddb4c com.google.android.nearby.halfsheet/10175} BLOCKED
+06-12 01:37:47.914   579  1904 I AppsFilter: interaction: PackageSetting{60a45ac com.my.forintern/10195} -> PackageSetting{fdfb795 com.android.theme.font.notoserifsource/10053} BLOCKED
+06-12 01:37:47.914   579  1904 I AppsFilter: interaction: PackageSetting{60a45ac com.my.forintern/10195} -> PackageSetting{e6ec0aa com.google.android.safetycenter.resources/10188} BLOCKED
+06-12 01:37:47.914   579  1904 I AppsFilter: interaction: PackageSetting{60a45ac com.my.forintern/10195} -> PackageSetting{158049b com.android.internal.display.cutout.emulation.waterfall/10057} BLOCKED
+06-12 01:37:47.914   579  1904 I AppsFilter: interaction: PackageSetting{60a45ac com.my.forintern/10195} -> PackageSetting{ec36038 com.android.internal.systemui.navbar.transparent/10016} BLOCKED
+06-12 01:37:47.914   579  1904 I AppsFilter: interaction: PackageSetting{60a45ac com.my.forintern/10195} -> PackageSetting{3d13811 com.google.android.connectivity.resources/10174} BLOCKED
+06-12 01:37:47.914   579  1904 I AppsFilter: interaction: PackageSetting{60a45ac com.my.forintern/10195} -> PackageSetting{d503d76 com.android.providers.contacts.auto_generated_rro_product__/10023} BLOCKED
+06-12 01:37:47.914   579  1904 I AppsFilter: interaction: PackageSetting{60a45ac com.my.forintern/10195} -> PackageSetting{d284f77 com.google.android.feedback/10166} BLOCKED
+06-12 01:37:47.914   579  1904 I AppsFilter: interaction: PackageSetting{60a45ac com.my.forintern/10195} -> PackageSetting{f6a47e4 com.google.android.printservice.recommendation/10100} BLOCKED
+06-12 01:37:47.914   579  1904 I AppsFilter: interaction: PackageSetting{60a45ac com.my.forintern/10195} -> PackageSetting{80444d com.google.android.apps.photos/10148} BLOCKED
+06-12 01:37:47.914   579  1904 I AppsFilter: interaction: PackageSetting{60a45ac com.my.forintern/10195} -> PackageSetting{5c3ba44 com.google.android.calendar/10136} BLOCKED
+06-12 01:37:47.914   579  1904 I AppsFilter: interaction: PackageSetting{60a45ac com.my.forintern/10195} -> PackageSetting{bfabb02 com.google.android.documentsui/10098} BLOCKED
+06-12 01:37:47.914   579  1904 I AppsFilter: interaction: PackageSetting{60a45ac com.my.forintern/10195} -> PackageSetting{4486c13 com.android.systemui.emulation.pixel_3a_xl/10044} BLOCKED
+06-12 01:37:47.914   579  1904 I AppsFilter: interaction: PackageSetting{60a45ac com.my.forintern/10195} -> PackageSetting{d75fe50 com.android.systemui.emulation.pixel_6_pro/10052} BLOCKED
+06-12 01:37:47.914   579  1904 I AppsFilter: interaction: PackageSetting{60a45ac com.my.forintern/10195} -> PackageSetting{99d849 com.android.systemui.emulation.pixel_7_pro/10003} BLOCKED
+06-12 01:37:47.914   579  1904 I AppsFilter: interaction: PackageSetting{60a45ac com.my.forintern/10195} -> PackageSetting{2dd854e com.android.systemui.emulation.pixel_8_pro/10024} BLOCKED
+06-12 01:37:47.914   579  1904 I AppsFilter: interaction: PackageSetting{60a45ac com.my.forintern/10195} -> PackageSetting{f43b66f com.google.mainline.telemetry/10146} BLOCKED
+06-12 01:37:47.914   579  1904 I AppsFilter: interaction: PackageSetting{60a45ac com.my.forintern/10195} -> PackageSetting{a44af7c com.android.carrierconfig.auto_generated_rro_product__/10025} BLOCKED
+06-12 01:37:47.914   579  1904 I AppsFilter: interaction: PackageSetting{60a45ac com.my.forintern/10195} -> PackageSetting{29eb005 com.android.providers.partnerbookmarks/10110} BLOCKED
+06-12 01:37:47.914   579  1904 I AppsFilter: interaction: PackageSetting{60a45ac com.my.forintern/10195} -> PackageSetting{10a85a com.android.wallpaper.livepicker/10090} BLOCKED
+06-12 01:37:47.914   579  1904 I AppsFilter: interaction: PackageSetting{60a45ac com.my.forintern/10195} -> PackageSetting{9ff4a8b com.android.providers.telephony.auto_generated_rro_product__/10000} BLOCKED
+06-12 01:37:47.914   579  1904 I AppsFilter: interaction: PackageSetting{60a45ac com.my.forintern/10195} -> PackageSetting{ceb4768 com.android.phone.auto_generated_rro_vendor__/10077} BLOCKED
+06-12 01:37:47.914   579  1904 I AppsFilter: interaction: PackageSetting{60a45ac com.my.forintern/10195} -> PackageSetting{25f4781 com.google.mainline.adservices/10145} BLOCKED
+06-12 01:37:47.914   579  1904 I AppsFilter: interaction: PackageSetting{60a45ac com.my.forintern/10195} -> PackageSetting{920f026 com.android.imsserviceentitlement/10124} BLOCKED
+06-12 01:37:47.914   579  1904 I AppsFilter: interaction: PackageSetting{60a45ac com.my.forintern/10195} -> PackageSetting{f960467 com.google.android.healthconnect.controller/10185} BLOCKED
+06-12 01:37:47.914   579  1904 I AppsFilter: interaction: PackageSetting{60a45ac com.my.forintern/10195} -> PackageSetting{6e17214 com.android.internal.emulation.pixel_2_xl/10058} BLOCKED
+06-12 01:37:47.914   579  1904 I AppsFilter: interaction: PackageSetting{60a45ac com.my.forintern/10195} -> PackageSetting{e37dabd com.android.internal.emulation.pixel_3_xl/10062} BLOCKED
+06-12 01:37:47.914   579  1904 I AppsFilter: interaction: PackageSetting{60a45ac com.my.forintern/10195} -> PackageSetting{d9be8b2 com.android.internal.emulation.pixel_4_xl/10037} BLOCKED
+06-12 01:37:47.914   579  1904 I AppsFilter: interaction: PackageSetting{60a45ac com.my.forintern/10195} -> PackageSetting{7f48003 com.android.internal.emulation.pixel_fold/10005} BLOCKED
+06-12 01:37:47.914   579  1904 I AppsFilter: interaction: PackageSetting{60a45ac com.my.forintern/10195} -> PackageSetting{504a68d com.example.chatapplication/10192} BLOCKED
+06-12 01:37:47.914   579  1904 I AppsFilter: interaction: PackageSetting{60a45ac com.my.forintern/10195} -> PackageSetting{76d9b80 com.android.bookmarkprovider/10099} BLOCKED
+06-12 01:37:47.914   579  1904 I AppsFilter: interaction: PackageSetting{60a45ac com.my.forintern/10195} -> PackageSetting{40c65b9 com.google.android.overlay.pixelconfigcommon/10039} BLOCKED
+06-12 01:37:47.914   579  1904 I AppsFilter: interaction: PackageSetting{60a45ac com.my.forintern/10195} -> PackageSetting{65bddfe com.android.systemui.accessibility.accessibilitymenu.auto_generated_rro_product__/10028} BLOCKED
+06-12 01:37:47.914   579  1904 I AppsFilter: interaction: PackageSetting{60a45ac com.my.forintern/10195} -> PackageSetting{335195f com.android.systemui.emulation.pixel_3a/10030} BLOCKED
+06-12 01:37:47.914   579  1904 I AppsFilter: interaction: PackageSetting{60a45ac com.my.forintern/10195} -> PackageSetting{9d0efac com.android.systemui.emulation.pixel_4a/10006} BLOCKED
+06-12 01:37:47.914   579  1904 I AppsFilter: interaction: PackageSetting{60a45ac com.my.forintern/10195} -> PackageSetting{204a475 com.android.systemui.emulation.pixel_6a/10026} BLOCKED
+06-12 01:37:47.914   579  1904 I AppsFilter: interaction: PackageSetting{60a45ac com.my.forintern/10195} -> PackageSetting{d93dc0a com.android.systemui.emulation.pixel_7a/10047} BLOCKED
+06-12 01:37:47.914   579  1904 I AppsFilter: interaction: PackageSetting{60a45ac com.my.forintern/10195} -> PackageSetting{ebbec7b com.google.android.settings.intelligence/10123} BLOCKED
+06-12 01:37:47.914   579  1904 I AppsFilter: interaction: PackageSetting{60a45ac com.my.forintern/10195} -> PackageSetting{8188537 com.google.android.projection.gearhead/10122} BLOCKED
+06-12 01:37:47.914   579  1904 I AppsFilter: interaction: PackageSetting{60a45ac com.my.forintern/10195} -> PackageSetting{a335a98 com.google.android.uwb.resources/10187} BLOCKED
+06-12 01:37:47.914   579  1904 I AppsFilter: interaction: PackageSetting{60a45ac com.my.forintern/10195} -> PackageSetting{a91aaa4 com.android.cts.ctsshim/10170} BLOCKED
+06-12 01:37:47.914   579  1904 I AppsFilter: interaction: PackageSetting{60a45ac com.my.forintern/10195} -> PackageSetting{70812f1 com.google.android.wifi.resources/10179} BLOCKED
+06-12 01:37:47.914   579  1904 I AppsFilter: interaction: PackageSetting{60a45ac com.my.forintern/10195} -> PackageSetting{b9baed6 com.google.android.wifi.dialog/10180} BLOCKED
+06-12 01:37:47.914   579  1904 I AppsFilter: interaction: PackageSetting{60a45ac com.my.forintern/10195} -> PackageSetting{18ed7b7 com.my.intern/10196} BLOCKED
+06-12 01:37:47.914   579  1904 I AppsFilter: interaction: PackageSetting{60a45ac com.my.forintern/10195} -> PackageSetting{12d557 com.google.android.apps.wallpaper/10167} BLOCKED
+06-12 01:37:47.914   579  1904 I AppsFilter: interaction: PackageSetting{60a45ac com.my.forintern/10195} -> PackageSetting{d4f8844 com.google.android.odad/10119} BLOCKED
+06-12 01:37:47.914   579  1904 I AppsFilter: interaction: PackageSetting{60a45ac com.my.forintern/10195} -> PackageSetting{ef9ed2d com.android.settings.auto_generated_rro_product__/10067} BLOCKED
+06-12 01:37:47.914   579  1904 I AppsFilter: interaction: PackageSetting{60a45ac com.my.forintern/10195} -> PackageSetting{47be262 com.android.internal.systemui.navbar.gestural/10045} BLOCKED
+06-12 01:37:47.914   579  1904 I AppsFilter: interaction: PackageSetting{60a45ac com.my.forintern/10195} -> PackageSetting{1856ff3 com.google.android.apps.youtube.music/10153} BLOCKED
+06-12 01:37:47.914   579  1904 I AppsFilter: interaction: PackageSetting{60a45ac com.my.forintern/10195} -> PackageSetting{6dee4b0 com.android.bluetoothmidiservice/10103} BLOCKED
+06-12 01:37:47.914   579  1904 I AppsFilter: interaction: PackageSetting{60a45ac com.my.forintern/10195} -> PackageSetting{6b52f29 com.android.storagemanager.auto_generated_rro_product__/10069} BLOCKED
+06-12 01:37:47.914   579  1904 I AppsFilter: interaction: PackageSetting{60a45ac com.my.forintern/10195} -> PackageSetting{239c2ae com.google.android.cellbroadcastreceiver/10168} BLOCKED
+06-12 01:37:47.914   579  1904 I AppsFilter: interaction: PackageSetting{60a45ac com.my.forintern/10195} -> PackageSetting{c7d184f com.android.phone.auto_generated_rro_product__/10070} BLOCKED
+06-12 01:37:47.914   579  1904 I AppsFilter: interaction: PackageSetting{60a45ac com.my.forintern/10195} -> PackageSetting{ac59bdc android.auto_generated_rro_product__/10046} BLOCKED
+06-12 01:37:47.914   579  1904 I AppsFilter: interaction: PackageSetting{60a45ac com.my.forintern/10195} -> PackageSetting{3c894e5 com.android.internal.systemui.navbar.gestural_narrow_back/10035} BLOCKED
+06-12 01:37:47.914   579  1904 I AppsFilter: interaction: PackageSetting{60a45ac com.my.forintern/10195} -> PackageSetting{7e35bba com.google.android.inputmethod.latin/10154} BLOCKED
+06-12 01:37:47.914   579  1904 I AppsFilter: interaction: PackageSetting{60a45ac com.my.forintern/10195} -> PackageSetting{d9cea6b android.auto_generated_rro_vendor__/10075} BLOCKED
+06-12 01:37:47.914   579  1904 I AppsFilter: interaction: PackageSetting{60a45ac com.my.forintern/10195} -> PackageSetting{4fe99c8 com.google.android.apps.restore/10120} BLOCKED
+06-12 01:37:47.915  5154  5325 I DynamiteModule: Considering local module com.google.android.gms.measurement.dynamite:185 and remote module com.google.android.gms.measurement.dynamite:191
+06-12 01:37:47.915  5154  5325 I DynamiteModule: Selected remote version of com.google.android.gms.measurement.dynamite, version >= 191
+06-12 01:37:47.915  5154  5325 V DynamiteModule: Dynamite loader version >= 2, using loadModule2NoCrashUtils
+06-12 01:37:47.918   579  1727 D CompatibilityChangeReporter: Compat change id reported: 161145287; UID 10195; state: ENABLED
+06-12 01:37:47.927  5154  5325 W System  : ClassLoader referenced unknown path: 
+06-12 01:37:47.927  5154  5325 D nativeloader: Configuring clns-7 for other apk . target_sdk_version=37, uses_libraries=, library_path=/data/app/~~RRr6Wm1tWhr5-uhD2yCF8w==/com.google.android.gms-rI5xARQx0HcCtAL_L30bew==/lib/x86_64:/data/app/~~RRr6Wm1tWhr5-uhD2yCF8w==/com.google.android.gms-rI5xARQx0HcCtAL_L30bew==/base.apk!/lib/x86_64, permitted_path=/data:/mnt/expand:/data/user/0/com.google.android.gms
+06-12 01:37:47.938  5154  5325 W om.my.forintern: ClassLoaderContext classpath size mismatch. expected=17, found=9 (DLC[];PCL[base.apk*1335322299:base.apk!classes2.dex*2354330015:base.apk!classes3.dex*3401914794:base.apk!classes4.dex*1458704107:base.apk!classes5.dex*4267721593:base.apk!classes6.dex*1376702623:base.apk!classes7.dex*568149621:base.apk!classes8.dex*1875226709:base.apk!classes9.dex*1823086273:base.apk!classes10.dex*2796360206:base.apk!classes11.dex*3326575449:base.apk!classes12.dex*104581171:base.apk!classes13.dex*1414277586:base.apk!classes14.dex*3982165844:base.apk!classes15.dex*3953227987:base.apk!classes16.dex*4268550189:base.apk!classes17.dex*2900616498]{PCL[/system/framework/org.apache.http.legacy.jar*365604908]#PCL[/system/framework/com.android.location.provider.jar*3994156536]#PCL[/system/framework/com.android.media.remotedisplay.jar*2114713713]#PCL[/system_ext/framework/androidx.window.extensions.jar*3801209684]#PCL[/system_ext/framework/androidx.window.sidecar.jar*2709203797]} | DLC[];PCL[/data/app/~~ccFqzwYxj5W3xcURRO8l4A==/com.my.forintern-6MEHospkHl8rOi3dFtH1yA==/base.apk*3754641305:/data/app/~~ccFqzwYxj5W3xcURRO8l4A==/com.my.forintern-6MEHospkHl8rOi3dFtH1yA==/base.apk!classes2.dex*2784950892:/data/app/~~ccFqzwYxj5W3xcURRO8l4A==/com.my.forintern-6MEHospkHl8rOi3dFtH1yA==/base.apk!classes3.dex*2714181602:/data/app/~~ccFqzwYxj5W3xcURRO8l4A==/com.my.forintern-6MEHospkHl8rOi3dFtH1yA==/base.apk!classes4.dex*1475359442:/data/app/~~ccFqzwYxj5W3xcURRO8l4A==/com.my.forintern-6MEHospkHl8rOi3dFtH1yA==/base.apk!classes5.dex*2577197626:/data/app/~~ccFqzwYxj5W3xcURRO8l4A==/com.my.forintern-6MEHospkHl8rOi3dFtH1yA==/base.apk!classes6.dex*2418524439:/data/app/~~ccFqzwYxj5W3xcURRO8l4A==/com.my.forintern-6MEHospkHl8rOi3dFtH1yA==/base.apk!classes7.dex*2522849856:/data/app/~~ccFqzwYxj5W3xcURRO8l4A==/com.my.forintern-6MEHospkHl8rOi3dFtH1yA==/base.apk!classes8.dex*509919500:/data/app/~~ccFqzwYxj5W3xcURRO8l4A==/com.my.forintern-6MEHospkHl8rOi3dFtH1yA==/base.apk!classes9.dex*4055049607]{PCL[/system_ext/framework/androidx.window.extensions.jar*3801209684]#PCL[/system_ext/framework/androidx.window.sidecar.jar*2709203797]})
+06-12 01:37:47.940  1775  2217 I Icing   : Indexing done com.google.android.gms-apps
+06-12 01:37:47.945   579  1727 I AppsFilter: interaction: PackageSetting{60a45ac com.my.forintern/10195} -> PackageSetting{23e0073 com.android.cts.priv.ctsshim/10169} BLOCKED
+06-12 01:37:47.945   579  1727 I AppsFilter: interaction: PackageSetting{60a45ac com.my.forintern/10195} -> PackageSetting{47b6b30 com.google.android.youtube/10139} BLOCKED
+06-12 01:37:47.945   579  1727 I AppsFilter: interaction: PackageSetting{60a45ac com.my.forintern/10195} -> PackageSetting{a5573a9 com.android.internal.display.cutout.emulation.corner/10049} BLOCKED
+06-12 01:37:47.945   579  1727 I AppsFilter: interaction: PackageSetting{60a45ac com.my.forintern/10195} -> PackageSetting{d55ed2e com.android.internal.display.cutout.emulation.double/10059} BLOCKED
+06-12 01:37:47.945   579  1727 I AppsFilter: interaction: PackageSetting{60a45ac com.my.forintern/10195} -> PackageSetting{b6e30cf com.google.android.googlequicksearchbox/10132} BLOCKED
+06-12 01:37:47.945   579  1727 I AppsFilter: interaction: PackageSetting{60a45ac com.my.forintern/10195} -> PackageSetting{fe40a5c com.google.android.onetimeinitializer/10118} BLOCKED
+06-12 01:37:47.945   579  1727 I AppsFilter: interaction: PackageSetting{60a45ac com.my.forintern/10195} -> PackageSetting{e68a165 com.google.android.ext.shared/10108} BLOCKED
+06-12 01:37:47.945   579  1727 I AppsFilter: interaction: PackageSetting{60a45ac com.my.forintern/10195} -> PackageSetting{cd7ae3a com.android.internal.systemui.navbar.gestural_wide_back/10040} BLOCKED
+06-12 01:37:47.945   579  1727 I AppsFilter: interaction: PackageSetting{60a45ac com.my.forintern/10195} -> PackageSetting{9c70aeb com.android.virtualmachine.res/10171} BLOCKED
+06-12 01:37:47.945   579  1727 I AppsFilter: interaction: PackageSetting{60a45ac com.my.forintern/10195} -> PackageSetting{bd57048 com.google.android.federatedcompute/10176} BLOCKED
+06-12 01:37:47.945   579  1727 I AppsFilter: interaction: PackageSetting{60a45ac com.my.forintern/10195} -> PackageSetting{1c6eee1 com.android.managedprovisioning.auto_generated_rro_product__/10033} BLOCKED
+06-12 01:37:47.945   579  1727 I AppsFilter: interaction: PackageSetting{60a45ac com.my.forintern/10195} -> PackageSetting{1827406 com.android.carrierconfig.auto_generated_rro_vendor__/10076} BLOCKED
+06-12 01:37:47.945   579  1727 I AppsFilter: interaction: PackageSetting{60a45ac com.my.forintern/10195} -> PackageSetting{6896ac7 com.android.systemui.emulation.pixel_3_xl/10066} BLOCKED
+06-12 01:37:47.945   579  1727 I AppsFilter: interaction: PackageSetting{60a45ac com.my.forintern/10195} -> PackageSetting{3f548f4 com.android.systemui.emulation.pixel_4_xl/10072} BLOCKED
+06-12 01:37:47.945   579  1727 I AppsFilter: interaction: PackageSetting{60a45ac com.my.forintern/10195} -> PackageSetting{c62981d com.android.systemui.emulation.pixel_fold/10010} BLOCKED
+06-12 01:37:47.945   579  1727 I AppsFilter: interaction: PackageSetting{60a45ac com.my.forintern/10195} -> PackageSetting{3c1ca92 com.android.simappdialog.auto_generated_rro_product__/10014} BLOCKED
+06-12 01:37:47.945   579  1727 I AppsFilter: interaction: PackageSetting{60a45ac com.my.forintern/10195} -> PackageSetting{427ec63 com.android.htmlviewer/10111} BLOCKED
+06-12 01:37:47.945   579  1727 I AppsFilter: interaction: PackageSetting{60a45ac com.my.forintern/10195} -> PackageSetting{6980060 com.google.android.health.connect.backuprestore/10186} BLOCKED
+06-12 01:37:47.945   579  1727 I AppsFilter: interaction: PackageSetting{60a45ac com.my.forintern/10195} -> PackageSetting{9159919 com.android.systemui.auto_generated_rro_product__/10063} BLOCKED
+06-12 01:37:47.945   579  1727 I AppsFilter: interaction: PackageSetting{60a45ac com.my.forintern/10195} -> PackageSetting{52dfdde com.google.android.apps.messaging/10131} BLOCKED
+06-12 01:37:47.945   579  1727 I AppsFilter: interaction: PackageSetting{60a45ac com.my.forintern/10195} -> PackageSetting{fa2ebbf com.google.android.soundpicker/10147} BLOCKED
+06-12 01:37:47.945   579  1727 I AppsFilter: interaction: PackageSetting{60a45ac com.my.forintern/10195} -> PackageSetting{767590 com.Example.dobcalculation/10191} BLOCKED
+06-12 01:37:47.945   579  1727 I AppsFilter: interaction: PackageSetting{60a45ac com.my.forintern/10195} -> PackageSetting{ecc28c com.google.android.configupdater/10129} BLOCKED
+06-12 01:37:47.945   579  1727 I AppsFilter: interaction: PackageSetting{60a45ac com.my.forintern/10195} -> PackageSetting{c5dadd5 com.android.internal.emulation.pixel_3a_xl/10021} BLOCKED
+06-12 01:37:47.945   579  1727 I AppsFilter: interaction: PackageSetting{60a45ac com.my.forintern/10195} -> PackageSetting{69819ea com.android.internal.emulation.pixel_6_pro/10060} BLOCKED
+06-12 01:37:47.945   579  1727 I AppsFilter: interaction: PackageSetting{60a45ac com.my.forintern/10195} -> PackageSetting{ba484db com.android.internal.emulation.pixel_7_pro/10002} BLOCKED
+06-12 01:37:47.945   579  1727 I AppsFilter: interaction: PackageSetting{60a45ac com.my.forintern/10195} -> PackageSetting{1e97b78 com.android.internal.emulation.pixel_8_pro/10048} BLOCKED
+06-12 01:37:47.945   579  1727 I AppsFilter: interaction: PackageSetting{60a45ac com.my.forintern/10195} -> PackageSetting{ad85251 com.android.internal.emulation.pixel_3a/10036} BLOCKED
+06-12 01:37:47.945   579  1727 I AppsFilter: interaction: PackageSetting{60a45ac com.my.forintern/10195} -> PackageSetting{2d5eab6 com.android.internal.emulation.pixel_4a/10029} BLOCKED
+06-12 01:37:47.945   579  1727 I AppsFilter: interaction: PackageSetting{60a45ac com.my.forintern/10195} -> PackageSetting{15c93b7 com.android.internal.emulation.pixel_6a/10043} BLOCKED
+06-12 01:37:47.945   579  1727 I AppsFilter: interaction: PackageSetting{60a45ac com.my.forintern/10195} -> PackageSetting{ff6d724 com.android.internal.emulation.pixel_7a/10073} BLOCKED
+06-12 01:37:47.945   579  1727 I AppsFilter: interaction: PackageSetting{60a45ac com.my.forintern/10195} -> PackageSetting{b7ec28d com.google.android.overlay.googlewebview/10027} BLOCKED
+06-12 01:37:47.945   579  1727 I AppsFilter: interaction: PackageSetting{60a45ac com.my.forintern/10195} -> PackageSetting{a4dfc42 com.google.android.hotspot2.osulogin/10181} BLOCKED
+06-12 01:37:47.945   579  1727 I AppsFilter: interaction: PackageSetting{60a45ac com.my.forintern/10195} -> PackageSetting{31cb453 com.android.simappdialog/10112} BLOCKED
+06-12 01:37:47.945   579  1727 I AppsFilter: interaction: PackageSetting{60a45ac com.my.forintern/10195} -> PackageSetting{d5c4190 com.android.internal.display.cutout.emulation.hole/10011} BLOCKED
+06-12 01:37:47.945   579  1727 I AppsFilter: interaction: PackageSetting{60a45ac com.my.forintern/10195} -> PackageSetting{1a1fa89 com.android.internal.display.cutout.emulation.tall/10034} BLOCKED
+06-12 01:37:47.945   579  1727 I AppsFilter: interaction: PackageSetting{60a45ac com.my.forintern/10195} -> PackageSetting{b439a8e com.android.internal.systemui.navbar.threebutton/10031} BLOCKED
+06-12 01:37:47.945   579  1727 I AppsFilter: interaction: PackageSetting{60a45ac com.my.forintern/10195} -> PackageSetting{cb442af com.android.camera2/10151} BLOCKED
+06-12 01:37:47.945   579  1727 I AppsFilter: interaction: PackageSetting{60a45ac com.my.forintern/10195} -> PackageSetting{76be6bc com.android.systemui.auto_generated_rro_vendor__/10079} BLOCKED
+06-12 01:37:47.945   579  1727 I AppsFilter: interaction: PackageSetting{60a45ac com.my.forintern/10195} -> PackageSetting{aa6b645 com.google.android.deskclock/10141} BLOCKED
+06-12 01:37:47.945   579  1727 I AppsFilter: interaction: PackageSetting{60a45ac com.my.forintern/10195} -> PackageSetting{2e2d19a com.android.internal.systemui.navbar.twobutton/10007} BLOCKED
+06-12 01:37:47.945   579  1727 I AppsFilter: interaction: PackageSetting{60a45ac com.my.forintern/10195} -> PackageSetting{e2f3853 com.example.first/10190} BLOCKED
+06-12 01:37:47.945   579  1727 I AppsFilter: interaction: PackageSetting{60a45ac com.my.forintern/10195} -> PackageSetting{d8c5acb com.google.android.as/10125} BLOCKED
+06-12 01:37:47.945   579  1727 I AppsFilter: interaction: PackageSetting{60a45ac com.my.forintern/10195} -> PackageSetting{c6eb2a8 com.google.android.gm/10142} BLOCKED
+06-12 01:37:47.945   579  1727 I AppsFilter: interaction: PackageSetting{60a45ac com.my.forintern/10195} -> PackageSetting{bc81042 com.bank.shopinglistapp/10193} BLOCKED
+06-12 01:37:47.945   579  1727 I AppsFilter: interaction: PackageSetting{60a45ac com.my.forintern/10195} -> PackageSetting{b8171c1 com.android.internal.systemui.navbar.gestural_extra_wide_back/10008} BLOCKED
+06-12 01:37:47.945   579  1727 I AppsFilter: interaction: PackageSetting{60a45ac com.my.forintern/10195} -> PackageSetting{30c6d66 com.android.systemui.emulation.pixel_3/10001} BLOCKED
+06-12 01:37:47.945   579  1727 I AppsFilter: interaction: PackageSetting{60a45ac com.my.forintern/10195} -> PackageSetting{883d8a7 com.android.systemui.emulation.pixel_4/10019} BLOCKED
+06-12 01:37:47.945   579  1727 I AppsFilter: interaction: PackageSetting{60a45ac com.my.forintern/10195} -> PackageSetting{4505154 com.android.systemui.emulation.pixel_5/10017} BLOCKED
+06-12 01:37:47.945   579  1727 I AppsFilter: interaction: PackageSetting{60a45ac com.my.forintern/10195} -> PackageSetting{9f268fd com.android.systemui.emulation.pixel_6/10050} BLOCKED
+06-12 01:37:47.945   579  1727 I AppsFilter: interaction: PackageSetting{60a45ac com.my.forintern/10195} -> PackageSetting{8e1f9f2 com.android.systemui.emulation.pixel_7/10061} BLOCKED
+06-12 01:37:47.945   579  1727 I AppsFilter: interaction: PackageSetting{60a45ac com.my.forintern/10195} -> PackageSetting{58b5843 com.android.systemui.emulation.pixel_8/10020} BLOCKED
+06-12 01:37:47.945   579  1727 I AppsFilter: interaction: PackageSetting{60a45ac com.my.forintern/10195} -> PackageSetting{80b2ec0 com.android.nfc.auto_generated_rro_product__/10068} BLOCKED
+06-12 01:37:47.945   579  1727 I AppsFilter: interaction: PackageSetting{60a45ac com.my.forintern/10195} -> PackageSetting{d8197f9 com.android.printspooler/10101} BLOCKED
+06-12 01:37:47.945   579  1727 I AppsFilter: interaction: PackageSetting{60a45ac com.my.forintern/10195} -> PackageSetting{11c33e com.android.emergency.auto_generated_rro_product__/10015} BLOCKED
+06-12 01:37:47.945   579  1727 I AppsFilter: interaction: PackageSetting{60a45ac com.my.forintern/10195} -> PackageSetting{101359f com.google.android.connectivity.resources.goldfish.overlay/10078} BLOCKED
+06-12 01:37:47.945   579  1727 I AppsFilter: interaction: PackageSetting{60a45ac com.my.forintern/10195} -> PackageSetting{3d476ec com.android.dreams.basic/10107} BLOCKED
+06-12 01:37:47.945   579  1727 I AppsFilter: interaction: PackageSetting{60a45ac com.my.forintern/10195} -> PackageSetting{43abab5 com.google.android.networkstack.tethering.emulator/10056} BLOCKED
+06-12 01:37:47.945   579  1727 I AppsFilter: interaction: PackageSetting{60a45ac com.my.forintern/10195} -> PackageSetting{ee2d54a com.android.providers.settings.auto_generated_rro_product__/10051} BLOCKED
+06-12 01:37:47.945   579  1727 I AppsFilter: interaction: PackageSetting{60a45ac com.my.forintern/10195} -> PackageSetting{4cd8cbb com.google.android.as.oss/10116} BLOCKED
+06-12 01:37:47.945   579  1727 I AppsFilter: interaction: PackageSetting{60a45ac com.my.forintern/10195} -> PackageSetting{815d8 com.android.traceur.auto_generated_rro_product__/10065} BLOCKED
+06-12 01:37:47.945   579  1727 I AppsFilter: interaction: PackageSetting{60a45ac com.my.forintern/10195} -> PackageSetting{7294d31 com.google.android.devicelockcontroller/10172} BLOCKED
+06-12 01:37:47.945   579  1727 I AppsFilter: interaction: PackageSetting{60a45ac com.my.forintern/10195} -> PackageSetting{700fc16 com.google.android.dialer/10127} BLOCKED
+06-12 01:37:47.945   579  1727 I AppsFilter: interaction: PackageSetting{60a45ac com.my.forintern/10195} -> PackageSetting{73e3997 com.android.internal.emulation.pixel_3/10038} BLOCKED
+06-12 01:37:47.945   579  1727 I AppsFilter: interaction: PackageSetting{60a45ac com.my.forintern/10195} -> PackageSetting{cd4b784 com.android.internal.emulation.pixel_4/10041} BLOCKED
+06-12 01:37:47.945   579  1727 I AppsFilter: interaction: PackageSetting{60a45ac com.my.forintern/10195} -> PackageSetting{a948b6d com.android.internal.emulation.pixel_5/10012} BLOCKED
+06-12 01:37:47.945   579  1727 I AppsFilter: interaction: PackageSetting{60a45ac com.my.forintern/10195} -> PackageSetting{708c3a2 com.android.internal.emulation.pixel_6/10055} BLOCKED
+06-12 01:37:47.945   579  1727 I AppsFilter: interaction: PackageSetting{60a45ac com.my.forintern/10195} -> PackageSetting{ba2d833 com.android.internal.emulation.pixel_7/10018} BLOCKED
+06-12 01:37:47.945   579  1727 I AppsFilter: interaction: PackageSetting{60a45ac com.my.forintern/10195} -> PackageSetting{ca7c7f0 com.android.internal.emulation.pixel_8/10054} BLOCKED
+06-12 01:37:47.945   579  1727 I AppsFilter: interaction: PackageSetting{60a45ac com.my.forintern/10195} -> PackageSetting{5fb7169 com.google.android.captiveportallogin/10113} BLOCKED
+06-12 01:37:47.945   579  1727 I AppsFilter: interaction: PackageSetting{60a45ac com.my.forintern/10195} -> PackageSetting{8d377ee com.android.musicfx/10087} BLOCKED
+06-12 01:37:47.945   579  1727 I AppsFilter: interaction: PackageSetting{60a45ac com.my.forintern/10195} -> PackageSetting{a8c48f com.google.android.apps.docs/10152} BLOCKED
+06-12 01:37:47.945   579  1727 I AppsFilter: interaction: PackageSetting{60a45ac com.my.forintern/10195} -> PackageSetting{76436b0 com.google.android.apps.maps/10144} BLOCKED
+06-12 01:37:47.945   579  1727 I AppsFilter: interaction: PackageSetting{60a45ac com.my.forintern/10195} -> PackageSetting{959731c com.google.android.modulemetadata/10149} BLOCKED
+06-12 01:37:47.945   579  1727 I AppsFilter: interaction: PackageSetting{60a45ac com.my.forintern/10195} -> PackageSetting{fd0bb25 com.google.android.markup/10138} BLOCKED
+06-12 01:37:47.945   579  1727 I AppsFilter: interaction: PackageSetting{60a45ac com.my.forintern/10195} -> PackageSetting{88324fa com.android.providers.settings.auto_generated_rro_vendor__/10080} BLOCKED
+06-12 01:37:47.945   579  1727 I AppsFilter: interaction: PackageSetting{60a45ac com.my.forintern/10195} -> PackageSetting{8771aab com.google.android.webview/10133} BLOCKED
+06-12 01:37:47.945   579  1727 I AppsFilter: interaction: PackageSetting{60a45ac com.my.forintern/10195} -> PackageSetting{18a508 com.google.android.rkpdapp/10178} BLOCKED
+06-12 01:37:47.945   579  1727 I AppsFilter: interaction: PackageSetting{60a45ac com.my.forintern/10195} -> PackageSetting{8f6e4a1 com.google.android.contacts/10137} BLOCKED
+06-12 01:37:47.945   579  1727 I AppsFilter: interaction: PackageSetting{60a45ac com.my.forintern/10195} -> PackageSetting{4e96c6 com.android.server.telecom.auto_generated_rro_product__/10032} BLOCKED
+06-12 01:37:47.945   579  1727 I AppsFilter: interaction: PackageSetting{60a45ac com.my.forintern/10195} -> PackageSetting{68ab687 com.google.android.overlay.googleconfig/10004} BLOCKED
+06-12 01:37:47.945   579  1727 I AppsFilter: interaction: PackageSetting{60a45ac com.my.forintern/10195} -> PackageSetting{1709b4 com.android.chrome/10143} BLOCKED
+06-12 01:37:47.945   579  1727 I AppsFilter: interaction: PackageSetting{60a45ac com.my.forintern/10195} -> PackageSetting{3fc29dd com.android.bips.auto_generated_rro_product__/10013} BLOCKED
+06-12 01:37:47.945   579  1727 I AppsFilter: interaction: PackageSetting{60a45ac com.my.forintern/10195} -> PackageSetting{50d5952 com.google.android.apps.customization.pixel/10150} BLOCKED
+06-12 01:37:47.945   579  1727 I AppsFilter: interaction: PackageSetting{60a45ac com.my.forintern/10195} -> PackageSetting{f523423 com.google.android.tag/10086} BLOCKED
+06-12 01:37:47.945   579  1727 I AppsFilter: interaction: PackageSetting{60a45ac com.my.forintern/10195} -> PackageSetting{7f50d20 com.google.android.overlay.permissioncontroller/10064} BLOCKED
+06-12 01:37:47.945   579  1727 I AppsFilter: interaction: PackageSetting{60a45ac com.my.forintern/10195} -> PackageSetting{41686d9 com.google.android.partnersetup/10128} BLOCKED
+06-12 01:37:47.945   579  1727 I AppsFilter: interaction: PackageSetting{60a45ac com.my.forintern/10195} -> PackageSetting{f83b89e com.google.android.apps.wallpaper.nexus/10135} BLOCKED
+06-12 01:37:47.945   579  1727 I AppsFilter: interaction: PackageSetting{60a45ac com.my.forintern/10195} -> PackageSetting{589ef7f com.google.android.apps.nexuslauncher/10160} BLOCKED
+06-12 01:37:47.946   579  1727 I AppsFilter: interaction: PackageSetting{60a45ac com.my.forintern/10195} -> PackageSetting{deddb4c com.google.android.nearby.halfsheet/10175} BLOCKED
+06-12 01:37:47.946   579  1727 I AppsFilter: interaction: PackageSetting{60a45ac com.my.forintern/10195} -> PackageSetting{fdfb795 com.android.theme.font.notoserifsource/10053} BLOCKED
+06-12 01:37:47.946   579  1727 I AppsFilter: interaction: PackageSetting{60a45ac com.my.forintern/10195} -> PackageSetting{e6ec0aa com.google.android.safetycenter.resources/10188} BLOCKED
+06-12 01:37:47.946   579  1727 I AppsFilter: interaction: PackageSetting{60a45ac com.my.forintern/10195} -> PackageSetting{158049b com.android.internal.display.cutout.emulation.waterfall/10057} BLOCKED
+06-12 01:37:47.946   579  1727 I AppsFilter: interaction: PackageSetting{60a45ac com.my.forintern/10195} -> PackageSetting{ec36038 com.android.internal.systemui.navbar.transparent/10016} BLOCKED
+06-12 01:37:47.946   579  1727 I AppsFilter: interaction: PackageSetting{60a45ac com.my.forintern/10195} -> PackageSetting{3d13811 com.google.android.connectivity.resources/10174} BLOCKED
+06-12 01:37:47.946   579  1727 I AppsFilter: interaction: PackageSetting{60a45ac com.my.forintern/10195} -> PackageSetting{d503d76 com.android.providers.contacts.auto_generated_rro_product__/10023} BLOCKED
+06-12 01:37:47.946   579  1727 I AppsFilter: interaction: PackageSetting{60a45ac com.my.forintern/10195} -> PackageSetting{d284f77 com.google.android.feedback/10166} BLOCKED
+06-12 01:37:47.946   579  1727 I AppsFilter: interaction: PackageSetting{60a45ac com.my.forintern/10195} -> PackageSetting{f6a47e4 com.google.android.printservice.recommendation/10100} BLOCKED
+06-12 01:37:47.946   579  1727 I AppsFilter: interaction: PackageSetting{60a45ac com.my.forintern/10195} -> PackageSetting{80444d com.google.android.apps.photos/10148} BLOCKED
+06-12 01:37:47.946   579  1727 I AppsFilter: interaction: PackageSetting{60a45ac com.my.forintern/10195} -> PackageSetting{5c3ba44 com.google.android.calendar/10136} BLOCKED
+06-12 01:37:47.946   579  1727 I AppsFilter: interaction: PackageSetting{60a45ac com.my.forintern/10195} -> PackageSetting{bfabb02 com.google.android.documentsui/10098} BLOCKED
+06-12 01:37:47.946   579  1727 I AppsFilter: interaction: PackageSetting{60a45ac com.my.forintern/10195} -> PackageSetting{4486c13 com.android.systemui.emulation.pixel_3a_xl/10044} BLOCKED
+06-12 01:37:47.946   579  1727 I AppsFilter: interaction: PackageSetting{60a45ac com.my.forintern/10195} -> PackageSetting{d75fe50 com.android.systemui.emulation.pixel_6_pro/10052} BLOCKED
+06-12 01:37:47.946   579  1727 I AppsFilter: interaction: PackageSetting{60a45ac com.my.forintern/10195} -> PackageSetting{99d849 com.android.systemui.emulation.pixel_7_pro/10003} BLOCKED
+06-12 01:37:47.946   579  1727 I AppsFilter: interaction: PackageSetting{60a45ac com.my.forintern/10195} -> PackageSetting{2dd854e com.android.systemui.emulation.pixel_8_pro/10024} BLOCKED
+06-12 01:37:47.946   579  1727 I AppsFilter: interaction: PackageSetting{60a45ac com.my.forintern/10195} -> PackageSetting{f43b66f com.google.mainline.telemetry/10146} BLOCKED
+06-12 01:37:47.946   579  1727 I AppsFilter: interaction: PackageSetting{60a45ac com.my.forintern/10195} -> PackageSetting{a44af7c com.android.carrierconfig.auto_generated_rro_product__/10025} BLOCKED
+06-12 01:37:47.946   579  1727 I AppsFilter: interaction: PackageSetting{60a45ac com.my.forintern/10195} -> PackageSetting{29eb005 com.android.providers.partnerbookmarks/10110} BLOCKED
+06-12 01:37:47.946   579  1727 I AppsFilter: interaction: PackageSetting{60a45ac com.my.forintern/10195} -> PackageSetting{10a85a com.android.wallpaper.livepicker/10090} BLOCKED
+06-12 01:37:47.946   579  1727 I AppsFilter: interaction: PackageSetting{60a45ac com.my.forintern/10195} -> PackageSetting{9ff4a8b com.android.providers.telephony.auto_generated_rro_product__/10000} BLOCKED
+06-12 01:37:47.946   579  1727 I AppsFilter: interaction: PackageSetting{60a45ac com.my.forintern/10195} -> PackageSetting{ceb4768 com.android.phone.auto_generated_rro_vendor__/10077} BLOCKED
+06-12 01:37:47.946   579  1727 I AppsFilter: interaction: PackageSetting{60a45ac com.my.forintern/10195} -> PackageSetting{25f4781 com.google.mainline.adservices/10145} BLOCKED
+06-12 01:37:47.946   579  1727 I AppsFilter: interaction: PackageSetting{60a45ac com.my.forintern/10195} -> PackageSetting{920f026 com.android.imsserviceentitlement/10124} BLOCKED
+06-12 01:37:47.946   579  1727 I AppsFilter: interaction: PackageSetting{60a45ac com.my.forintern/10195} -> PackageSetting{f960467 com.google.android.healthconnect.controller/10185} BLOCKED
+06-12 01:37:47.946   579  1727 I AppsFilter: interaction: PackageSetting{60a45ac com.my.forintern/10195} -> PackageSetting{6e17214 com.android.internal.emulation.pixel_2_xl/10058} BLOCKED
+06-12 01:37:47.946   579  1727 I AppsFilter: interaction: PackageSetting{60a45ac com.my.forintern/10195} -> PackageSetting{e37dabd com.android.internal.emulation.pixel_3_xl/10062} BLOCKED
+06-12 01:37:47.946   579  1727 I AppsFilter: interaction: PackageSetting{60a45ac com.my.forintern/10195} -> PackageSetting{d9be8b2 com.android.internal.emulation.pixel_4_xl/10037} BLOCKED
+06-12 01:37:47.946   579  1727 I AppsFilter: interaction: PackageSetting{60a45ac com.my.forintern/10195} -> PackageSetting{7f48003 com.android.internal.emulation.pixel_fold/10005} BLOCKED
+06-12 01:37:47.946   579  1727 I AppsFilter: interaction: PackageSetting{60a45ac com.my.forintern/10195} -> PackageSetting{504a68d com.example.chatapplication/10192} BLOCKED
+06-12 01:37:47.946   579  1727 I AppsFilter: interaction: PackageSetting{60a45ac com.my.forintern/10195} -> PackageSetting{76d9b80 com.android.bookmarkprovider/10099} BLOCKED
+06-12 01:37:47.946   579  1727 I AppsFilter: interaction: PackageSetting{60a45ac com.my.forintern/10195} -> PackageSetting{40c65b9 com.google.android.overlay.pixelconfigcommon/10039} BLOCKED
+06-12 01:37:47.946   579  1727 I AppsFilter: interaction: PackageSetting{60a45ac com.my.forintern/10195} -> PackageSetting{65bddfe com.android.systemui.accessibility.accessibilitymenu.auto_generated_rro_product__/10028} BLOCKED
+06-12 01:37:47.946   579  1727 I AppsFilter: interaction: PackageSetting{60a45ac com.my.forintern/10195} -> PackageSetting{335195f com.android.systemui.emulation.pixel_3a/10030} BLOCKED
+06-12 01:37:47.946   579  1727 I AppsFilter: interaction: PackageSetting{60a45ac com.my.forintern/10195} -> PackageSetting{9d0efac com.android.systemui.emulation.pixel_4a/10006} BLOCKED
+06-12 01:37:47.946   579  1727 I AppsFilter: interaction: PackageSetting{60a45ac com.my.forintern/10195} -> PackageSetting{204a475 com.android.systemui.emulation.pixel_6a/10026} BLOCKED
+06-12 01:37:47.946   579  1727 I AppsFilter: interaction: PackageSetting{60a45ac com.my.forintern/10195} -> PackageSetting{d93dc0a com.android.systemui.emulation.pixel_7a/10047} BLOCKED
+06-12 01:37:47.946   579  1727 I AppsFilter: interaction: PackageSetting{60a45ac com.my.forintern/10195} -> PackageSetting{ebbec7b com.google.android.settings.intelligence/10123} BLOCKED
+06-12 01:37:47.946   579  1727 I AppsFilter: interaction: PackageSetting{60a45ac com.my.forintern/10195} -> PackageSetting{8188537 com.google.android.projection.gearhead/10122} BLOCKED
+06-12 01:37:47.946   579  1727 I AppsFilter: interaction: PackageSetting{60a45ac com.my.forintern/10195} -> PackageSetting{a335a98 com.google.android.uwb.resources/10187} BLOCKED
+06-12 01:37:47.946   579  1727 I AppsFilter: interaction: PackageSetting{60a45ac com.my.forintern/10195} -> PackageSetting{a91aaa4 com.android.cts.ctsshim/10170} BLOCKED
+06-12 01:37:47.946   579  1727 I AppsFilter: interaction: PackageSetting{60a45ac com.my.forintern/10195} -> PackageSetting{70812f1 com.google.android.wifi.resources/10179} BLOCKED
+06-12 01:37:47.946   579  1727 I AppsFilter: interaction: PackageSetting{60a45ac com.my.forintern/10195} -> PackageSetting{b9baed6 com.google.android.wifi.dialog/10180} BLOCKED
+06-12 01:37:47.946   579  1727 I AppsFilter: interaction: PackageSetting{60a45ac com.my.forintern/10195} -> PackageSetting{18ed7b7 com.my.intern/10196} BLOCKED
+06-12 01:37:47.946   579  1727 I AppsFilter: interaction: PackageSetting{60a45ac com.my.forintern/10195} -> PackageSetting{12d557 com.google.android.apps.wallpaper/10167} BLOCKED
+06-12 01:37:47.946   579  1727 I AppsFilter: interaction: PackageSetting{60a45ac com.my.forintern/10195} -> PackageSetting{d4f8844 com.google.android.odad/10119} BLOCKED
+06-12 01:37:47.946   579  1727 I AppsFilter: interaction: PackageSetting{60a45ac com.my.forintern/10195} -> PackageSetting{ef9ed2d com.android.settings.auto_generated_rro_product__/10067} BLOCKED
+06-12 01:37:47.946   579  1727 I AppsFilter: interaction: PackageSetting{60a45ac com.my.forintern/10195} -> PackageSetting{47be262 com.android.internal.systemui.navbar.gestural/10045} BLOCKED
+06-12 01:37:47.946   579  1727 I AppsFilter: interaction: PackageSetting{60a45ac com.my.forintern/10195} -> PackageSetting{1856ff3 com.google.android.apps.youtube.music/10153} BLOCKED
+06-12 01:37:47.946   579  1727 I AppsFilter: interaction: PackageSetting{60a45ac com.my.forintern/10195} -> PackageSetting{6dee4b0 com.android.bluetoothmidiservice/10103} BLOCKED
+06-12 01:37:47.946   579  1727 I AppsFilter: interaction: PackageSetting{60a45ac com.my.forintern/10195} -> PackageSetting{6b52f29 com.android.storagemanager.auto_generated_rro_product__/10069} BLOCKED
+06-12 01:37:47.946   579  1727 I AppsFilter: interaction: PackageSetting{60a45ac com.my.forintern/10195} -> PackageSetting{239c2ae com.google.android.cellbroadcastreceiver/10168} BLOCKED
+06-12 01:37:47.946   579  1727 I AppsFilter: interaction: PackageSetting{60a45ac com.my.forintern/10195} -> PackageSetting{c7d184f com.android.phone.auto_generated_rro_product__/10070} BLOCKED
+06-12 01:37:47.946   579  1727 I AppsFilter: interaction: PackageSetting{60a45ac com.my.forintern/10195} -> PackageSetting{ac59bdc android.auto_generated_rro_product__/10046} BLOCKED
+06-12 01:37:47.946   579  1727 I AppsFilter: interaction: PackageSetting{60a45ac com.my.forintern/10195} -> PackageSetting{3c894e5 com.android.internal.systemui.navbar.gestural_narrow_back/10035} BLOCKED
+06-12 01:37:47.946   579  1727 I AppsFilter: interaction: PackageSetting{60a45ac com.my.forintern/10195} -> PackageSetting{7e35bba com.google.android.inputmethod.latin/10154} BLOCKED
+06-12 01:37:47.946   579  1727 I AppsFilter: interaction: PackageSetting{60a45ac com.my.forintern/10195} -> PackageSetting{d9cea6b android.auto_generated_rro_vendor__/10075} BLOCKED
+06-12 01:37:47.946   579  1727 I AppsFilter: interaction: PackageSetting{60a45ac com.my.forintern/10195} -> PackageSetting{4fe99c8 com.google.android.apps.restore/10120} BLOCKED
+06-12 01:37:47.981  5114  5209 I Finsky  : [51] WM::SCH: Logging work initialize for 12-1
+06-12 01:37:47.986  5114  5229 I Finsky  : [61] SCH: Scheduling phonesky job Id: 12-1, CT: 1781208467698, Constraints: [{ L: 15000, D: 86400000, C: CHARGING_NONE, I: IDLE_NONE, N: NET_ANY, B: BATTERY_ANY }]
+06-12 01:37:47.987  5154  5154 D FirebaseSessions: Initializing Firebase Sessions 3.0.6.
+06-12 01:37:47.987  5114  5230 I Finsky  : [62] SCH: Scheduling 1 system job(s)
+06-12 01:37:47.988  5114  5230 D CompatibilityChangeReporter: Compat change id reported: 194532703; UID 10130; state: ENABLED
+06-12 01:37:47.988  5114  5230 D CompatibilityChangeReporter: Compat change id reported: 253665015; UID 10130; state: ENABLED
+06-12 01:37:47.988  5114  5230 I Finsky  : [62] SCH: Scheduling system job Id: 9527, L: 14710, D: 64298038, C: false, I: false, N: 1
+06-12 01:37:47.988   579  1904 D CompatibilityChangeReporter: Compat change id reported: 271850009; UID 10130; state: ENABLED
+06-12 01:37:47.988   579  1904 D CompatibilityChangeReporter: Compat change id reported: 253665015; UID 10130; state: ENABLED
+06-12 01:37:47.988   579  1904 D CompatibilityChangeReporter: Compat change id reported: 194532703; UID 10130; state: ENABLED
+06-12 01:37:47.996  5114  5211 I Finsky  : [53] [ContentSync] finished, scheduled=true
+06-12 01:37:47.999  5154  5154 I FirebaseInitProvider: FirebaseApp initialization successful
+06-12 01:37:48.009  5154  5342 I FirebaseCrashlytics: Saved version control info
+06-12 01:37:48.013  5178  5326 D CompatibilityChangeReporter: Compat change id reported: 160794467; UID 10121; state: ENABLED
+06-12 01:37:48.021   579  1727 I ActivityManager: Flag disabled. Ignoring finishAttachApplication from uid: 10195. pid: 5154
+06-12 01:37:48.025   579  1727 D CompatibilityChangeReporter: Compat change id reported: 261072174; UID 10195; state: ENABLED
+06-12 01:37:48.050  5154  5343 D FirebaseSessions: Notified CRASHLYTICS of new session 8eb37ce6b4fc4a35bb1e9e5040532c87
+06-12 01:37:48.052  1328  1750 I PhenotypeResourceReader: unable to find any Phenotype resource metadata for com.my.forintern
+06-12 01:37:48.065  5154  5363 W om.my.forintern: Accessing hidden method Ldalvik/system/VMStack;->getStackClass2()Ljava/lang/Class; (unsupported, reflection, allowed)
+06-12 01:37:48.078  5154  5363 I PhClient: Shared storage file not found for com.google.android.gms.measurement#com.my.forintern
+06-12 01:37:48.090  5154  5354 E om.my.forintern: No package ID 6a found for resource ID 0x6a0b0013.
+06-12 01:37:48.091  5154  5354 I FA      : App measurement initialized, version: 167000
+06-12 01:37:48.091  5154  5354 I FA      : To enable debug logging run: adb shell setprop log.tag.FA VERBOSE
+06-12 01:37:48.091  5154  5354 I FA      : To enable faster debug mode event logging run:
+06-12 01:37:48.091  5154  5354 I FA      :   adb shell setprop debug.firebase.analytics.app com.my.forintern
+06-12 01:37:48.101  5154  5358 D libEGL  : loaded /vendor/lib64/egl/libEGL_emulation.so
+06-12 01:37:48.103  5154  5358 D libEGL  : loaded /vendor/lib64/egl/libGLESv1_CM_emulation.so
+06-12 01:37:48.106  5154  5358 D libEGL  : loaded /vendor/lib64/egl/libGLESv2_emulation.so
+06-12 01:37:48.115  5154  5154 D FirebaseSessions: App foregrounded on com.my.forintern
+06-12 01:37:48.115  5154  5154 D FirebaseSessions: Process com.my.forintern is stale
+06-12 01:37:48.122  5154  5154 D CompatibilityChangeReporter: Compat change id reported: 237531167; UID 10195; state: DISABLED
+06-12 01:37:48.129  5154  5154 W OpenGLRenderer: Unknown dataspace 0
+06-12 01:37:48.130  5154  5341 D FirebaseSessions: Cold app start detected
+06-12 01:37:48.130  5154  5341 D FirebaseSessions: Process com.my.forintern is stale
+06-12 01:37:48.146  5154  5342 D FirebaseSessions: Session Event Type: SESSION_START
+06-12 01:37:48.152  1775  1775 D BoundBrokerSvc: onBind: Intent { act=com.google.android.gms.measurement.START pkg=com.google.android.gms }
+06-12 01:37:48.152  1775  1775 D BoundBrokerSvc: Loading bound service for intent: Intent { act=com.google.android.gms.measurement.START pkg=com.google.android.gms }
+06-12 01:37:48.152  5154  5341 D FirebaseSessions: Notified CRASHLYTICS of new session 056c7bc07d8642fca96a8033b9935ce4
+06-12 01:37:48.154  5154  5342 D FirebaseSessions: Successfully logged Session Start event.
+06-12 01:37:48.170  5154  5354 I FA      : Tag Manager is not found and thus will not be used
+06-12 01:37:48.176  5154  5336 D CompatibilityChangeReporter: Compat change id reported: 194532703; UID 10195; state: ENABLED
+06-12 01:37:48.176  5154  5336 D CompatibilityChangeReporter: Compat change id reported: 253665015; UID 10195; state: ENABLED
+06-12 01:37:48.177   579  1904 D CompatibilityChangeReporter: Compat change id reported: 271850009; UID 10195; state: ENABLED
+06-12 01:37:48.177   579  1904 D CompatibilityChangeReporter: Compat change id reported: 253665015; UID 10195; state: ENABLED
+06-12 01:37:48.177   579  1904 D CompatibilityChangeReporter: Compat change id reported: 194532703; UID 10195; state: ENABLED
+06-12 01:37:48.280  5154  5154 W om.my.forintern: Accessing hidden method Landroid/os/SystemProperties;->addChangeCallback(Ljava/lang/Runnable;)V (unsupported, reflection, allowed)
+06-12 01:37:48.361   579   998 D CoreBackPreview: Window{d10cfc8 u0 com.my.forintern/com.my.forintern.MainActivity}: Setting back callback OnBackInvokedCallbackInfo{mCallback=android.window.IOnBackInvokedCallback$Stub$Proxy@6b1f299, mPriority=0, mIsAnimationCallback=false}
+06-12 01:37:48.435   821   907 D EGL_emulation: app_time_stats: avg=11.20ms min=1.13ms max=33.07ms count=58
+06-12 01:37:48.539   408   443 W ServiceManagerCppClient: Permission failure: android.permission.ROTATE_SURFACE_FLINGER from uid=10195 pid=0
+06-12 01:37:48.540   408   443 D PermissionCache: checking android.permission.ROTATE_SURFACE_FLINGER for uid=10195 => denied (248 us)
+06-12 01:37:48.540   408   443 W ServiceManagerCppClient: Permission failure: android.permission.INTERNAL_SYSTEM_WINDOW from uid=10195 pid=0
+06-12 01:37:48.540   408   443 D PermissionCache: checking android.permission.INTERNAL_SYSTEM_WINDOW for uid=10195 => denied (77 us)
+06-12 01:37:48.540   408   443 W ServiceManagerCppClient: Permission failure: android.permission.ACCESS_SURFACE_FLINGER from uid=10195 pid=0
+06-12 01:37:48.540   408   443 D PermissionCache: checking android.permission.ACCESS_SURFACE_FLINGER for uid=10195 => denied (95 us)
+06-12 01:37:48.550  5154  5355 W OpenGLRenderer: Failed to initialize 101010-2 format, error = EGL_SUCCESS
+06-12 01:37:48.598   163   163 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.mapper@4.0::IMapper/default in either framework or device VINTF manifest.
+06-12 01:37:48.598  5154  5355 I Gralloc4: mapper 4.x is not supported
+06-12 01:37:48.879   579   998 W ServiceManagerCppClient: Permission failure: android.permission.ROTATE_SURFACE_FLINGER from uid=10195 pid=0
+06-12 01:37:48.879   579   998 D PermissionCache: checking android.permission.ROTATE_SURFACE_FLINGER for uid=10195 => denied (369 us)
+06-12 01:37:48.879   579   998 W ServiceManagerCppClient: Permission failure: android.permission.INTERNAL_SYSTEM_WINDOW from uid=10195 pid=0
+06-12 01:37:48.879   579   998 D PermissionCache: checking android.permission.INTERNAL_SYSTEM_WINDOW for uid=10195 => denied (42 us)
+06-12 01:37:48.879   579   998 W ServiceManagerCppClient: Permission failure: android.permission.ACCESS_SURFACE_FLINGER from uid=10195 pid=0
+06-12 01:37:48.879   579   998 D PermissionCache: checking android.permission.ACCESS_SURFACE_FLINGER for uid=10195 => denied (12 us)
+06-12 01:37:48.898   579   595 W ziparchive: Unable to open '/data/app/~~ccFqzwYxj5W3xcURRO8l4A==/com.my.forintern-6MEHospkHl8rOi3dFtH1yA==/base.dm': No such file or directory
+06-12 01:37:48.899  5154  5182 I OpenGLRenderer: Davey! duration=861ms; Flags=1, FrameTimelineVsyncId=261131, IntendedVsync=632017537894, Vsync=632134204556, InputEventId=0, HandleInputStart=632141961224, AnimationStart=632141964748, PerformTraversalsStart=632142087184, DrawStart=632638626115, FrameDeadline=632034204560, FrameInterval=632141788908, FrameStartTime=16666666, SyncQueued=632655560053, SyncStart=632657002487, IssueDrawCommandsStart=632657905384, SwapBuffers=632783508283, FrameCompleted=632880693854, DequeueBufferDuration=5186, QueueBufferDuration=325416, GpuCompleted=632880693854, SwapBuffersCompleted=632874100650, DisplayPresentTime=0, CommandSubmissionCompleted=632783508283, 
+06-12 01:37:48.900  5154  5154 I Choreographer: Skipped 42 frames!  The application may be doing too much work on its main thread.
+06-12 01:37:48.905   579   595 I ActivityTaskManager: Displayed com.my.forintern/.MainActivity for user 0: +2s153ms
+06-12 01:37:48.935  1328  2117 I FontLog : (REDACTED) Received query %s, URI %s
+06-12 01:37:48.936   579   998 D CompatibilityChangeReporter: Compat change id reported: 214016041; UID 10195; state: ENABLED
+06-12 01:37:48.936  1328  2117 I FontLog : (REDACTED) Query [%s] resolved to %s
+06-12 01:37:48.937   579   998 I ImeTracker: com.my.forintern:97318828: onRequestHide at ORIGIN_SERVER_HIDE_INPUT reason HIDE_UNSPECIFIED_WINDOW
+06-12 01:37:48.937   579   998 I ImeTracker: com.my.forintern:97318828: onCancelled at PHASE_SERVER_SHOULD_HIDE
+06-12 01:37:48.958  1328  2117 I FontLog : (REDACTED) Fetch %s end status %s
+06-12 01:37:48.962  1491  1491 I GoogleInputMethodService: GoogleInputMethodService.onFinishInput():2259 
+06-12 01:37:48.962  1328  2117 I FontLog : (REDACTED) Pulling font file for id = %d, cache size = %d
+06-12 01:37:48.967  1775  5376 D AdvertisingIdClient: AdvertisingIdClient already created.
+06-12 01:37:48.968  1775  5376 D AdvertisingIdClient: AdvertisingIdClient is not bounded. Starting to bind it...
+06-12 01:37:48.968  1491  1491 I Module  : DeviceLockedStatusModuleProvider$Module.updateDeviceLockedStatusInternal():127 repeatCheckTimes = 0, locked = false
+06-12 01:37:48.981  1099  1099 I ActivityThread: Schedule relaunch activity: com.google.android.apps.nexuslauncher.NexusLauncherActivity
+06-12 01:37:48.988  2099  2099 I bynm    : onStop
+06-12 01:37:49.007  1775  5376 D AdvertisingIdClient: AdvertisingIdClient is bounded
+06-12 01:37:49.007  1099  1194 I ImeTracker: com.google.android.apps.nexuslauncher:eb7fd9fe: onRequestHide at ORIGIN_CLIENT_HIDE_SOFT_INPUT reason HIDE_SOFT_INPUT
+06-12 01:37:49.008  1099  1099 D b/254119092: clearActivity
+06-12 01:37:49.008  1099  1099 D b/254119092: mActivity and mContext agree taskbarIsPresent=false
+06-12 01:37:49.008  1099  1194 I ImeTracker: com.google.android.apps.nexuslauncher:eb7fd9fe: onFailed at PHASE_CLIENT_VIEW_SERVED
+06-12 01:37:49.009  1491  1491 I GoogleInputMethodService: GoogleInputMethodService.onStartInput():1446 onStartInput(EditorInfo{EditorInfo{packageName=com.my.forintern, inputType=0, inputTypeString=NULL, enableLearning=false, autoCorrection=false, autoComplete=false, imeOptions=0, privateImeOptions=null, actionName=UNSPECIFIED, actionLabel=null, initialSelStart=-1, initialSelEnd=-1, initialCapsMode=0, label=null, fieldId=0, fieldName=null, extras=null, hintText=null, hintLocales=[]}}, false)
+06-12 01:37:49.017   579  1727 D SearchUiPerUserService: Removing callback for session Id=com.google.android.apps.nexuslauncher:1c36e1cd-02e3-490f-8abf-e019e74853a0,0 and callback=android.os.BinderProxy@9a6231a
+06-12 01:37:49.017   579  1904 D SearchUiPerUserService: Removing all callbacks for session Id=com.google.android.apps.nexuslauncher:1c36e1cd-02e3-490f-8abf-e019e74853a0,0 and 0 callbacks.
+06-12 01:37:49.018  1099  1099 D AutofillManager: view is not autofillable - activity denied for autofill
+06-12 01:37:49.018  1491  1491 W AndroidIME: LatinIMEBase.updateInputViewCoverNavigation():326 Null input view, cannot update padding!
+06-12 01:37:49.021  1099  1099 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=falsecallback=android.view.ViewRootImpl$$ExternalSyntheticLambda17@3a1238a
+06-12 01:37:49.025   579  1727 D CoreBackPreview: Window{9fe2598 u0 com.google.android.apps.nexuslauncher/com.google.android.apps.nexuslauncher.NexusLauncherActivity}: Setting back callback null
+06-12 01:37:49.025  1099  1099 W WindowOnBackDispatcher: OnBackInvokedCallback is not enabled for the application.
+06-12 01:37:49.025  1099  1099 W WindowOnBackDispatcher: Set 'android:enableOnBackInvokedCallback="true"' in the application manifest.
+06-12 01:37:49.034  1328  2870 I FontLog : (REDACTED) Pulling font file for id = %d, cache size = %d
+06-12 01:37:49.042   821   907 D EGL_emulation: app_time_stats: avg=245.42ms min=5.13ms max=1807.91ms count=8
+06-12 01:37:49.068  1491  1491 I Module  : DeviceLockedStatusModuleProvider$Module.updateDeviceLockedStatusInternal():127 repeatCheckTimes = 1, locked = false
+06-12 01:37:49.068  1491  1491 W NotificationCenter: NotificationCenter$NotificationQueue.notifyPendingNotificationsOnExecutor():877 Heavy notify work detected on UI thread: [nqx->lee, nqx->lee, nqx->lee, nqx->lhb, nqx->lee, nqx->hyj, nqx->gwb, nqx->lee, nqx->lbi, nqx->lee, nqx->gyz, nqx->pzi, nqx->lee, nqx->lee, nqx->npy, nqx->moi, nqx->npo, nqx->lee, nqx->lee] takes 50ms
+06-12 01:37:49.073  1328  1328 D BoundBrokerSvc: onRebind: Intent { act=com.google.android.gms.common.telemetry.service.START dat=chimera-action:/... cmp=com.google.android.gms/.chimera.PersistentApiService }
+06-12 01:37:49.076  1775  5376 I AdvertisingIdClient: shouldSendLog 25191
+06-12 01:37:49.076  1775  5376 I AdvertisingIdClient: GetInfoInternal elapse 109ms
+06-12 01:37:49.077   579  1904 W PackageConfigPersister: App-specific configuration not found for packageName: com.my.forintern and userId: 0
+06-12 01:37:49.091  1099  1194 I AiAiSuggestUi: Connecting to system intelligence module.
+06-12 01:37:49.101  1099  1395 I AiAiSuggestUi: Successfully connected to system intelligence: 
+06-12 01:37:49.124  1099  1099 D DeviceSearchAlg: search timeout = %d200
+06-12 01:37:49.128  1328  1328 D BoundBrokerSvc: onRebind: Intent { act=com.google.android.gms.presencemanager.service.START dat=chimera-action:/... cmp=com.google.android.gms/.chimera.PersistentApiService }
+06-12 01:37:49.129  1099  1099 W PageIndicator: Total number of pages invalid: 0. Assuming 1 page.
+06-12 01:37:49.130  1099  1099 W BcSmartspaceView: Current card is not present in the Adapter; cannot log.
+06-12 01:37:49.136  1099  1099 I OverviewComponentObserver: updateOverviewTargets: mIsHomeDisabled=false, isDefaultHomeNull=false, mIsDefaultHome=true
+06-12 01:37:49.151  1328  1328 D BoundBrokerSvc: onRebind: Intent { act=com.google.android.gms.presencemanager.service.INTERNAL_IDENTITY dat=chimera-action:/... cmp=com.google.android.gms/.chimera.PersistentApiService }
+06-12 01:37:49.163   579  1727 D SearchUiPerUserService: Creating SearchSessionInfo for session Id=com.google.android.apps.nexuslauncher:41dcf51d-ce4a-4977-9e95-c884eba2874a,0
+06-12 01:37:49.164   579  1727 D SearchUiPerUserService: Storing callback for session Id=com.google.android.apps.nexuslauncher:41dcf51d-ce4a-4977-9e95-c884eba2874a,0 and callback=android.os.BinderProxy@bb01558
+06-12 01:37:49.164  1542  1542 I AiAiEcho: SearchContextManagerImpl::setSearchContext resultTypes=[141151] extras=[Bundle[mParcelledData.dataSize=684]] sessionId=[com.google.android.apps.nexuslauncher:41dcf51d-ce4a-4977-9e95-c884eba2874a,0]
+06-12 01:37:49.165  1099  1194 D SearchTargetUtil:  query= size=1
+06-12 01:37:49.165  1099  1194 D SearchTargetUtil: layoutType=icon_row resultType=4096 packageName= extras=Bundle{icon_container_enabled=true,zero_state_all_apps_web_suggest_count=3,rank=1.0,key_ipc_start=633162,hide_subtitle=true,zero_state_qsb_web_suggest_count=10,}ParentID: null targetID: SESSION_INFO:0::zero_state_flags
+06-12 01:37:49.172  1099  1099 D AutofillManager: view is not autofillable - activity denied for autofill
+06-12 01:37:49.180  2099  2099 I byne    : (REDACTED) Dismissing old window %s
+06-12 01:37:49.180  2099  2099 I byne    : Disabling window touch for binder managed window
+06-12 01:37:49.180  1099  1099 I ContentCaptureHelper: Setting logging level to OFF
+06-12 01:37:49.190  1099  1194 I ImeTracker: com.google.android.apps.nexuslauncher:c256664: onRequestHide at ORIGIN_CLIENT_HIDE_SOFT_INPUT reason HIDE_SOFT_INPUT
+06-12 01:37:49.190  1099  1194 I ImeTracker: com.google.android.apps.nexuslauncher:c256664: onFailed at PHASE_CLIENT_VIEW_SERVED
+06-12 01:37:49.194  1099  1194 I ImeTracker: com.google.android.apps.nexuslauncher:4d2dc1df: onRequestHide at ORIGIN_CLIENT_HIDE_SOFT_INPUT reason HIDE_SOFT_INPUT
+06-12 01:37:49.194  1099  1194 I ImeTracker: com.google.android.apps.nexuslauncher:4d2dc1df: onFailed at PHASE_CLIENT_VIEW_SERVED
+06-12 01:37:49.194  2099  2099 I byne    : (REDACTED) Created new binder managed window %s
+06-12 01:37:49.194  2099  2099 I byne    : (REDACTED) WindowRefsActive: %d, TouchableWindowRefsActive: %b
+06-12 01:37:49.199  2099  2099 I bynm    : (REDACTED) MinusoneConfigDbg windowAttached config=%s
+06-12 01:37:49.199  2099  2099 I bynm    : (REDACTED) windowAttached start logFlowId=%s, configuration=%s, acetoneState=%s, overlayWindow=%s, fragmentHost=%s, binderManagedWindow=%s, params=%s
+06-12 01:37:49.202  2099  2099 I bynm    : (REDACTED) configuration changed from %s -> %s
+06-12 01:37:49.202  2099  2099 I bynm    : (REDACTED) onDestroy: isRecreating: %s
+06-12 01:37:49.202  2099  2099 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=falsecallback=android.view.ViewRootImpl$$ExternalSyntheticLambda17@615c24
+06-12 01:37:49.206   579  1904 D CoreBackPreview: Window{b4c9e60 u0 GoogleDiscoverWindow}: Setting back callback null
+06-12 01:37:49.217  1099  1099 W BcSmartspaceCard: No title view to update
+06-12 01:37:49.218  1099  1099 I BcSmartspaceCard: setFormattedContentDescription: text=null, iconDescription=null, contentDescription=null
+06-12 01:37:49.241  1099  1099 W TextView: onProvideContentCaptureStructure(): calling assumeLayout()
+06-12 01:37:49.250  1099  1099 D TISBindHelper: TIS service connected
+06-12 01:37:49.250  1099  1099 D b/254119092: Set mActivity=com.google.android.apps.nexuslauncher.NexusLauncherActivity@3f0756f
+06-12 01:37:49.250  1099  1099 D b/254119092: mActivity and mContext agree taskbarIsPresent=false
+06-12 01:37:49.252   579  1904 I ActivityTaskManager: Activity reported stop, but no longer stopping: ActivityRecord{28f372e u0 com.google.android.apps.nexuslauncher/.NexusLauncherActivity t78} STOPPED
+06-12 01:37:49.325   579  1904 W InputManager-JNI: Input channel object 'b4c9e60 GoogleDiscoverWindow (client)' was disposed without first being removed with the input manager!
+06-12 01:37:49.332   821   883 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=falsecallback=android.view.ViewRootImpl$$ExternalSyntheticLambda17@3d55d98
+06-12 01:37:49.333   579   998 W InputManager-JNI: Input channel object 'd973327 Splash Screen com.my.forintern (client)' was disposed without first being removed with the input manager!
+06-12 01:37:49.333   579  1904 D CoreBackPreview: Window{d973327 u0 Splash Screen com.my.forintern EXITING}: Setting back callback null
+06-12 01:37:49.365  2099  2099 W bwey    : Null back to top button - can't update visibility
+06-12 01:37:49.480  2099  2099 I enda    : destroy
+06-12 01:37:49.489  2099  2099 I bynm    : (REDACTED) initWindow for %s with token %s
+06-12 01:37:49.489  2099  2099 W WindowOnBackDispatcher: OnBackInvokedCallback is not enabled for the application.
+06-12 01:37:49.489  2099  2099 W WindowOnBackDispatcher: Set 'android:enableOnBackInvokedCallback="true"' in the application manifest.
+06-12 01:37:49.505   579  1904 D CompatibilityChangeReporter: Compat change id reported: 168419799; UID 10132; state: DISABLED
+06-12 01:37:49.505   579  1904 D CompatibilityChangeReporter: Compat change id reported: 273564678; UID 10132; state: DISABLED
+06-12 01:37:49.545  2099  2099 I bynm    : (REDACTED) windowAttached completed window=%s fragmentHost=%s
+06-12 01:37:49.546  2099  2099 I byne    : (REDACTED) Dismissing old window %s
+06-12 01:37:49.546  2099  2099 I byne    : Disabling window touch for binder managed window
+06-12 01:37:49.547  2099  2099 I byne    : (REDACTED) Created new binder managed window %s
+06-12 01:37:49.547  2099  2099 I byne    : (REDACTED) WindowRefsActive: %d, TouchableWindowRefsActive: %b
+06-12 01:37:49.548  2099  2099 I bynm    : (REDACTED) MinusoneConfigDbg windowAttached config=%s
+06-12 01:37:49.548  2099  2099 I bynm    : (REDACTED) windowAttached start logFlowId=%s, configuration=%s, acetoneState=%s, overlayWindow=%s, fragmentHost=%s, binderManagedWindow=%s, params=%s
+06-12 01:37:49.548  2099  2099 I bynm    : (REDACTED) configuration changed from %s -> %s
+06-12 01:37:49.548  2099  2099 I bynm    : (REDACTED) onDestroy: isRecreating: %s
+06-12 01:37:49.549   579  1904 W InputManager-JNI: Input channel object 'a36c8f6 GoogleDiscoverWindow (client)' was disposed without first being removed with the input manager!
+06-12 01:37:49.550  2099  2099 I bynm    : (REDACTED) initWindow for %s with token %s
+06-12 01:37:49.551  2099  2099 W WindowOnBackDispatcher: OnBackInvokedCallback is not enabled for the application.
+06-12 01:37:49.551  2099  2099 W WindowOnBackDispatcher: Set 'android:enableOnBackInvokedCallback="true"' in the application manifest.
+06-12 01:37:49.554  2099  2099 I bynm    : (REDACTED) windowAttached completed window=%s fragmentHost=%s
+06-12 01:37:49.555  2099  2099 I bynm    : onStart
+06-12 01:37:49.572  2099  2099 I bynm    : onResume
+06-12 01:37:49.572  2099  2099 W dolk    : missing event name
+06-12 01:37:49.576   579   998 D CoreBackPreview: Window{9f3a993 u0 GoogleDiscoverWindow}: Setting back callback OnBackInvokedCallbackInfo{mCallback=android.window.IOnBackInvokedCallback$Stub$Proxy@1d511c9, mPriority=0, mIsAnimationCallback=false}
+06-12 01:37:49.577  2099  2099 I bynm    : onPause
+06-12 01:37:49.578  2099  2099 W dolk    : measuring already stopped.
+06-12 01:37:49.578  2099  2099 I bynm    : onStop

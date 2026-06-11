@@ -10,7 +10,15 @@ import androidx.compose.material3.Scaffold
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.tooling.preview.Preview
+import androidx.lifecycle.viewmodel.compose.viewModel
+import androidx.navigation.NavHostController
+import androidx.navigation.compose.NavHost
+import androidx.navigation.compose.composable
+import androidx.navigation.compose.rememberNavController
+import com.my.forintern.OnBoarding.OnboardingScreen
+import com.my.forintern.OnBoarding.OnboardingViewModel
 import com.my.forintern.ui.theme.ForInternTheme
 
 class MainActivity : ComponentActivity() {
@@ -18,11 +26,14 @@ class MainActivity : ComponentActivity() {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
         setContent {
+            val onboardingViewModel: OnboardingViewModel= viewModel()
+            val navHostController= rememberNavController()
             ForInternTheme {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
-                    Greeting(
-                        name = "Android",
-                        modifier = Modifier.padding(innerPadding)
+                    navigationControl(
+                        navhost = navHostController,
+                        modifier = Modifier.padding(innerPadding),
+                        onboardingViewModel = onboardingViewModel
                     )
                 }
             }
@@ -31,17 +42,26 @@ class MainActivity : ComponentActivity() {
 }
 
 @Composable
-fun Greeting(name: String, modifier: Modifier = Modifier) {
-    Text(
-        text = "Hello $name!",
-        modifier = modifier
-    )
-}
+fun navigationControl(navhost: NavHostController,modifier: Modifier,onboardingViewModel: OnboardingViewModel)
+{
+    val context = LocalContext.current
+    val startdestination = Screens.OnboardingScreen.route
 
-@Preview(showBackground = true)
-@Composable
-fun GreetingPreview() {
-    ForInternTheme {
-        Greeting("Android")
+    NavHost(navController = navhost, startDestination = startdestination, modifier = modifier)
+    {
+        composable(Screens.OnboardingScreen.route) {
+            OnboardingScreen(
+                onOnboardingComplete = {
+                    val currentName = onboardingViewModel.onboardingState.value.name.ifBlank { "User" }
+                    navhost.navigate("HomePage/$currentName") {
+                        popUpTo(Screens.OnboardingScreen.route) { inclusive = true }
+                    }
+                },
+                navhost = navhost,viewModel = onboardingViewModel
+            )
+        }
+        composable(Screens.HomeScreen.route) {
+            // HomeScreen(navhost)
+        }
     }
 }
