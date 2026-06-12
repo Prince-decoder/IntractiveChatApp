@@ -7,10 +7,20 @@ import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.padding
+import androidx.compose.animation.core.LinearEasing
+import androidx.compose.animation.core.RepeatMode
+import androidx.compose.animation.core.animateFloat
+import androidx.compose.animation.core.infiniteRepeatable
+import androidx.compose.animation.core.rememberInfiniteTransition
+import androidx.compose.animation.core.tween
+import androidx.compose.foundation.Canvas
+import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.wrapContentSize
 import androidx.compose.foundation.pager.HorizontalPager
 import androidx.compose.foundation.pager.rememberPagerState
 import androidx.compose.material3.Button
+import androidx.compose.ui.geometry.Offset
+import androidx.compose.ui.graphics.Color
 import androidx.compose.material3.Scaffold
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
@@ -106,28 +116,75 @@ fun OnboardingScreen(
             }
         }
     ) { paddingValues ->
-        HorizontalPager(
-            state = pagerState,
+        Box(
             modifier = Modifier
                 .fillMaxSize()
                 .padding(paddingValues)
-        ) { page ->
-            when (page) {
-                0 -> Step1ValueProps()
-                1 -> Step2Form(
-                    name = onboardingState.name,
-                    age = onboardingState.age,
-                    phone = onboardingState.phone,
-                    otp = otp,
-                    onNameChange = viewModel::updateName,
-                    onAgeChange = viewModel::updateAge,
-                    onPhoneChange = viewModel::updatePhone,
-                    onOtpChange = { otp = it }
+        ) {
+            val infiniteTransition = rememberInfiniteTransition(label = "background")
+            val offset1 by infiniteTransition.animateFloat(
+                initialValue = 0f,
+                targetValue = 1f,
+                animationSpec = infiniteRepeatable(
+                    animation = tween(10000, easing = LinearEasing),
+                    repeatMode = RepeatMode.Reverse
+                ),
+                label = "offset1"
+            )
+            val offset2 by infiniteTransition.animateFloat(
+                initialValue = 1f,
+                targetValue = 0f,
+                animationSpec = infiniteRepeatable(
+                    animation = tween(12000, easing = LinearEasing),
+                    repeatMode = RepeatMode.Reverse
+                ),
+                label = "offset2"
+            )
+
+            Canvas(modifier = Modifier.fillMaxSize()) {
+                val w = size.width
+                val h = size.height
+
+                drawCircle(
+                    color = Color(0x1A6200EA), // 10% opacity
+                    center = Offset(w * (0.2f + 0.6f * offset1), h * (0.2f + 0.2f * offset2)),
+                    radius = w * 0.7f
                 )
-                2 -> Step3Personality(
-                    selectedTraits = onboardingState.traits,
-                    onTraitToggle = viewModel::toggleTrait
+
+                drawCircle(
+                    color = Color(0x1A03DAC5), // 10% opacity
+                    center = Offset(w * (0.8f - 0.4f * offset2), h * (0.8f - 0.2f * offset1)),
+                    radius = w * 0.8f
                 )
+
+                drawCircle(
+                    color = Color(0x1ABB86FC), // 10% opacity
+                    center = Offset(w * (0.5f + 0.3f * offset2), h * (0.5f + 0.3f * offset1)),
+                    radius = w * 0.6f
+                )
+            }
+
+            HorizontalPager(
+                state = pagerState,
+                modifier = Modifier.fillMaxSize()
+            ) { page ->
+                when (page) {
+                    0 -> Step1ValueProps()
+                    1 -> Step2Form(
+                        name = onboardingState.name,
+                        age = onboardingState.age,
+                        phone = onboardingState.phone,
+                        otp = otp,
+                        onNameChange = viewModel::updateName,
+                        onAgeChange = viewModel::updateAge,
+                        onPhoneChange = viewModel::updatePhone,
+                        onOtpChange = { otp = it }
+                    )
+                    2 -> Step3Personality(
+                        selectedTraits = onboardingState.traits,
+                        onTraitToggle = viewModel::toggleTrait
+                    )
+                }
             }
         }
     }
