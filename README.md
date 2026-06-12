@@ -1,3 +1,5 @@
+
+
 # IntractiveChatApp
 Merging all the concept
 
@@ -89,3 +91,7 @@ This is implemented using a sealed class exposed via a `StateFlow`. In `sendMess
 - **Battery & Data Efficient:** `NetworkType.CONNECTED` ensures the app never wakes the radio if the device is offline. The Delta Sync mechanism prevents re-uploading the entire database every time.
 - **Reliability:** By not relying on third-party sync wrappers, we have exact control over conflict resolution ("Local Wins") and failure retries.
 - **Reactive Architecture:** Because Room queries return `Flow`, the UI updates instantly when local data is modified or when a background sync successfully merges remote data into Room, removing the need for manual UI refresh triggers.
+
+
+https://github.com/user-attachments/assets/8e41e7b2-160c-48d5-88fa-57613e46202e
+
