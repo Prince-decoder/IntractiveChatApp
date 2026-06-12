@@ -1,0 +1,164 @@
+[33mcommit b3718c124cc7822b51239473cb91e7dc820237a2[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mMaster[m[33m, [m[1;31morigin/Master[m[33m, [m[1;32mmain[m[33m)[m
+Author: Ashutosh <22princeyadav214@gmail.com>
+Date:   Fri Jun 12 07:59:05 2026 +0530
+
+    Canva Elements
+
+[1mdiff --git a/.idea/misc.xml b/.idea/misc.xml[m
+[1mindex a599984..74dd639 100644[m
+[1m--- a/.idea/misc.xml[m
+[1m+++ b/.idea/misc.xml[m
+[36m@@ -1,7 +1,7 @@[m
+ <?xml version="1.0" encoding="UTF-8"?>[m
+ <project version="4">[m
+   <component name="ExternalStorageConfigurationManager" enabled="true" />[m
+[31m-  <component name="ProjectRootManager" version="2" languageLevel="JDK_21" default="true" project-jdk-name="21" project-jdk-type="JavaSDK">[m
+[32m+[m[32m  <component name="ProjectRootManager" version="2" languageLevel="JDK_21" default="true" project-jdk-name="jbr-21" project-jdk-type="JavaSDK">[m
+     <output url="file://$PROJECT_DIR$/build/classes" />[m
+   </component>[m
+   <component name="ProjectType">[m
+[1mdiff --git a/.idea/studiobot.xml b/.idea/studiobot.xml[m
+[1mnew file mode 100644[m
+[1mindex 0000000..539e3b8[m
+[1m--- /dev/null[m
+[1m+++ b/.idea/studiobot.xml[m
+[36m@@ -0,0 +1,6 @@[m
+[32m+[m[32m<?xml version="1.0" encoding="UTF-8"?>[m
+[32m+[m[32m<project version="4">[m
+[32m+[m[32m  <component name="StudioBotProjectSettings">[m
+[32m+[m[32m    <option name="shareContext" value="OptedIn" />[m
+[32m+[m[32m  </component>[m
+[32m+[m[32m</project>[m
+\ No newline at end of file[m
+[1mdiff --git a/app/src/main/java/com/my/forintern/OnBoarding/OnboardingScreen.kt b/app/src/main/java/com/my/forintern/OnBoarding/OnboardingScreen.kt[m
+[1mindex 2ae03bf..8aa6a52 100644[m
+[1m--- a/app/src/main/java/com/my/forintern/OnBoarding/OnboardingScreen.kt[m
+[1m+++ b/app/src/main/java/com/my/forintern/OnBoarding/OnboardingScreen.kt[m
+[36m@@ -7,10 +7,20 @@[m [mimport androidx.compose.foundation.layout.Row[m
+ import androidx.compose.foundation.layout.fillMaxSize[m
+ import androidx.compose.foundation.layout.fillMaxWidth[m
+ import androidx.compose.foundation.layout.padding[m
+[32m+[m[32mimport androidx.compose.animation.core.LinearEasing[m
+[32m+[m[32mimport androidx.compose.animation.core.RepeatMode[m
+[32m+[m[32mimport androidx.compose.animation.core.animateFloat[m
+[32m+[m[32mimport androidx.compose.animation.core.infiniteRepeatable[m
+[32m+[m[32mimport androidx.compose.animation.core.rememberInfiniteTransition[m
+[32m+[m[32mimport androidx.compose.animation.core.tween[m
+[32m+[m[32mimport androidx.compose.foundation.Canvas[m
+[32m+[m[32mimport androidx.compose.foundation.layout.Box[m
+ import androidx.compose.foundation.layout.wrapContentSize[m
+ import androidx.compose.foundation.pager.HorizontalPager[m
+ import androidx.compose.foundation.pager.rememberPagerState[m
+ import androidx.compose.material3.Button[m
+[32m+[m[32mimport androidx.compose.ui.geometry.Offset[m
+[32m+[m[32mimport androidx.compose.ui.graphics.Color[m
+ import androidx.compose.material3.Scaffold[m
+ import androidx.compose.material3.Text[m
+ import androidx.compose.runtime.Composable[m
+[36m@@ -106,29 +116,76 @@[m [mfun OnboardingScreen([m
+             }[m
+         }[m
+     ) { paddingValues ->[m
+[31m-        HorizontalPager([m
+[31m-            state = pagerState,[m
+[32m+[m[32m        Box([m
+             modifier = Modifier[m
+                 .fillMaxSize()[m
+                 .padding(paddingValues)[m
+[31m-        ) { page ->[m
+[31m-            when (page) {[m
+[31m-                0 -> Step1ValueProps()[m
+[31m-                1 -> Step2Form([m
+[31m-                    name = onboardingState.name,[m
+[31m-                    age = onboardingState.age,[m
+[31m-                    phone = onboardingState.phone,[m
+[31m-                    otp = otp,[m
+[31m-                    onNameChange = viewModel::updateName,[m
+[31m-                    onAgeChange = viewModel::updateAge,[m
+[31m-                    onPhoneChange = viewModel::updatePhone,[m
+[31m-                    onOtpChange = { otp = it }[m
+[32m+[m[32m        ) {[m
+[32m+[m[32m            val infiniteTransition = rememberInfiniteTransition(label = "background")[m
+[32m+[m[32m            val offset1 by infiniteTransition.animateFloat([m
+[32m+[m[32m                initialValue = 0f,[m
+[32m+[m[32m                targetValue = 1f,[m
+[32m+[m[32m                animationSpec = infiniteRepeatable([m
+[32m+[m[32m                    animation = tween(10000, easing = LinearEasing),[m
+[32m+[m[32m                    repeatMode = RepeatMode.Reverse[m
+[32m+[m[32m                ),[m
+[32m+[m[32m                label = "offset1"[m
+[32m+[m[32m            )[m
+[32m+[m[32m            val offset2 by infiniteTransition.animateFloat([m
+[32m+[m[32m                initialValue = 1f,[m
+[32m+[m[32m                targetValue = 0f,[m
+[32m+[m[32m                animationSpec = infiniteRepeatable([m
+[32m+[m[32m                    animation = tween(12000, easing = LinearEasing),[m
+[32m+[m[32m                    repeatMode = RepeatMode.Reverse[m
+[32m+[m[32m                ),[m
+[32m+[m[32m                label = "offset2"[m
+[32m+[m[32m            )[m
+[32m+[m
+[32m+[m[32m            Canvas(modifier = Modifier.fillMaxSize()) {[m
+[32m+[m[32m                val w = size.width[m
+[32m+[m[32m                val h = size.height[m
+[32m+[m
+[32m+[m[32m                drawCircle([m
+[32m+[m[32m                    color = Color(0x1A6200EA), // 10% opacity[m
+[32m+[m[32m                    center = Offset(w * (0.2f + 0.6f * offset1), h * (0.2f + 0.2f * offset2)),[m
+[32m+[m[32m                    radius = w * 0.7f[m
+[32m+[m[32m                )[m
+[32m+[m
+[32m+[m[32m                drawCircle([m
+[32m+[m[32m                    color = Color(0x1A03DAC5), // 10% opacity[m
+[32m+[m[32m                    center = Offset(w * (0.8f - 0.4f * offset2), h * (0.8f - 0.2f * offset1)),[m
+[32m+[m[32m                    radius = w * 0.8f[m
+                 )[m
+[31m-                2 -> Step3Personality([m
+[31m-                    selectedTraits = onboardingState.traits,[m
+[31m-                    onTraitToggle = viewModel::toggleTrait[m
+[32m+[m
+[32m+[m[32m                drawCircle([m
+[32m+[m[32m                    color = Color(0x1ABB86FC), // 10% opacity[m
+[32m+[m[32m                    center = Offset(w * (0.5f + 0.3f * offset2), h * (0.5f + 0.3f * offset1)),[m
+[32m+[m[32m                    radius = w * 0.6f[m
+                 )[m
+             }[m
+[32m+[m
+[32m+[m[32m            HorizontalPager([m
+[32m+[m[32m                state = pagerState,[m
+[32m+[m[32m                modifier = Modifier.fillMaxSize()[m
+[32m+[m[32m            ) { page ->[m
+[32m+[m[32m                when (page) {[m
+[32m+[m[32m                    0 -> Step1ValueProps()[m
+[32m+[m[32m                    1 -> Step2Form([m
+[32m+[m[32m                        name = onboardingState.name,[m
+[32m+[m[32m                        age = onboardingState.age,[m
+[32m+[m[32m                        phone = onboardingState.phone,[m
+[32m+[m[32m                        otp = otp,[m
+[32m+[m[32m                        onNameChange = viewModel::updateName,[m
+[32m+[m[32m                        onAgeChange = viewModel::updateAge,[m
+[32m+[m[32m                        onPhoneChange = viewModel::updatePhone,[m
+[32m+[m[32m                        onOtpChange = { otp = it }[m
+[32m+[m[32m                    )[m
+[32m+[m[32m                    2 -> Step3Personality([m
+[32m+[m[32m                        selectedTraits = onboardingState.traits,[m
+[32m+[m[32m                        onTraitToggle = viewModel::toggleTrait[m
+[32m+[m[32m                    )[m
+[32m+[m[32m                }[m
+[32m+[m[32m            }[m
+         }[m
+     }[m
+ }[m
+[1mdiff --git a/gradle.properties b/gradle.properties[m
+[1mindex c622f43..81b8dc2 100644[m
+[1m--- a/gradle.properties[m
+[1m+++ b/gradle.properties[m
+[36m@@ -18,4 +18,5 @@[m [morg.gradle.configuration-cache=true[m
+ # Kotlin code style for this project: "official" or "obsolete":[m
+ kotlin.code.style=official[m
+ android.disallowKotlinSourceSets=false[m
+[31m-android.suppressUnsupportedCompileSdk=37.1[m
+\ No newline at end of file[m
+[32m+[m[32mandroid.suppressUnsupportedCompileSdk=37.1[m
+[32m+[m[32morg.gradle.java.home=/usr/lib/jvm/java-21-openjdk-amd64[m
+\ No newline at end of file[m
