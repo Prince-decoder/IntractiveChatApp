@@ -13,11 +13,11 @@ enum class AuthState {
     ERROR
 }
 
-class UserViewModel : ViewModel() {
+class UserFViewModel : ViewModel() {
 
     private val _auth = FirebaseAuth.getInstance()
     private val firestore = Injection.instance()
-    private val repository = UserRepository(_auth, firestore)
+    private val repository = UserFRepository(_auth, firestore)
 
     private val _authstate = MutableStateFlow(AuthState.LOADING)
     val authstate = _authstate.asStateFlow()
@@ -53,6 +53,16 @@ class UserViewModel : ViewModel() {
                 is Results.error -> {
                     _authstate.value = AuthState.ERROR
                 }
+                is Results.Loading -> {}
+            }
+        }
+    }
+
+    fun getUserByPhone(phone: String, onResult: (UserData?) -> Unit) {
+        viewModelScope.launch {
+            when (val result = repository.getUserByPhone(phone)) {
+                is Results.Success -> onResult(result.data)
+                is Results.error -> onResult(null)
                 is Results.Loading -> {}
             }
         }

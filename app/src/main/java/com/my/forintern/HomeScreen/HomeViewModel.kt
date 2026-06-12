@@ -158,15 +158,15 @@ class HomeViewModel(application: Application) : AndroidViewModel(application) {
         messageJob = viewModelScope.launch {
             try {
                 _messagePipeline.value = MessagePipeline.Validating
-                delay(500) // Simulating validation
+                delay(100) // Simulating validation
 
                 _messagePipeline.value = MessagePipeline.Processing
-                withTimeout(8000) {
+                withTimeout(800) {
                     delay(processingDelayMs) // Simulating network/processing
                 }
 
                 _messagePipeline.value = MessagePipeline.Responding
-                delay(500) // Simulating receiving response
+                delay(200) // Simulating receiving response
 
                 val editingMsg = _uiState.value.editingMessage
                 if (editingMsg != null) {
@@ -262,7 +262,6 @@ class HomeViewModel(application: Application) : AndroidViewModel(application) {
                         }
                         val rms = sqrt(sum / readSize).toFloat()
 
-                        // Normalize RMS to a 0f..1f range (assuming max typical speech RMS is ~2500)
                         val maxExpectedRms = 2500f
                         val normalized = (rms / maxExpectedRms).coerceIn(0f, 1f)
 

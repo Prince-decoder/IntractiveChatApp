@@ -48,7 +48,8 @@ fun OnboardingScreen(
     navhost: NavController,
     onOnboardingComplete: () -> Unit,
     viewModel: OnboardingViewModel = viewModel(),
-    userViewModel: UserViewModel
+    userViewModel: UserViewModel,
+    userFViewModel: com.my.forintern.FireDatabase.UserFViewModel = viewModel()
 ) {
     val context= LocalContext.current
     val pagerState = rememberPagerState(pageCount = { 3 })
@@ -91,15 +92,49 @@ fun OnboardingScreen(
                                 }
                             } else if (currentPage == 2) {
                                 if (viewModel.isStep3Valid(onboardingState)) {
-                                    viewModel.saveProfile()
-                                    onOnboardingComplete()
-                                    userViewModel.addOrUpdateUserKeepHistory(
-                                        UserDATASET(
-                                            onboardingState.phone.toLong(), onboardingState.name,
-                                            listOf()
-                                        )
+                                    fun proceedWithLocalData(firebaseMessages: List<com.my.forintern.Message.ChatMessage>? = null) {
+                                        viewModel.saveProfile()
+                                        onOnboardingComplete()
+                                        val messages = firebaseMessages ?: listOf()
+                                        if (firebaseMessages != null) {
+                                            userViewModel.adduser(
+                                                UserDATASET(
+                                                    onboardingState.phone.toLong(), onboardingState.name,
+                                                    messages
+                                                )
+                                            )
+                                        } else {
+                                            userViewModel.addOrUpdateUserKeepHistory(
+                                                UserDATASET(
+                                                    onboardingState.phone.toLong(), onboardingState.name,
+                                                    messages
+                                                )
+                                            )
+                                        }
+                                        navhost.navigate(Screens.HomeScreen.route.replace("{username}", onboardingState.name))
+                                    }
+
+                                    val connectivityManager = context.getSystemService(android.content.Context.CONNECTIVITY_SERVICE) as android.net.ConnectivityManager
+                                    val network = connectivityManager.activeNetwork
+                                    val activeNetwork = connectivityManager.getNetworkCapabilities(network)
+                                    val isInternetAvailable = activeNetwork != null && (
+                                            activeNetwork.hasTransport(android.net.NetworkCapabilities.TRANSPORT_WIFI) ||
+                                            activeNetwork.hasTransport(android.net.NetworkCapabilities.TRANSPORT_CELLULAR) ||
+                                            activeNetwork.hasTransport(android.net.NetworkCapabilities.TRANSPORT_ETHERNET)
                                     )
-                                    navhost.navigate(Screens.HomeScreen.route.replace("{username}", onboardingState.name))
+
+                                    if (isInternetAvailable) {
+                                        userFViewModel.getUserByPhone(onboardingState.phone) { userData ->
+                                            if (userData != null) {
+                                                val messages = com.my.forintern.UserRoomDataBase.Converters().toChatMessagesList(userData.message) ?: listOf()
+                                                proceedWithLocalData(messages)
+                                            } else {
+                                                proceedWithLocalData()
+                                            }
+                                        }
+                                    } else {
+                                        proceedWithLocalData()
+                                    }
                                 }
                             }
                         }
