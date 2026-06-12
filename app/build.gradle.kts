@@ -81,6 +81,7 @@ dependencies {
     debugImplementation(libs.androidx.compose.ui.test.manifest)
 }
 dependencies {
+    implementation(libs.androidx.navigation.runtime.ktx)
     testImplementation("org.jetbrains.kotlinx:kotlinx-coroutines-test:1.7.3")
     testImplementation("io.mockk:mockk:1.13.8")
     testImplementation("androidx.arch.core:core-testing:2.2.0")
