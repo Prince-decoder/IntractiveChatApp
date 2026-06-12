@@ -8,6 +8,8 @@ import androidx.room.Transaction
 import androidx.room.Update
 import com.my.forintern.Message.ChatMessage
 import kotlinx.coroutines.flow.Flow
+import kotlin.collections.remove
+import kotlin.text.set
 
 
 @Dao

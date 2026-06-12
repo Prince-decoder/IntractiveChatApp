@@ -6,6 +6,7 @@ import com.my.forintern.UserRoomDataBase.UserRepository
 
 object Graph {
     lateinit var userdatabase: UserDataBase
+    lateinit var appContext: Context
 
     val userrepo by lazy {
         UserRepository(userDao = userdatabase.userDao())
@@ -13,6 +14,7 @@ object Graph {
 
     fun provide(context: Context)
     {
+        appContext = context.applicationContext
         userdatabase = Room.databaseBuilder(context = context,
             UserDataBase::class.java,"userdatabase.db")
             .fallbackToDestructiveMigration()
